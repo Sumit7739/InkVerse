@@ -108,14 +108,13 @@
         background-color: var(--card-bg);
         border-radius: 5px;
         color: var(--text-color);
-        transition: background-color 0.3s;
+        transition: box-shadow 0.3s;
       }
 
       .nav-buttons a:hover {
-        background-color: #333333;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
       }
 
-      /* lets add animation for chevron, we can change the color on hover and add some animation like moving left and right */
       .nav-buttons a i {
         transition: transform 0.3s, color 0.3s;
       }
@@ -139,6 +138,10 @@
     </header>
 
     <div class="chapter-container">
+      <!-- Sticky Progress Bar -->
+      <div class="progress-bar-container">
+        <div id="progress-bar" class="progress-bar"></div>
+      </div>
       <div class="nav-buttons">
         <a href="#" id="prev-chapter" onclick="loadChapter('prev')"
           ><i class="fas fa-chevron-left"></i> Previous</a
@@ -158,11 +161,6 @@
           >Next <i class="fas fa-chevron-right"></i
         ></a>
       </div>
-    </div>
-
-    <!-- Sticky Progress Bar -->
-    <div class="progress-bar-container">
-      <div id="progress-bar" class="progress-bar"></div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>

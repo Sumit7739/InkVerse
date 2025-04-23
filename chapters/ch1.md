@@ -1,543 +1,673 @@
-[INT. ROOM — DAY]
+<!-- ### Chapter 1 — Cigarettes and Shells   -->
+**[INT. HIS ROOM — DAY]**
 
-The phone rings.
+The room was dim, a lazy mess of half-finished thoughts and things left undone. Light filtered in through old curtains, dust catching in the sunbeams like static. Somewhere between boredom and habit, his phone began to ring.
 
-He (picking up): Hello?
+He answered with a thumb swipe, already leaning back in his chair.
 
-She (direct, playful): Where are you?
+**He** (picking up): Hello?
 
-He: Same old cave — the usual.
+**She** (direct, playful): Where are you?
 
-She: Try crawling out of that turtle shell you call a room, will you?
+**He**: Same old cave — the usual.
 
-He (dry chuckle): You do realize a turtle can’t come out of its shell, right?
+**She**: Try crawling out of that turtle shell you call a room, will you?
 
-She: Idiot. Anyway, I’m coming over.
+He let out a dry chuckle, rubbing a hand over his face.
 
-He: Why?
+**He**: You do realize a turtle can’t come out of its shell, right?
 
-She: I just... wanted to see you.
+**She**: Idiot. Anyway, I’m coming over.
 
-He: And why would you want to do that?
+**He**: Why?
 
-She: I don’t know. Just felt like it.
+**She**: I just… wanted to see you.
 
-He: Huh. Where are you right now?
+**He**: And why would you want to do that?
 
-She: Near the convenience store.
+**She**: I don’t know. Just felt like it.
 
-He: Great. Grab me a pack of smokes.
+There was a brief pause. He shifted in his chair, glanced toward the window, then back at the ceiling.
 
-She: Mhm. Anything else, your highness?
+**He**: Huh. Where are you right now?
 
-He: Yeah, my lighter’s dead. Get one of those too.
+**She**: Near the convenience store.
 
-She: Noted.
+**He**: Great. Grab me a pack of smokes.
 
-He: And get something for yourself while you’re at it. My treat.
+**She**: Mhm. Anything else, your highness?
 
-She (mock-surprised): Oh wow, someone’s feeling generous today. What’s the occasion?
+He glanced at the lighter on his desk, flicked it. No spark.
 
-He (softly): You’ll know in a while.
+**He**: Yeah, my lighter’s dead. Get one of those too.
 
-[INT. HIS ROOM — LATER]
+**She**: Noted.
+
+**He**: And get something for yourself while you’re at it. My treat.
+
+A beat.
+
+**She** (mock-surprised): Oh wow, someone’s feeling generous today. What’s the occasion?
+
+He didn’t answer right away. Instead, he stared at the dust dancing in the light. His voice dropped, softer now.
+
+**He**: You’ll know in a while.
+
+
+**[INT. HIS ROOM — LATER]**
 
 She opens the door.
 
-He’s seated on a chair, book in hand, glasses slipped slightly down his nose. Behind him, a cluttered desk — half chaos, half sanctuary — with books stacked like a scholar's wall and a laptop glowing softly. A single chair faces him, and behind that, a large window opens to the mountains. A bird's nest sways gently in a tree just beyond the glass. Peace lives here.
+He’s seated on a chair, a book in hand, glasses slipping slightly down his nose. Behind him, a cluttered desk — half chaos, half sanctuary — books stacked like a scholar’s wall, a laptop glowing quietly. A single chair faces him. Beyond it, a large window opens to the mountains. A bird's nest sways gently in the tree just outside. Peace lives here.
 
-She walks in without knocking — like always — and casually tosses the cigarette pack and lighter onto the desk.
+She walks in without knocking — like always — and tosses the cigarette pack and lighter onto the desk. It skitters slightly across the wood.
 
-She settles into the chair across from him.
+She settles into the chair across from him, her eyes briefly scanning the room like she’s checking for changes. None. She leans back, legs crossed.
 
-Without a word, he gets up and walks into the kitchen.
+Without a word, he gets up and walks into the kitchen, the soft creak of the floorboard following him.
 
-She (calling out): So… what’s the occasion?
+**She** (calling out, half-curious, half-teasing): So… what’s the occasion?
 
-He (from the kitchen): Thinking of breaking up.
+**He** (from the kitchen, voice steady): Thinking of breaking up.
 
-The air stills for a second.
+The air pauses.
 
-She blinks, visibly caught off guard, but quickly steadies herself.
+She blinks, just once. The crease between her brows tightens, but only for a second.
 
-She: And… what brought that brilliant idea?
+**She** (casually): And… what brought that brilliant idea?
 
-He (stirring coffee): A cocktail of thoughts. But for simplicity’s sake… we just don’t work.
+**He** (stirring coffee, metal spoon tapping the side of the cup): A cocktail of thoughts. But for simplicity’s sake… we just don’t work.
 
-She (quietly): So you’re saying I’m not good for you?
+**She** (quietly): So you’re saying I’m not good for you?
 
-He sighs, knowing exactly where this is headed.
+He exhales, slow and shallow, leaning on the counter.
 
-He: No, my lady. It’s the opposite. You’re the noble princess in a crystal tower, and I’m the guy milking sheep in the valley. Society wouldn’t root for this genre of love story.
+**He**: No, my lady. It’s the opposite. You’re the noble princess in a crystal tower, and I’m the guy milking sheep in the valley. Society wouldn’t root for this genre of love story.
 
-She knows he’s joking. Barely. The smile she offers is thin.
+She lets out a faint exhale through her nose. A smile ghosts across her lips but doesn’t stay.
 
-She: I don’t care about society.
+**She**: I don’t care about society.
 
-He: Well, I do. Society gives us jobs, money, overpriced WiFi, and bread. Unless, of course, you’re up for farming? I could teach you how to dig potatoes.
+**He**: Well, I do. Society gives us jobs, money, overpriced WiFi, and bread. Unless, of course, you’re up for farming? I could teach you how to dig potatoes.
 
-She rolls her eyes but doesn’t smile.
+She rolls her eyes — a slow, tired motion.
 
-She: Stop dodging and talk. What actually happened? Did someone say something?
+**She**: Stop dodging and talk. What actually happened? Did someone say something?
 
-He: Someone did say something. (pauses) By the way—how much sugar? You still on that anti-sweetness diet?
+**He** (still facing the counter): Someone did say something. *(pauses)* By the way — how much sugar? Still on that anti-sweetness diet?
 
-She: No sugar. You’ve already made the day bitter enough.
+**She**: No sugar. You’ve already made the day bitter enough.
 
-He winces at her tone but nods, beginning to pour the coffee.
+His jaw twitches, but he nods and pours the coffee anyway.
 
-She: So? What did this mysterious “someone” say?
+**She**: So? What did this mysterious *someone* say?
 
-He: They told me to look in the mirror.
+**He**: They told me to look in the mirror.
 
-She: And?
+**She**: And?
 
-He: They said, “She looks like milk and moonlight, like an angel on vacation from heaven. You, my friend, look like charcoal that lost the will to burn.”
+**He**: They said, *“She looks like milk and moonlight, like an angel on vacation from heaven. You, my friend, look like charcoal that lost the will to burn.”*
 
-She bursts into laughter, shaking her head.
+She bursts into laughter, hands pressed lightly to her mouth, eyes squinting shut.
 
-She: That’s what made you spiral? Seriously?
+**She**: That’s what made you spiral? Seriously?
 
-He walks over and hands her the coffee.
+He walks over and hands her the coffee. Their fingers don’t touch, but the space between them feels warmer for a moment.
 
-She (still laughing): Okay fine, add some sugar now.
+**She** (still laughing, the sound fading): Okay fine, add some sugar now.
 
-He: Nope. Drink it like this.
+**He**: Nope. Drink it like this.
 
-She (blinks): Why?
+**She** (blinking, confused): Why?
 
-He (softly): You’ll need it. Trust me.
+**He** (softly): You’ll need it. Trust me.
 
-She stops laughing. The silence that follows feels heavy — not empty.
+She goes still. Her smile drops, not all at once — more like it forgets to hold on. The silence that follows isn’t empty. It’s dense. Weighty.
 
-She stares at him, the coffee untouched in her hand.
+She looks at him. The coffee sits untouched in her hand, cooling by degrees.
 
 ---
 
-Silence settles like fog. They sit across from each other, sipping coffee in an atmosphere thick with unspoken things. Their eyes lock occasionally, then dart away. His stare is analytical—curious, searching. Hers is softer, tinted with sadness, confusion. Two people in the same room, but orbiting different thoughts.
+Silence settles like fog.  
+They sit across from each other, sipping coffee in an atmosphere thick with unspoken things. Their eyes meet now and then — brief, flickering contact. His gaze is measured, almost clinical; hers is softer, laced with confusion and something heavier underneath.
 
-She (grimacing): How the hell do you drink this bitter crap? It’s like my taste buds just signed a resignation letter.
+Two people in the same room, orbiting different thoughts.
 
-He (smirking): Funny. You were chugging it like it was ancestral nectar just yesterday.
+**She** (grimacing): How the hell do you drink this bitter crap? It’s like my taste buds just signed a resignation letter.
 
-She: Exactly my point. What changed overnight?
+**He** (smirking): Funny. You were chugging it like ancestral nectar just yesterday.
 
-He catches the weight of her words. His smirk fades. He pauses, stirs his coffee slowly, thinking.
+**She**: Exactly my point. What changed overnight?
 
-He: The heart… is fickle. It flips like a switch sometimes.
+He catches the weight in her tone. The smirk fades. He stirs his coffee slowly, the spoon clinking against the mug.
 
-She (quietly, firmly): I didn’t think your heart was like that. Would you stop dodging already and just—be honest with me?
+**He**: The heart… is fickle. It flips like a switch sometimes.
 
-He looks up at her, eyes a little darker now.
+**She** (quietly, firmer): I didn’t think your heart was like that.  
+Would you stop dodging already and just — be honest with me?
 
-He: How much do you even know me?
+He looks up. His eyes are darker now, more direct.
 
-She (after a beat): Not much. You never really shared anything.
+**He**: How much do you even know me?
 
-He (raising an eyebrow): You never asked.
+She hesitates, then lifts her chin slightly.
 
-She: Oh please. Then let me ask you—how much do you know about me?
+**She**: Not much. You never really shared anything.
 
-He: Almost everything.
+**He** (raising an eyebrow): You never asked.
 
-She blinks. He continues, casually, but there’s an edge under it.
+**She**: Oh, please. Then let me ask — how much do you know about me?
 
-He: Your childhood stories, your extended family tree, the mole on your back you think no one noticed, your love for mangoes but hate for mango-flavored anything, the way your voice drops when you’re sad, and lifts ever so slightly when you're faking a smile. I’ve paid attention.
+**He**: Almost everything.
 
-She looks at him, caught somewhere between disbelief and realization.
+She blinks. He goes on, voice casual but with an edge beneath the words.
 
-She (softly): Then… what’s the problem?
+**He**: Your childhood stories, your extended family tree, the mole on your back you think no one noticed… Your love for mangoes but hate for mango-flavored anything. The way your voice dips when you’re sad and lifts just a little when you’re faking a smile.  
+I’ve paid attention.
 
-He (eyes locked on her): I don’t know. Maybe that’s the problem—I never felt anything from you. Not truly.
+She looks at him — really looks. Disbelief and realization wrestle behind her eyes.
 
-She looks down. That one stings.
+**She** (softly): Then… what’s the problem?
 
-She (whispers): Then why were we even in this… for a year?
+**He** (locked on her): I don’t know.  
+Maybe that’s the problem — I never *felt* anything from you. Not truly.
 
-He leans back slightly, staring at the now-empty mug in his hand.
+She looks down. That one lands.
 
-He: Because I thought maybe… you understood me. Better than anyone else did. You read between the lines. You knew what I was thinking without me having to say it. Maybe that’s why I stayed. Wishful thinking, probably.
+**She** (whispers): Then why were we even in this… for a year?
 
-He places the mug down gently.
+He leans back, mug in hand, staring into the last bit of his coffee.
 
-He (continuing): But it felt more like I was holding onto something that wasn’t real. A mirage. And I don’t want to drag you into a one-sided story. You deserve more than that.
+**He**: Because I thought maybe… you understood me.  
+Better than anyone else did. You read between the lines. You knew what I was thinking without me saying it.  
+Maybe that’s why I stayed.  
+Wishful thinking, probably.
 
-She doesn't respond. Instead, she finishes the last sip of her coffee, the bitterness now blending with the silence around her.
+He sets the mug down gently.
 
-She turns her gaze toward the window — where the mountains loom like quiet witnesses and the little bird’s nest sways gently in the tree.
+**He** (continuing): But it felt like I was holding on to something that wasn’t real. A mirage. And I don’t want to drag you into a one-sided story.  
+You deserve more than that.
 
-He watches her. Studies her. Trying to decode her silence. Looking for answers in the curve of her brow, the twitch in her lip, the tight grip on the coffee mug.
+She doesn’t respond. Just finishes the last sip of her coffee, the bitterness now blending into the quiet around her.
 
-She smirks, leaning forward just a bit.
-She (teasingly): So... have you ever felt it before? You know — that stupid little thing called love?
+She turns to the window — where the mountains loom like silent witnesses and the little bird’s nest sways gently in the breeze.
 
-He raises an eyebrow but doesn’t smile.
-He: Yeah. I did. Once.
+He watches her. Studies her.  
+Trying to decode the silence in her posture — the curve of her brow, the twitch in her lip, the grip on the mug.
 
-She perks up slightly, her eyes sharpening.
-She: Oh? Do tell. You've never really shared stuff like that with me. I always thought you’d feel awkward if I pried too much into your past.
+She smirks. Leans in slightly.
 
-He: You had full permission to pry. You still do. I would've told you anything, everything — gladly. But you never asked.
-(pauses, a hint of a smile)
-I appreciate that, by the way. The way you respected my space. But maybe... that’s part of the reason we’re sitting here like this now.
+**She** (teasing): So... have you ever felt it before? You know — that stupid little thing called love?
 
-She rolls her eyes, half amused.
-She: You’re acting like a kid now.
+He raises an eyebrow. Doesn’t smile.
 
-He leans back in his chair, hands behind his head.
-He: I am a kid in an adult’s body. My heart still has that childlike innocence.
+**He**: Yeah. I did. Once.
 
-She (sarcastically): Oh yeah? That “innocence” — where was it when you made that girl’s life hell? Turned her into a social outcast? Gave her enough trauma to leave the university?
+She straightens a bit, eyes narrowing — not with suspicion, but curiosity.
 
-He chuckles darkly.
-He: Damn, you’re really something.
-(pauses)
-As for her... I can’t stand people who try to defame you. The kid in my heart told me to ruin her — and then promptly went on vacation.
+**She**: Oh? Do tell.  
+You never really shared stuff like that with me. I always figured you’d get awkward if I pried too much into your past.
+
+**He**: You had full permission to pry. You still do.  
+I would've told you anything, everything — gladly.  
+But you never asked.
+
+*(pauses, a small smile flickering and fading)*  
+I appreciate that, by the way.  
+The way you respected my space.  
+But maybe... that’s part of the reason we’re sitting here like this now.
+
+She rolls her eyes, half-amused.
+
+**She**: You’re acting like a kid now.
+
+He leans back, arms behind his head.
+
+**He**: I *am* a kid in an adult’s body. My heart still has that childlike innocence.
+
+**She** (sarcastically): Oh yeah? That “innocence” — where was it when you made that girl’s life hell?  
+Turned her into a social outcast? Gave her enough trauma to leave the university?
+
+He chuckles. Darkly.
+
+**He**: Damn, you’re really something.
+
+*(pauses)*  
+As for her... I can’t stand people who try to defame you.  
+The kid in my heart told me to ruin her — and then promptly went on vacation.
 
 She shakes her head, smirking despite herself.
-She: Psychopath with morals.
-(leans in again)
+
+**She**: Psychopath with morals.  
+*(leans in again)*  
 Alright then, Romeo — tell me about this sweetheart of yours.
 
+---
+
 He takes a deep breath, voice softening, the memory pulling at him.
-He: It was during school. There was this girl in my class. I was painfully shy back then — barely looked people in the eye.
-(pauses)
-She lived a block away. Sometimes we’d bump into each other on the walk to school. I never had the guts to talk to her first. But… I think she noticed that.
-She started initiating things — casual, harmless. Eventually, she’d hold my hand during those walks. And I’d just… follow. Eyes glued to the ground, heartbeat in my throat.
 
-His tone turns dreamy for a second, then playful.
-He: I swear, whenever she was around, the world would blur out. Like someone turned off the background noise — and it was just her.
+**He**: It was during school. There was this girl in my class.  
+I was painfully shy back then — barely looked people in the eye.
 
-She cuts in abruptly, eyebrow raised.
-She: You do realize you’re talking about another girl in front of your current girlfriend? And you're way too happy reminiscing about it.
+*(pauses)*  
+She lived a block away. Sometimes we’d bump into each other on the walk to school. I never had the guts to talk to her first. But… I think she noticed.
 
-He snaps out of it, immediately shifting tone — a little flustered now.
-He: What I meant was… I never felt that way again. Not until…
-(pauses)
-Well. During our farewell, she suddenly asked me, "Do you like me?"
-I nodded like a dumbass. She smiled and just said, "Yeah… I figured."
-That was it.
-No confession. No drama. No promises.
+*(half-smiles)*  
+She started things — casual, harmless. Eventually, she’d hold my hand during those walks. And I’d just… follow.  
+Eyes on the ground, heartbeat in my throat.
+
+His tone turns dreamy for a second, like the memory is coloring the room.
+
+**He**: I swear, whenever she was around, the world would blur.  
+Like someone turned off the background noise — and it was just her.
+
+**She** (cutting in, eyebrow raised):  
+You *do* realize you’re talking about another girl in front of your current girlfriend?  
+And you're way too happy reminiscing about it.
+
+He snaps out of it, blinking. A little flustered now.
+
+**He**: What I meant was… I never felt that way again. Not until—
+
+*(pauses)*  
+Well. During our farewell, she asked me, “Do you like me?”  
+I nodded like a dumbass.  
+She just smiled and said, “Yeah… I figured.”
+
+That was it. No confession. No drama.  
 We both walked away. Never spoke again.
 
-She crosses her arms, tilting her head with a mock-serious look.
-She: So… if you liked her that much, why didn’t you go after her?
+She crosses her arms, eyes narrowing.
 
-He shrugs, eyes dropping for a moment.
-He: I lacked the courage back then. What if she had rejected me? That what if was enough to stop me.
+**She**: So… if you liked her that much, why didn’t you go after her?
 
-She raises an eyebrow, half-surprised.
-She: You — not going after something you wanted? That’s… news to me.
+**He** (shrugging):  
+I lacked the courage.  
+What if she’d said no? That *what if* was enough to stop me.
 
-He smiles faintly.
-He: Yeah, I was like that. Quiet. Awkward.
-College and university changed that. I started shaping my character, learning to stand firm — slowly became this version of me.
+**She**: You — not going after something you wanted? That’s… new.
 
-She smirks.
-She: Huh. Still hard to believe you were that guy — all timid and unsure. What a revelation.
+**He** (softly):  
+Yeah. I was like that. Quiet.  
+College changed that. I started shaping my character.  
+Became... this version of me.
 
-He groans.
-He: Don’t make fun of me.
+**She** (smirking):  
+Hard to believe you were that guy — all timid and unsure. What a reveal.
 
-She throws her hands up in mock innocence, trying not to laugh.
-She (ironically): I’m not making fun. I’m just trying to understand.
-(smirking hard)
+**He** (groaning):  
+Don’t make fun of me.
 
-He narrows his eyes.
-He: Yeah? Your face says otherwise.
+**She** (throwing her hands up, innocent):  
+I’m not! I’m *understanding*.
 
-She tries to keep a straight face, fails miserably, and bursts out laughing.
-She: Okay, okay — sorry! I couldn’t help it.
+*(grinning hard now)*
 
-He stands up, grabs both coffee mugs, and heads to the kitchen without a word.
+**He** (narrowing his eyes):  
+Your face says otherwise.
 
-She calls after him, still grinning.
-She: Don’t be mad!
+She *tries* to hold a straight face. Fails completely.
 
-He, from the kitchen: I’m not mad.
+**She**: Okay, okay — sorry! I couldn’t help it.
 
-He walks back in, brushing his hands casually on his pants, settling into his seat again. She watches him, playful but with a glint of curiosity.
+He stands, grabs both mugs, heads to the kitchen.
 
-She: So…
-(squints dramatically)
-Do you still remember her? Or are you planning to elope with her or something?
+**She** (calling after him):  
+Don’t be mad!
 
-He looks at her — calm, unreadable.
+**He** (from kitchen):  
+I’m not mad.
 
-She, watching his silence, voice sharper now:
-Well, I thought maybe you had a change of heart. Maybe now you want to chase her again and just… shift me aside. So I don’t come in the way.
+He comes back, brushing his hands on his jeans, settles again.  
+She watches him, playful — but something searching behind the grin.
 
-He exhales softly, maintaining eye contact.
-He: It’s not like that.
-It’s been more than ten years since we last talked. She’s a ghost from a life I’ve long buried. I don’t want anything with her.
+**She**: So…  
+*(squints dramatically)*  
+Do you still remember her? Or planning to elope?
 
-She, frustration slowly bubbling up:
-Then why the fuck do you want to break up?
-Tell me — explain it to me.
-And don’t give me that crap about me “not wanting to know you.” That’s bullshit.
-I just didn’t want to rush things.
-We still have a year before graduation — and a whole life beyond that.
-I thought I’d get to know you… slowly. When you were ready to open up.
+He meets her gaze. Calm. Unreadable.
 
-He stares at her, visibly struggling — like the weight of years pressing on his chest. The coffee has gone cold. The silence stretches.
+She watches the silence stretch. Then—
 
-He: Haa…
-(sighs, finally)
+**She** (sharper):  
+What, you had a change of heart?  
+You gonna chase her again and just… shift me out of the way?
+
+**He** (exhaling):  
+It’s not like that.  
+It’s been over ten years.  
+She’s a ghost from a life I buried. I don’t want anything from her.
+
+**She**:  
+Then *why the fuck* do you want to break up?
+
+*(beat)*  
+Tell me. And don’t give me that “you don’t know me” crap.  
+That’s bullshit.
+
+*(leans forward)*  
+I didn’t want to rush things.  
+We still have a year before graduation — and a whole life beyond that.  
+I thought I’d get to know you… slowly. When *you* were ready.
+
+He stares at her. Something tight in his expression.  
+Silence stretches.
+
+**He** (quietly):  
 So you really want to know?
 
-She leans in, staring hard, voice dropping:
-Yes.
+**She** (voice dropping):  
+Yes.  
 Tell me honestly.
+
+*(beat)*  
 Wait…
-(squints again, mock suspicious)
-Are you… impotent?
-Is that why you’ve never tried to get intimate with me? Hmm?
 
-A beat. He blinks. That caught him off guard.
+*(squints, mock suspicious)*  
+Are you… impotent?  
+Is that why you’ve never tried anything with me? Hmm?
 
-He, deadpan:
+A beat. He blinks.
+
+**He** (deadpan):  
 Wow. Straight to the point, huh?
 
-She, arms crossed, eyes challenging but lips twitching from holding back a smirk:
-I mean — just covering all angles. I am a thorough woman.
+**She** (arms crossed, smirk twitching):  
+I mean — I’m a thorough woman.
 
-He chuckles dryly, rubbing his temples:
-No. I’m not impotent.
-If anything, I’m over-functional. I just… don’t want to be intimate with someone I’m unsure about.
+**He** (rubbing his temples):  
+No. I’m not impotent.  
+If anything, I’m… over-functional.
 
-She, softly now:
-Unsure about me?
+*(deadpan)*  
+I just don’t want to be intimate with someone I’m unsure about.
 
-He:
-No… unsure about myself.
-What I feel.
-What I want.
+**She** (soft now):  
+Unsure about *me*?
+
+**He**:  
+No.  
+Unsure about *myself*.  
+What I feel. What I want.  
 What I need.
-If I’m being honest, I’ve always been a little broken inside.
-Sometimes I think I was never built for love — just… observation. Strategy. Quiet detachment.
-I tried with you because you were the first person who saw through the fog a little.
-But somewhere deep inside, I think I knew… I’d end up hurting you eventually.
 
-She: Okay wait—
-If you really want me to know you, then tell me—
-Did you have any other relationships? After her?
-Maybe in college or university?
+*(beat)*  
+If I’m being honest, I think I’ve always been a little broken.  
+Like I wasn’t built for love — just… observation. Strategy. Distance.
 
-He, already sensing where this is going, mumbles:
-Here we go again…
+*(softly)*  
+I tried with you because you saw through the fog a little.  
+But somewhere deep down, I knew I’d hurt you.
 
-He: Yes. I had two.
+**She**:  
+Okay wait—  
+If you want me to *really* know you, then tell me—
 
-She, narrowing her eyes like a detective solving a murder:
+Did you have any other relationships?  
+After her?
+
+**He** (groaning):  
+Here we go…
+
+**He**:  
+Yes. Two.
+
+**She** (narrowing eyes):  
 Two??
-So you were a playboy from the start.
-Playing with girls' feelings and tossing them aside when you were done.
-Wow. What a revelation.
 
-He, half-laughing but wounded:
-Hey. That hurts. I’m not like that.
+*(gasps)*  
+So you *were* a playboy!  
+Playing with girls’ feelings — tossing them aside!
 
-She, voice rising, eyes wide:
-Then what’s happening right now?
-Tell me — how long did those last, huh?
+**He** (wounded-laugh):  
+Hey! That’s harsh.
 
-He, quietly:
-A year. Maybe a little more.
+**She** (dramatic):  
+Then what’s happening *right now*?
 
-She, throwing her hands up like she's in a drama:
-I knew it!
-You’re a classic use-and-throw guy!
-God, how did I fall for someone like you?
-What did I even see in you?
-Ugh — someone kill me.
-Wait, no. Don’t kill me.
-But beat him. Beat this playboy thoroughly. Right here.
+*(leans closer)*  
+How long did those last?
 
-He, eyes wide, holding in a laugh:
-Would you calm down and stop auditioning for a soap opera?
+**He**:  
+A year. Maybe more.
 
-She, dramatically pointing at him while looking at the invisible crowd:
-Someone save me from this pervert!
+**She** (hands to forehead):  
+I *knew* it!
+
+*(mock-faints)*  
+Use-and-throw. Textbook.  
+God, what did I see in you?  
+Ugh — someone kill me.  
+Wait — *no*. Don’t kill me.  
+Beat him. Beat this playboy right here!
+
+**He** (alarmed, laughing):  
+Would you calm down?!  
+You sound like a crime show monologue.
+
+**She** (pointing at invisible jury):  
+Save me from this pervert!  
 Wait…
-(pauses, thinking)
-He never even touched me like that…
 
-(returns to normal tone, blinking)
-Wait, yeah. You never did.
+*(blinks)*  
+You never even touched me like that…
 
-He, arms crossed:
+**He** (arms crossed):  
 Are you done?
 
-She, sheepish grin:
-Yeah, yeah. Sorry.
-I went a little overboard.
+**She** (grinning):  
+Yeah, yeah. Sorry.  
+Went a little overboard.
 
-He:
+**He**:  
 A little?
-You just called me a playboy and a pervert.
 
-She, trying to deflect:
-I didn’t mean it like that…
+**She**:  
+I didn’t *mean* it like that…
 
-He:
-Oh? Then what way did you mean it?
+**He**:  
+Oh? Then how *did* you mean it?
 
-She, laughing and swatting the air:
-Ugh, stop it. Don’t say it again.
-Fine, fine. Tell me about your past "romance."
+**She** (laughing, waving):  
+Don’t say it again!  
+Fine. Go on. Tell me about your past *romance*.
 
-He, tone softening:
-It wasn’t romance. It was… tragedy.
+**He** (quiet):  
+It wasn’t romance.  
+It was… tragedy.
 
-She, eyes widening again:
-Oh god. Tragedy?
-Wait—
+**She** (eyes wide):  
+Oh god. Tragedy?  
+Wait—  
 Did you get them pregnant or something?
 
-He stares at her blankly.
+**He** (dead stare)
 
-She, raising her hands like a surrendering soldier:
-Okay okay! I won’t say anything now.
-Go on. Talk.
+**She** (hands up):  
+Okay okay! I’ll shut up.
 
-He, sighing, leans back in his seat, gathering his thoughts.
+*(zips lips)*  
+Go on, you pervert playboy.
 
-She, under her breath, smirking:
-Go on, you pervert playboy…
+**He**:  
+That’s it.
 
-He, instantly:
-That’s it!
+He glares. She bursts out laughing.
 
-He shoots her a glare, and she bursts out laughing, nearly choking on her breath.
+**He**:  
+Do you want to hear it or not?
 
-He:
-You want to hear it or not?
-
-She:
+**She**:  
 Okay okay okay!
-(mock zipping her lips)
+
+*(mock zips lips again)*  
 Mmm-hmm. I’m listening.
 
-He, half-smiling despite himself, begins:
-He (gathering his thoughts):
-“So, it was when I was in 9th. One day I just didn’t feel like going to school… so I went to the railway station instead.”
-(She’s already staring at him like she’s watching a Netflix show.)
-“I always wanted to visit NTPC — you know, the power plant. I don’t know why, it just fascinated me. So I bought a ticket, got on the train, and changed into a different outfit I’d packed. I planned the whole thing — the train ride was two hours, and I had around seven hours before school ended. It felt perfect.”
+---
 
-She (blinking in disbelief):
-“So you… bunked school… packed clothes… and went on a solo train adventure to see how electricity is made?”
-(Beat)
-“That’s insane. And you were what — 14? 15? What if someone had kidnapped you?!”
+He, half-smiling despite himself, starts gathering his thoughts, eyes drifting into the distance.
 
-He (grinning faintly):
-“Well, I didn’t. So let me continue.”
+He (softly):  
+"So, it was when I was in 9th. One day I just didn’t feel like going to school... so I went to the railway station instead."
 
-(She’s visibly worried now, but trying to hide it. He notices but keeps talking.)
+She raises an eyebrow, the glint of amusement in her eyes, already intrigued. He continues, still lost in the memory.
 
-He:
-“Everything was fine. Until I reached my destination. Or rather — I should’ve reached my destination… but I didn’t realize it had arrived. So I just sat there like an idiot. And the train — being an express — didn’t stop again for a long while. By the time I realized I’d missed my stop… I went completely blank.
-People were asking me questions, and I just sat there like: ‘Sir, my top floor is under maintenance, please hold.’”
-(He smirks)
-“I was trying to process the disaster I just created — and it was already time for school to be over.”
+He:  
+“I always wanted to visit NTPC — you know, the power plant? I don’t know why, it just fascinated me. So, I bought a ticket, changed into a different outfit I packed, and hopped on the train. I had two hours, and around seven hours before school ended. It felt perfect.”
 
-She (emotions hitting her all at once):
-“Oh my god. That’s— that’s kinda hilarious but terrifying. How the hell could you mess up like that? You’re the most calculated person I’ve ever met.”
+She (laughing slightly):  
+“Wait, wait. You... bunked school, packed a bag, and took a solo train adventure to see how electricity is made? At 14? Wasn’t that... risky?”
 
-He:
-“Well… that’s where I learned one of the biggest lessons of my life.
-Never make the same mistake twice.
-And always — always — think twice, act once.”
+He grins, a little chuckle escaping him, but there’s a faraway look in his eyes as he recalls the moment.
 
-She (softly):
-“Yeah… that’s one of the things I love about you. That confidence you carry, like you’ve lived a thousand lives already.”
-(She pauses, eyes wide)
-“Wait— wait. So what happened next?! Did someone… kidnap you?”
+He:  
+“Well, I didn’t get kidnapped, so I guess I’m still here to tell the story.” 
 
-(He looks at her like “what the hell,” while she starts to giggle nervously.)
+She softens, watching him, still half-amused but starting to feel the weight of how much this story means to him.
 
-She:
-“Okay, okay, sorry! I watch way too many crime shows. They always have endings like:
-‘Based on real events.’
-So I thought maybe… you got sold to the power plant or something.”
+She (quietly):  
+“Go on.”
 
-(They both break into laughter, tension diffused.)
+He exhales, leaning back slightly as he lets the memory settle in. His tone drops a little as he recalls the next part.
 
-He continued:
-“There were so many people around me, all asking questions—‘Where are you from, kid?’, ‘Which station are you headed to?’, and the worst one—‘Oh no, that station already passed. The train won’t stop again until the final destination.’ And in that moment, I just... sank. I was like, ‘What the hell have I done?’ Total panic mode.
+He:  
+“Everything was fine until I reached my destination. Or, well... I thought I had. But I didn’t realize the train had arrived. So, I sat there, like an idiot, watching everyone else get off. And the train — being an express — didn’t stop again for a long time. By the time I figured it out, I was too late.”
 
-Then, this elderly man sitting nearby noticed me freaking out. He was the calm one among the chaos, asked about my family, and oddly enough—he actually knew my father when I mentioned his name. He told me to call home, so I did.
+She leans in, genuinely interested, her gaze softening.
 
-Now here’s the weird part—my dad was calm. Like monk-level calm. Nirvana achieved. He just went, ‘Hmm, I see... well, you reap what you sow. Okay, here, talk to your mother.’”
+She:  
+“Oh my god. How did you not realize? How could you mess that up? You're usually so careful."
 
-She:
-“Wait—what? How could your dad be so chill at a time like that?”
+He chuckles, a bit of self-deprecating humor lacing his words.
 
-He:
-“Right? Total contrast. My mom, on the other hand—emotional rollercoaster. She cried, she yelled. I told her I just wanted to see NTPC, and now somehow I’m headed to West Bengal. I even joked that this might be our last call, so she should record it in case she ever missed me.
+He:  
+“Well, in that moment, I wasn’t exactly the most... calculated. Panic hit me hard. People were asking me questions, and I just stared at them like I didn’t even know where I was anymore.”
 
-She had me on speaker, and my dad—still zen mode—just said, ‘Don’t worry. When you reach the final station, find a TT or the police and explain. Or call me, and I’ll handle it. I’m boarding the next train to come get you.’”
+She (half-worried, half-curious):  
+“That’s terrifying. What did you do?”
 
-She (wide-eyed):
-“Damn... your dad really is something. And honestly, I can see so much of him in you.”
+He pauses for a beat, his smile fading just a little, eyes darkening as he remembers the panic of the moment.
 
-He (smirking):
-“Yeah, a lot of people say that. The resemblance, the calmness... runs in the blood, I guess.”
+He:  
+“I just froze. Total blank. It was like everything I thought I knew — all the planning — went straight out the window. And school was already over, and I was still on that train.”
 
-She:
-“But why didn’t you ever tell me this legendary story before? If I knew, I’d have made you spill the beans ages ago—maybe even beaten it out of you.”
+There’s a quiet silence between them, the weight of the situation hanging in the air. She watches him closely, her heart softening as he opens up, a vulnerability there she hasn’t seen before.
 
-He:
-“Exactly why I didn’t tell you. I know how you'd react.”
+She (after a pause):  
+“That... that sounds horrible.”
 
-He (continuing):
-“Anyway, that old man took the phone, spoke to my dad for a bit, and then gave it back. A while later, my dad called and told me to go with the old man. Apparently, he worked at the NTPC and knew someone in charge there. My dad had already spoken with them, and said the man would take me in for the night and bring me back the next day. I just had to call every hour to check in.
+He gives her a tight smile, but his eyes betray the memory's impact.
 
-And just like that, I reached West Bengal with this complete stranger—who turned out to be a genuinely good person. He took me to his home, made sure I was okay, and brought me back safely the next day.”
+He:  
+“I panicked. But then... this old man sitting next to me noticed. He was calm, like nothing was wrong. He asked about my family and, weirdly enough, knew my dad when I mentioned his name. He told me to call home.”
 
-She (leaning in, smirking):
-“Well, that was quite the adventure. But... where’s the romance you promised? You teased me with it.”
+She blinks, processing what he’s said.
 
-He:
-“Well… the romance part happened at the old man's house. He had a granddaughter visiting at the time. At first, she kept her distance, probably trying to figure out who this random boy was that her grandfather brought home. But slowly, she started opening up.
+She:  
+“So, your dad... was calm about it?”
 
-She showed me around the place, took me to some local spots, and we ended up talking for hours. That night, we even shared the same bed. She was just a year older than me.
+He nods, a slight smirk tugging at his lips.
 
-The next day, the three of us—me, her, and the old man—boarded a train. She was returning to her home too; her stop came before ours, and someone from her family was going to pick her up at the station.
+He:  
+“Yeah. The moment I called him, he just... sighed, and said, ‘Hmm, I see... well, you reap what you sow. Okay, here, talk to your mother.’ My dad was so zen about the whole thing. My mom, on the other hand... well, she wasn’t.”
 
-We sat together on the train, laughed a lot, and just... enjoyed the ride back. When her station came, her father was waiting. She smiled, waved, and left. I continued with the old man, and by evening, we reached my hometown. My dad was there waiting for me.”
+She chuckles softly, though her expression is still a little concerned.
 
-She:
-“Aww, that’s so sweet. So, did you guys stay in touch?”
+She:  
+“That’s... wild. But how did they help you?”
 
-He:
-“Yeah. She used to call me from her mom’s phone. And after a few days, she actually proposed to me. That was the start of our long-distance thing.
+He:  
+“Dad didn’t freak out. He just told me, ‘Don’t worry. When you get to the final station, find a TT or the police. Or call me, and I’ll handle it. I’ll catch the next train to come get you.’"
 
-I was in 10th grade at the time, and she’d just finished her boards. She scored pretty well. Life was moving ahead, but we were still glued to the phone every night, talking for hours. Our love just kept growing.”
+She smiles faintly, impressed.
 
-She (starting to feel uneasy):
-“Okay... so what’s the tragedy here? Don’t tell me—she dumped you?”
+She:  
+“That’s... surprisingly calm for your dad. And your mom? Was she as calm?”
 
-He (quietly):
-“Yeah… slowly, the calls started reducing. From everyday to once in a while. And then, around November–December, they stopped altogether.
+He laughs, the sound rich with fondness.
 
-I kept calling, but she wouldn’t talk much—always said she was busy and hung up. I had no idea what was going on. My board exams were right around the corner.
+He:  
+“No. My mom went full emotional rollercoaster. Cried, yelled, and then I jokingly told her, ‘Hey, this might be our last call, so record it just in case you miss me.’”
 
-Then, just a few days before my math paper, she called. I thought maybe everything was fine. But instead… she told me we couldn’t talk anymore. She asked me not to call her again.
+She chuckles, shaking her head.
 
-I asked why—and she said she was getting married.”
+She:  
+“God, you really had your hands full. But... what happened after that?”
 
-She (stunned):
-“What the hell…?”
+He:  
+“Long story short, the old man took the phone, spoke with my dad for a bit, and then gave it back. A while later, my dad called again and told me to go with the old man. He worked at the NTPC and knew someone in charge there. My dad had already made arrangements. The man would take me in for the night and bring me back the next day. I just had to call every hour to check in.”
 
-He:
-“That hit me like a train. I didn’t know how to respond. I was just... blank. But I still gave my exams. Scored well too.
+She watches him, her eyes wide as she soaks in the details, the gravity of the situation unfolding before her.
 
-But at what cost?”
+She:  
+“That’s... crazy. But... kind of sweet. You ended up in good hands.”
 
-She (softly):
-“Damn…”
+He nods, a faint smile on his lips, but there's a quiet sadness underneath it.
+
+He:  
+“Yeah. I was fine, safe, and came back the next day. But... I always remember the feeling of being completely lost. Like I had no control over what was happening.”
+
+She (softly):  
+“That’s... a lot for a 14-year-old. But I get why you don’t share it. It’s one of those memories you probably don’t want to relive.”
+
+He nods, then leans forward, looking at her more seriously.
+
+He:  
+"Yeah... and the romance part? That came later."
+
+She raises an eyebrow, playful, but there's a glint of curiosity there.
+
+She:  
+"Wait, romance? From the train station debacle?"
+
+He:  
+"It wasn’t like that at first. The old man had a granddaughter visiting. At first, she kept her distance, but... over time, we started talking. She showed me around, and we ended up spending hours just talking."
+
+She leans in, intrigued, her curiosity piqued.
+
+She:  
+"And?"
+
+He (with a faint, bittersweet smile):  
+"That night, we ended up sharing the same bed. Nothing serious, but there was a connection there. She was a year older, but we just clicked."
+
+She:  
+"So, you guys stayed in touch?"
+
+He nods, his smile fading as he remembers the next part.
+
+He:  
+"Yeah. We’d talk every night, and she even proposed to me after a while. It was... simple, pure. A long-distance thing, but it meant something."
+
+She watches him, her voice now quieter, more careful.
+
+She:  
+"But... what happened?"
+
+He exhales, the weight of the memory heavy on his chest.
+
+He:  
+“Things changed. Slowly. The calls started dropping off. From every day, to once in a while, to nothing at all. I tried calling her, but she wouldn’t pick up. Then, right before my board exams, she called again... and told me we couldn’t talk anymore. She was getting married.”
+
+Her eyes widen, disbelief spreading across her face.
+
+She:  
+“What...?”
+
+He stares at the floor for a long moment, his voice low.
+
+He:  
+“It hit me hard. I didn’t know how to react. I just... couldn’t process it. And then I gave my exams. Scored well. But it all felt pointless.”
+
+She sits back, the room silent for a beat, the weight of his words sinking in.
+
+She (softly):  
+“That’s... tragic. I’m sorry.”
 
 ---
+
+<!-- its done till here -->
+<!-- need to start from here -->
 
 she stays quiet for a beat, her fingers absentmindedly twirling a loose strand of hair. Then she glances up at him, eyes softer now.
 she: So... she just left like that? No fight, no warning?
