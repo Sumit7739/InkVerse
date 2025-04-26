@@ -8,197 +8,223 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <style>
       :root {
-        --bg-color: #fff;
-        --text-color: #000;
-        --card-bg: #f5f5f5;
+        --bg-color: #f8f8f8;
+        --text-color: #333;
+        --accent-color: #69b3a2;
+        --brand-color: #ffa365;
+        --card-bg: #fff;
       }
 
       [data-theme="dark"] {
-        --bg-color: #121212;
+        --bg-color: #1e1e1e;
         --text-color: #e0e0e0;
-        --card-bg: #1e1e1e;
+        --accent-color: #3d7a6f;
+        --card-bg: #2c2c2c;
+      }
+
+      html {
+        scroll-behavior: smooth;
       }
 
       body {
         margin: 0;
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-family: "Roboto", sans-serif;
         background-color: var(--bg-color);
         color: var(--text-color);
         transition: background-color 0.3s, color 0.3s;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
       }
 
       header {
         padding: 1rem 2rem;
-        background-color: var(--card-bg);
+        background-color: transparent;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        border-bottom: 1px solid #ccc;
+        border-bottom: 1px solid var(--accent-color);
+        position: sticky;
+        top: 0;
+        backdrop-filter: blur(10px);
+        z-index: 10;
       }
 
       header a {
         text-decoration: none;
         color: var(--text-color);
-        transition: color 0.3s;
-      }
-
-      header a:hover {
-        color: #777;
-      }
-
-      header a i {
-        color: var(--text-color);
-        transition: color 0.3s;
-        font-size: 24px;
+        font-family: "Playfair Display", serif;
+        font-size: 2.2rem;
+        font-weight: 700;
       }
 
       .toggle-dark {
         cursor: pointer;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
+      }
+
+      .toggle-dark i {
+        color: var(--accent-color);
       }
 
       .chapter-container {
         max-width: 800px;
-        margin: 1rem auto;
+        margin: 2rem auto;
         padding: 1rem;
-      }
-
-      .chapter-title {
-        font-size: 2rem;
-        margin-bottom: 1rem;
-      }
-
-      #chapter-body {
-        line-height: 1.6;
-        opacity: 0;
-        transition: opacity 1s ease-in;
       }
 
       .progress-bar-container {
         position: sticky;
-        top: 10px;
+        top: 70px;
         width: 100%;
-        background-color: #ddd;
-        height: 5px;
-        margin-top: 10px;
+        /* background-color: #ddd; */
+        height: 3px;
+        margin-bottom: 1rem;
         border-radius: 3px;
         backdrop-filter: blur(10px);
-        /* border: 1px solid; */
+        z-index: 999;
       }
 
       .progress-bar {
         height: 100%;
-        background-color: #ffa365;
+        background-color: var(--brand-color);
         width: 0%;
         transition: width 0.3s ease;
         border-radius: 3px;
       }
 
+      .chapter-title {
+        font-family: "Playfair Display", serif;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        text-align: center;
+      }
+
+      .chapter-title::after {
+        content: "";
+        display: block;
+        width: 80px;
+        height: 3px;
+        background-color: var(--accent-color);
+        margin: 0.5rem auto 2rem auto;
+        border-radius: 2px;
+      }
+
+      #chapter-body {
+        line-height: 1.7;
+        opacity: 0;
+        transition: opacity 1s ease-in;
+      }
+
       .nav-buttons {
         display: flex;
         justify-content: space-between;
-        margin-top: 20px;
+        margin-top: 2rem;
+        gap: 1rem;
       }
 
       .nav-buttons a {
+        flex: 1;
+        text-align: center;
         text-decoration: none;
-        padding: 10px 20px;
         background-color: var(--card-bg);
-        border-radius: 5px;
+        padding: 0.8rem 1rem;
+        border-radius: 8px;
         color: var(--text-color);
-        transition: box-shadow 0.3s;
+        font-weight: 600;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
       }
 
       .nav-buttons a:hover {
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        background-color: var(--accent-color);
+        color: #fff;
       }
 
       .nav-buttons a i {
-        transition: transform 0.3s, color 0.3s;
+        margin: 0 0.5rem;
+        transition: transform 0.3s ease;
       }
 
-      .nav-buttons a:hover i {
-        color: #ffa365;
-        transform: translateX(5px);
+      .nav-buttons a:hover i:first-child {
+        transform: translateX(-3px);
       }
 
-      .nav-buttons a:first-child:hover i {
-        transform: translateX(-5px);
+      .nav-buttons a:hover i:last-child {
+        transform: translateX(3px);
       }
+
     </style>
   </head>
+
   <body>
     <header>
-      <a href="index.html"><h1>The Lover's Gambit</h1></a>
+      <a href="index.html">The Lover's Gambit</a>
       <div class="toggle-dark" onclick="toggleDarkMode()">
         <i class="fas fa-moon"></i>
       </div>
     </header>
 
     <div class="chapter-container">
-      <!-- Sticky Progress Bar -->
       <div class="progress-bar-container">
         <div id="progress-bar" class="progress-bar"></div>
       </div>
-      <div class="nav-buttons">
-        <a href="#" id="prev-chapter" onclick="loadChapter('prev')"
-          ><i class="fas fa-chevron-left"></i> Previous</a
-        >
-        <a href="#" id="next-chapter" onclick="loadChapter('next')"
-          >Next <i class="fas fa-chevron-right"></i
-        ></a>
-      </div>
-      <br />
+
       <div class="chapter-title" id="chapter-title">Loading chapter...</div>
+
       <div id="chapter-body">Loading chapter...</div>
+
       <div class="nav-buttons">
-        <a href="#" id="prev-chapter" onclick="loadChapter('prev')"
-          ><i class="fas fa-chevron-left"></i> Previous</a
-        >
-        <a href="#" id="next-chapter" onclick="loadChapter('next')"
-          >Next <i class="fas fa-chevron-right"></i
-        ></a>
+        <a href="#" id="prev-chapter" onclick="loadChapter('prev')">
+          <i class="fas fa-chevron-left"></i> Previous
+        </a>
+        <a href="#" id="next-chapter" onclick="loadChapter('next')">
+          Next <i class="fas fa-chevron-right"></i>
+        </a>
       </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script>
-      // Toggle between light and dark modes and save the preference to localStorage
       function toggleDarkMode() {
         const currentTheme =
           document.documentElement.getAttribute("data-theme");
         const newTheme = currentTheme === "dark" ? "light" : "dark";
         document.documentElement.setAttribute("data-theme", newTheme);
-        localStorage.setItem("theme", newTheme); // Store theme in localStorage
+        localStorage.setItem("theme", newTheme);
       }
 
-      // Get query parameters from URL
       function getQueryParam(param) {
         const urlParams = new URLSearchParams(window.location.search);
         return urlParams.get(param);
       }
 
-      // Get chapter from URL or localStorage
       let currentChapter =
         getQueryParam("file") ||
         localStorage.getItem("currentChapter") ||
         "ch1.md";
 
-      // Update chapter content and save the chapter to localStorage
       function updateChapter() {
         fetch(`chapters/${currentChapter}`)
           .then((res) => res.text())
           .then((md) => {
             document.getElementById("chapter-body").innerHTML =
               marked.parse(md);
-            document.getElementById("chapter-body").style.opacity = 1; // Fade-in effect
+            document.getElementById("chapter-body").style.opacity = 1;
             document.getElementById("chapter-title").innerText = currentChapter
               .replace(".md", "")
               .replace("ch", "Chapter ");
             updateProgressBar();
-            localStorage.setItem("currentChapter", currentChapter); // Save chapter to localStorage
+            localStorage.setItem("currentChapter", currentChapter);
           })
           .catch(() => {
             document.getElementById("chapter-body").innerHTML =
@@ -206,19 +232,17 @@
           });
       }
 
-      // Update progress bar as the user scrolls
       function updateProgressBar() {
         const progressBar = document.getElementById("progress-bar");
-        const scrollPercentage =
-          (window.scrollY /
-            (document.documentElement.scrollHeight - window.innerHeight)) *
-          100;
-        progressBar.style.width = `${scrollPercentage}%`;
+        const scrollTop = window.scrollY;
+        const docHeight =
+          document.documentElement.scrollHeight - window.innerHeight;
+        const scrollPercent = (scrollTop / docHeight) * 100;
+        progressBar.style.width = `${scrollPercent}%`;
       }
 
-      // Navigation between chapters
       function loadChapter(direction) {
-        const chapterList = ["ch1.md", "ch2.md", "ch3.md"]; // List of chapters
+        const chapterList = ["ch1.md", "ch2.md", "ch3.md"];
         let currentIndex = chapterList.indexOf(currentChapter);
 
         if (direction === "next") {
@@ -232,13 +256,12 @@
         updateChapter();
       }
 
-      // Apply saved theme from localStorage on page load
       window.onload = () => {
         const savedTheme = localStorage.getItem("theme");
         if (savedTheme) {
           document.documentElement.setAttribute("data-theme", savedTheme);
         }
-        updateChapter(); // Load the saved/current chapter
+        updateChapter();
       };
 
       window.addEventListener("scroll", updateProgressBar);

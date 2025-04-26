@@ -8,98 +8,192 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <style>
       :root {
-        --bg-color: #fff;
-        --text-color: #000;
-        --card-bg: #f5f5f5;
+        --bg-color: #f8f8f8;
+        --text-color: #333;
+        --accent-color: #69b3a2;
+        --brand-color: #ffa365;
+        --card-bg: #fff;
       }
 
-      [data-theme="dark"] {
-        --bg-color: #121212;
-        --text-color: #e0e0e0;
-        --card-bg: #1e1e1e;
+      html {
+        scroll-behavior: smooth;
       }
 
       body {
         margin: 0;
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-family: "Roboto", sans-serif;
         background-color: var(--bg-color);
         color: var(--text-color);
         transition: background-color 0.3s, color 0.3s;
+        padding-top: 2rem;
       }
 
       header {
         padding: 1rem 2rem;
-        background-color: var(--card-bg);
+        background-color: transparent;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        border-bottom: 1px solid #ccc;
+        border-bottom: 1px solid var(--accent-color);
+        position: relative;
+        z-index: 10;
       }
 
-      .cover-image {
-        width: 100%;
-        height: 300px;
-        background-color: #ccc;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #555;
-        font-size: 1.5rem;
-      }
-
-      .story-info {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding: 1rem 2rem;
-      }
-
-      .description {
-        padding: 1rem 2rem;
-        font-size: 1.1rem;
-        line-height: 1.6;
-      }
-
-      .chapters {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 1rem;
-        padding: 1rem 2rem;
-      }
-
-      .chapter-card {
-        background-color: var(--card-bg);
+      header h1 {
+        font-family: "Playfair Display", serif;
+        font-size: 2.5rem;
+        color: var(--text-color);
         padding: 1rem;
-        border-radius: 8px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        transition: transform 0.2s;
-      }
-
-      .chapter-card a {
-        color: #000;
-        text-decoration: none;
-        font-weight: bold;
-      }
-
-      [data-theme="dark"] .chapter-card a {
-        color: #fff;
-      }
-
-      .chapter-card:hover {
-        transform: translateY(-2px);
       }
 
       .toggle-dark {
         cursor: pointer;
+        font-size: 1.5rem;
+        color: var(--accent-color);
+      }
+
+      .toggle-dark i {
+        color: var(--accent-color);
+      }
+
+      .cover-image {
+        height: 110vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        background-image: url("https://i.pinimg.com/736x/47/1d/ce/471dcefab936de05914ea0c23887311e.jpg");
+        background-position: center;
+        border-radius: 10px;
+        margin: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+
+      .cover-text {
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        padding: 20px 30px;
+        border-radius: 10px;
+        text-align: center;
+        width: 80%;
+      }
+
+      .read-more-button {
+        display: inline-block;
+        margin-top: 1rem;
+        background-color: var(--brand-color);
+        color: var(--text-color);
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: 600;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+      }
+
+      .read-more-button:hover {
+        background-color: #e68a52;
+      }
+
+      .story-info {
+        padding: 1rem 2rem;
         font-size: 1.2rem;
+        line-height: 1.6;
+        margin-bottom: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .story-info p {
+        font-size: 1.2rem;
+        color: #555;
+        font-weight: 500;
+        line-height: 1.5;
+      }
+
+      .description {
+        margin-bottom: 3rem;
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+        line-height: 1.7;
+      }
+
+      .chapters {
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+        padding: 2rem;
+      }
+
+      .chapter-card {
+        background-color: var(--card-bg);
+        padding: 1.5rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+      }
+
+      .chapter-card:hover {
+        transform: translateY(-5px);
+      }
+
+      .chapter-card a {
+        color: var(--text-color);
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.1rem;
+      }
+
+      .read-more {
+        font-weight: 500;
+        font-size: 0.9rem;
+        margin-top: 0.5rem;
+      }
+
+      .about-us {
+        border-top: 1px solid var(--accent-color);
+        background-color: var(--card-bg);
+        padding: 2rem;
+        border-radius: 10px;
+      }
+
+      .about-us h2 {
+        font-family: "Playfair Display", serif;
+        font-size: 2rem;
+      }
+
+      .about-us p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+      }
+
+      /* Dark Mode */
+      [data-theme="dark"] {
+        --bg-color: #1e1e1e;
+        --text-color: #e0e0e0;
+        --accent-color: #3d7a6f;
+        --card-bg: #2c2c2c;
+      }
+
+      .cover-text p {
+        color: #fff;
+        font-style: italic;
+        width: 90%;
+        margin: 0 auto;
       }
     </style>
   </head>
+
   <body>
     <header>
       <h1>The Lover’s Gambit</h1>
@@ -113,43 +207,63 @@
       <p><strong>Status:</strong> In Progress</p>
     </div>
 
+    <div class="cover-image">
+      <div class="cover-text">
+        <h1>The Lover's Gambit</h1>
+        <p>
+          "In the grandest game of hearts and power, the world sees a fool — but
+          only the Queen knows the truth."
+        </p>
+        <a href="#chapters" class="read-more-button">Start Reading</a>
+      </div>
+    </div>
+
     <div class="description">
       <p>
-        In a game of hearts and hidden intentions, every move counts.
-        <em>The Lover’s Gambit</em> follows a strategic mind navigating love,
-        lies, and loyalty in a world where nothing is quite what it seems.
+        Beneath a smile and careless charm, a mind sharper than any blade moves
+        in silence.
+        <em>The Lover’s Gambit</em> follows Ariv — a boy the world dismisses,
+        yet a grandmaster hidden in plain sight — as he navigates a ruthless
+        game of love, loyalty, betrayal, and power. Every move is calculated.
+        Every kindness, a strategy. Every love, a battlefield. In the end, there
+        will be only one victor and he has already chosen his Queen.
+      </p>
+    </div>
+    
+    <div class="chapters" id="chapters">
+      <div class="chapter-card">
+        <a href="chapter.html?file=ch1.md">Chapter 1</a>
+        <!-- <p class="read-more">read more...</p> -->
+      </div>
+
+      <div class="chapter-card">
+        <a href="chapter.html?file=ch2.md">Chapter 2</a>
+        <!-- <p class="read-more">read more...</p> -->
+      </div>
+
+      <div class="chapter-card">
+        <a href="chapter.html?file=ch3.md">Chapter 3</a>
+        <!-- <p class="read-more">read more...</p> -->
+      </div>
+    </div>
+
+    <div class="about-us">
+      <h2>About Us</h2>
+      <p>
+        Dive into the enigmatic world of The Lover's Gambit. This is the story
+        of strategy, love, and hidden intentions, all woven together in a
+        narrative that will keep you guessing.
       </p>
     </div>
 
-    <div class="chapters">
-      <!-- Chapter 1 -->
-      <div class="chapter-card">
-        <a href="chapter.html?file=ch1.md">Chapter 1: The Setup</a>
-        <span>April 20, 2025</span>
-      </div>
-
-      <!-- Chapter 2 -->
-      <div class="chapter-card">
-        <a href="chapter.html?file=ch2.md">Chapter 2: The Plan</a>
-        <span>April 21, 2025</span>
-      </div>
-
-      <!-- Add more chapters as needed -->
-      <div class="chapter-card">
-        <a href="chapter.html?file=ch3.md">Chapter 3: The Twist</a>
-        <span>April 22, 2025</span>
-      </div>
-    </div>
-
     <script>
+      // Toggle between light and dark modes and save the preference to localStorage
       function toggleDarkMode() {
         const currentTheme =
           document.documentElement.getAttribute("data-theme");
-        if (currentTheme === "dark") {
-          document.documentElement.setAttribute("data-theme", "light");
-        } else {
-          document.documentElement.setAttribute("data-theme", "dark");
-        }
+        const newTheme = currentTheme === "dark" ? "light" : "dark";
+        document.documentElement.setAttribute("data-theme", newTheme);
+        localStorage.setItem("theme", newTheme); // Store theme in localStorage
       }
     </script>
   </body>
