@@ -35,25 +35,28 @@
       }
 
       header {
-        padding: 1rem 2rem;
+        /* padding: 1rem 2rem; */
         background-color: transparent;
         display: flex;
         justify-content: space-between;
         align-items: center;
         border-bottom: 1px solid var(--accent-color);
-        position: relative;
+        position: sticky;
+        top: 0;
+        backdrop-filter: blur(10px);
         z-index: 10;
       }
 
       header h1 {
         font-family: "Playfair Display", serif;
-        font-size: 2.5rem;
+        font-size: 2rem;
         color: var(--text-color);
         padding: 1rem;
       }
 
       .toggle-dark {
         cursor: pointer;
+        margin-right: 30px;
         font-size: 1.5rem;
         color: var(--accent-color);
       }
@@ -71,8 +74,10 @@
         position: relative;
         background-image: url("cover.png");
         background-position: center;
-        background-size: contain; /* <--- this is the magic */
-        background-repeat: no-repeat; /* <--- prevent repeating */
+        background-size: contain;
+        /* <--- this is the magic */
+        background-repeat: no-repeat;
+        /* <--- prevent repeating */
         border-radius: 20px;
         margin: 10px;
         /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
@@ -85,7 +90,8 @@
         padding: 20px 30px;
         border-radius: 10px;
         text-align: center;
-        width: 80%;
+        /* width: 80%; */
+        margin: 20px;
       }
 
       .read-more-button {
@@ -133,9 +139,20 @@
         margin-top: 2rem;
         margin-bottom: 4rem;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        /* grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); */
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 1.5rem;
-        padding: 2rem;
+        padding: 1rem;
+        height: 700px;
+        overflow-y: scroll;
+        /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+        /* border-radius: 10px; */
+        /* background-color: #e4e7ff; */
+      }
+
+      .chapters a {
+        text-decoration: none;
+        color: var(--text-color);
       }
 
       .chapter-card {
@@ -143,17 +160,18 @@
         justify-content: space-between;
         background-color: var(--card-bg);
         padding: 1rem;
-        padding-top: 30px;
+        padding: 10px 20px;
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s ease;
+        transition: transform 0.3s ease, background-color 0.8s ease;
       }
 
       .chapter-card:hover {
+        background-color: var(--accent-color);
         transform: translateY(-5px);
       }
 
-      .chapter-card a {
+      .chapter-card h2 {
         color: var(--text-color);
         text-decoration: none;
         font-weight: 600;
@@ -163,7 +181,6 @@
       .read-more {
         font-weight: 500;
         font-size: 0.9rem;
-        margin-top: -0.1rem;
       }
 
       .about-us {
@@ -209,7 +226,7 @@
     </header>
 
     <div class="story-info">
-      <p><strong>Chapters:</strong> 3</p>
+      <p><strong>Chapters:</strong> 10</p>
       <p><strong>Status:</strong> In Progress</p>
     </div>
 
@@ -237,20 +254,75 @@
     </div>
 
     <div class="chapters" id="chapters">
-      <div class="chapter-card">
-        <a href="chapter.html?file=ch1.md">Chapter 1</a>
-        <p class="read-more">26 April</p>
-      </div>
+      <a href="chapter.html?file=ch1.md">
+        <div class="chapter-card">
+          <h2>Chapter 1</h2>
+          <p class="read-more">26 April</p>
+        </div>
+      </a>
 
-      <div class="chapter-card">
-        <a href="chapter.html?file=ch2.md">Chapter 2</a>
-        <p class="read-more">26 April</p>
-      </div>
+      <a href="chapter.html?file=ch2.md">
+        <div class="chapter-card">
+          <h2>Chapter 2</h2>
+          <p class="read-more">27 April</p>
+        </div>
+      </a>
 
-      <div class="chapter-card">
-        <a href="chapter.html?file=ch3.md">Chapter 3</a>
-        <p class="read-more">26 April</p>
-      </div>
+      <a href="chapter.html?file=ch3.md">
+        <div class="chapter-card">
+          <h2>Chapter 3</h2>
+          <p class="read-more">28 April</p>
+        </div>
+      </a>
+
+      <a href="chapter.html?file=ch4.md">
+        <div class="chapter-card">
+          <h2>Chapter 4</h2>
+          <p class="read-more">29 April</p>
+        </div>
+      </a>
+
+      <a href="chapter.html?file=ch5">
+        <div class="chapter-card">
+          <h2>Chapter 5</h2>
+          <p class="read-more">30 April</p>
+        </div>
+      </a>
+
+      <a href="chapter.html?file=ch6">
+        <div class="chapter-card">
+          <h2>Chapter 6</h2>
+          <p class="read-more">1 May</p>
+        </div>
+      </a>
+
+      <a href="chapter.html?file=ch7">
+        <div class="chapter-card">
+          <h2>Chapter 7</h2>
+          <p class="read-more">2 May</p>
+        </div>
+      </a>
+
+      <a href="chapter.html?file=ch8">
+        <div class="chapter-card">
+          <h2>Chapter 8</h2>
+          <p class="read-more">3 May</p>
+        </div>
+      </a>
+
+      <a href="chapter.html?file=ch9">
+        <div class="chapter-card">
+          <h2>Chapter 9</h2>
+          <p class="read-more">4 May</p>
+        </div>
+      </a>
+
+      <a href="chapter.html?file=ch10">
+        <div class="chapter-card">
+          <h2>Chapter 10</h2>
+          <p class="read-more">5 May</p>
+        </div>
+      </a>
     </div>
 
     <div class="about-us">
