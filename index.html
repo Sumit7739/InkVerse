@@ -63,16 +63,19 @@
       }
 
       .cover-image {
-        height: 110vh;
+        height: 90vh;
+        /* border: 1px solid; */
         display: flex;
         align-items: center;
         justify-content: center;
         position: relative;
-        background-image: url("https://i.pinimg.com/736x/47/1d/ce/471dcefab936de05914ea0c23887311e.jpg");
+        background-image: url("cover.png");
         background-position: center;
-        border-radius: 10px;
+        background-size: contain; /* <--- this is the magic */
+        background-repeat: no-repeat; /* <--- prevent repeating */
+        border-radius: 20px;
         margin: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
         overflow: hidden;
       }
 
@@ -136,8 +139,11 @@
       }
 
       .chapter-card {
+        display: flex;
+        justify-content: space-between;
         background-color: var(--card-bg);
-        padding: 1.5rem;
+        padding: 1rem;
+        padding-top: 30px;
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s ease;
@@ -157,7 +163,7 @@
       .read-more {
         font-weight: 500;
         font-size: 0.9rem;
-        margin-top: 0.5rem;
+        margin-top: -0.1rem;
       }
 
       .about-us {
@@ -229,21 +235,21 @@
         will be only one victor and he has already chosen his Queen.
       </p>
     </div>
-    
+
     <div class="chapters" id="chapters">
       <div class="chapter-card">
         <a href="chapter.html?file=ch1.md">Chapter 1</a>
-        <!-- <p class="read-more">read more...</p> -->
+        <p class="read-more">26 April</p>
       </div>
 
       <div class="chapter-card">
         <a href="chapter.html?file=ch2.md">Chapter 2</a>
-        <!-- <p class="read-more">read more...</p> -->
+        <p class="read-more">26 April</p>
       </div>
 
       <div class="chapter-card">
         <a href="chapter.html?file=ch3.md">Chapter 3</a>
-        <!-- <p class="read-more">read more...</p> -->
+        <p class="read-more">26 April</p>
       </div>
     </div>
 
