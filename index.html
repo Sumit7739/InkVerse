@@ -135,7 +135,18 @@
         line-height: 1.7;
       }
 
-      .chapters {
+      .chapters-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 10px;
+      }
+
+      .chapters-container {
+        width: 96%;
+        margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
         margin-top: 2rem;
         margin-bottom: 4rem;
         display: grid;
@@ -143,14 +154,13 @@
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 1.5rem;
         padding: 1rem;
-        height: 700px;
+        max-height: 700px;
         overflow-y: scroll;
         /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
-        /* border-radius: 10px; */
         /* background-color: #e4e7ff; */
       }
 
-      .chapters a {
+      .chapters-container a {
         text-decoration: none;
         color: var(--text-color);
       }
@@ -214,6 +224,27 @@
         width: 90%;
         margin: 0 auto;
       }
+
+      .sort-button {
+        position: relative;
+        margin: 0 auto;
+        max-width: 180px;
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        height: 50px;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+        cursor: pointer;
+        margin-top: 20px;
+        margin-left: 30px;
+        width: 90%;
+        transition: all 0.3s ease;
+      }
+
+      .sort-button:hover {
+        background-color: var(--accent-color);
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
+      }
     </style>
   </head>
 
@@ -253,7 +284,9 @@
       </p>
     </div>
 
-    <div class="chapters" id="chapters">
+    <button class="sort-button" onclick="sortChapters()"><p>Sort</p></button>
+
+    <div class="chapters-container" id="chapters">
       <a href="chapter.html?file=ch1.md">
         <div class="chapter-card">
           <h2>Chapter 1</h2>
@@ -342,6 +375,73 @@
         const newTheme = currentTheme === "dark" ? "light" : "dark";
         document.documentElement.setAttribute("data-theme", newTheme);
         localStorage.setItem("theme", newTheme); // Store theme in localStorage
+      }
+
+      function sortChapters() {
+        const chaptersContainer = document.getElementById("chapters");
+        const chapterCards = Array.from(
+          chaptersContainer.querySelectorAll(".chapter-card")
+        );
+
+        // Get the current sort order from the button's data attribute or set it to 'asc' initially
+        let sortOrder =
+          document.querySelector(".sort-button").getAttribute("data-sort") ||
+          "asc";
+
+        // Toggle the sort order
+        sortOrder = sortOrder === "asc" ? "desc" : "asc";
+
+        // Update the button's text and data attribute
+        document.querySelector(".sort-button").textContent = `Sort ${
+          sortOrder === "asc" ? "Asc" : "Desc"
+        }`;
+        document
+          .querySelector(".sort-button")
+          .setAttribute("data-sort", sortOrder);
+
+        // Sort the chapter cards based on the date
+        chapterCards.sort((a, b) => {
+          const dateA = parseDate(a.querySelector(".read-more").textContent);
+          const dateB = parseDate(b.querySelector(".read-more").textContent);
+          return sortOrder === "asc" ? dateA - dateB : dateB - dateA;
+        });
+
+        // Remove all chapter cards from the container
+        while (chaptersContainer.firstChild) {
+          chaptersContainer.removeChild(chaptersContainer.firstChild);
+        }
+
+        // Append the sorted chapter cards back to the container
+        chapterCards.forEach((card) => {
+          const link = document.createElement("a");
+          link.href = card.parentNode.href; // Preserve the original link
+          link.appendChild(card); // Append the card to the new link
+          chaptersContainer.appendChild(link); // Append the link to the container
+        });
+      }
+
+      function parseDate(dateString) {
+        const [day, monthName] = dateString.split(" ");
+        const month = getMonthNumber(monthName);
+        return new Date(new Date().getFullYear(), month, parseInt(day));
+      }
+
+      function getMonthNumber(monthName) {
+        const months = [
+          "January",
+          "February",
+          "March",
+          "April",
+          "May",
+          "June",
+          "July",
+          "August",
+          "September",
+          "October",
+          "November",
+          "December",
+        ];
+        return months.indexOf(monthName);
       }
     </script>
   </body>
