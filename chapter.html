@@ -214,6 +214,8 @@
         localStorage.getItem("currentChapter") ||
         "ch1.md";
 
+      let chapterFiles = []; // We will load this from index.json
+
       function updateChapter() {
         fetch(`chapters/${currentChapter}`)
           .then((res) => res.text())
@@ -243,103 +245,49 @@
       }
 
       function loadChapter(direction) {
-        fetch("chapters/")
-          .then((response) => response.text())
-          .then((html) => {
-            const parser = new DOMParser();
-            const doc = parser.parseFromString(html, "text/html");
-            const chapterFiles = Array.from(doc.querySelectorAll("a"))
-              .map((a) => a.href.split("/").pop())
-              .filter((file) => file.endsWith(".md"))
-              .sort();
+        if (!chapterFiles.length) return;
 
-            let currentIndex = chapterFiles.indexOf(currentChapter);
+        let currentIndex = chapterFiles.indexOf(currentChapter);
 
-            if (direction === "next") {
-              const nextButton = document.getElementById("next-chapter");
-              if (currentIndex === chapterFiles.length - 1) {
-                // Last chapter
-                nextButton.innerHTML = `<i class="fas fa-info-circle"></i> Info`;
-                nextButton.onclick = () => {
-                  window.location.href = "index.html";
-                };
-                nextButton.href = "index.html";
-                return; // Stop further processing
-              } else {
-                nextButton.innerHTML = `Next <i class="fas fa-chevron-right"></i>`;
-                 nextButton.onclick = () => { loadChapter('next') }
-                 nextButton.href ="#";
-                currentIndex = currentIndex + 1;
-              }
-            } else if (direction === "prev") {
-              currentIndex =
-                (currentIndex - 1 + chapterFiles.length) % chapterFiles.length;
-            }
+        if (direction === "next") {
+          if (currentIndex === chapterFiles.length - 1) {
+            window.location.href = "index.html";
+            return;
+          }
+          currentIndex = (currentIndex + 1) % chapterFiles.length;
+        } else if (direction === "prev") {
+          currentIndex =
+            (currentIndex - 1 + chapterFiles.length) % chapterFiles.length;
+        }
 
-            currentChapter = chapterFiles[currentIndex];
-            updateChapter();
-          })
-          .catch((error) => {
-            console.error("Error fetching chapter list:", error);
-            document.getElementById(
-              "chapter-body"
-            ).innerHTML = `<p>Failed to fetch chapter list</p>`;
-          });
+        currentChapter = chapterFiles[currentIndex];
+        updateChapter();
       }
 
-      window.onload = () => {
+      async function init() {
         const savedTheme = localStorage.getItem("theme");
         if (savedTheme) {
           document.documentElement.setAttribute("data-theme", savedTheme);
         }
-        updateChapter();
-      };
-      
-       window.addEventListener("load", () => {
-        // Ensure the loadChapter function runs after the page is fully loaded
-        loadChapter(null); // Initial load
-        });
 
+        try {
+          const res = await fetch("chapters/index.json");
+          chapterFiles = await res.json();
+
+          if (!chapterFiles.includes(currentChapter)) {
+            currentChapter = chapterFiles[0];
+          }
+
+          updateChapter();
+        } catch (err) {
+          console.error("Failed to load chapters:", err);
+          document.getElementById("chapter-body").innerHTML =
+            "<p>Failed to load chapters list.</p>";
+        }
+      }
+
+      window.addEventListener("DOMContentLoaded", init);
       window.addEventListener("scroll", updateProgressBar);
-    </script>
-     
-    <script>
-       window.addEventListener("DOMContentLoaded", () => {
-       fetch("chapters/")
-          .then((response) => response.text())
-          .then((html) => {
-            const parser = new DOMParser();
-            const doc = parser.parseFromString(html, "text/html");
-            const chapterFiles = Array.from(doc.querySelectorAll("a"))
-              .map((a) => a.href.split("/").pop())
-              .filter((file) => file.endsWith(".md"))
-              .sort();
-               const nextButton = document.getElementById("next-chapter");
-               if(chapterFiles.length > 0){
-                 const currentChapterIndex = chapterFiles.indexOf(currentChapter);
-                  if (currentChapterIndex === chapterFiles.length - 1) {
-                  // Last chapter
-                     nextButton.innerHTML = `<i class="fas fa-info-circle"></i> Info`;
-                     nextButton.onclick = () => {
-                       window.location.href = "index.html";
-                     };
-                     nextButton.href = "index.html";
-                } else {
-                  nextButton.innerHTML = `Next <i class="fas fa-chevron-right"></i>`;
-                   nextButton.onclick = () => { loadChapter('next') }
-                   nextButton.href ="#";
-                }
-                
-               }
-              
-           
-          })
-          .catch((error) => {
-            console.error("Error fetching chapter list:", error);
-           
-          });
-        
-       });
     </script>
   </body>
 </html>
