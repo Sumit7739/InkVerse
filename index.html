@@ -67,6 +67,7 @@
 
       .cover-image {
         height: 90vh;
+        /* width: 450px; */
         /* border: 1px solid; */
         display: flex;
         align-items: center;
@@ -75,9 +76,7 @@
         background-image: url("cover.png");
         background-position: center;
         background-size: contain;
-        /* <--- this is the magic */
         background-repeat: no-repeat;
-        /* <--- prevent repeating */
         border-radius: 20px;
         margin: 10px;
         /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
@@ -86,11 +85,11 @@
 
       .cover-text {
         background-color: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(5px);
         color: #fff;
         padding: 20px 30px;
         border-radius: 10px;
         text-align: center;
-        /* width: 80%; */
         margin: 20px;
       }
 
@@ -123,9 +122,18 @@
 
       .story-info p {
         font-size: 1.2rem;
-        color: #555;
+        color: #000000;
         font-weight: 500;
         line-height: 1.5;
+        border: 1px solid #b1b1b1;
+        padding: 8px 20px;
+        border-radius: 30px;
+      }
+
+      /* add dark mode for story-info p that changes text color */
+      [data-theme="dark"] .story-info p {
+        color: #e4e1e1;
+        border: 1px solid #7a7a7a;
       }
 
       .description {
@@ -320,42 +328,42 @@
         </div>
       </a>
 
-      <a href="chapter.html?file=ch5">
+      <a href="chapter.html?file=ch5.md">
         <div class="chapter-card">
           <h2>Chapter 5</h2>
           <p class="read-more">30 April</p>
         </div>
       </a>
 
-      <a href="chapter.html?file=ch6">
+      <a href="chapter.html?file=ch6.md">
         <div class="chapter-card">
           <h2>Chapter 6</h2>
           <p class="read-more">1 May</p>
         </div>
       </a>
 
-      <a href="chapter.html?file=ch7">
+      <a href="chapter.html?file=ch7.md">
         <div class="chapter-card">
           <h2>Chapter 7</h2>
           <p class="read-more">2 May</p>
         </div>
       </a>
 
-      <a href="chapter.html?file=ch8">
+      <a href="chapter.html?file=ch8.md">
         <div class="chapter-card">
           <h2>Chapter 8</h2>
           <p class="read-more">3 May</p>
         </div>
       </a>
 
-      <a href="chapter.html?file=ch9">
+      <a href="chapter.html?file=ch9.md">
         <div class="chapter-card">
           <h2>Chapter 9</h2>
           <p class="read-more">4 May</p>
         </div>
       </a>
 
-      <a href="chapter.html?file=ch10">
+      <a href="chapter.html?file=ch10.md">
         <div class="chapter-card">
           <h2>Chapter 10</h2>
           <p class="read-more">5 May</p>
@@ -448,6 +456,15 @@
         ];
         return months.indexOf(monthName);
       }
+
+      async function init() {
+        const savedTheme = localStorage.getItem("theme");
+        if (savedTheme) {
+          document.documentElement.setAttribute("data-theme", savedTheme);
+        }
+      }
+
+      window.addEventListener("DOMContentLoaded", init);
     </script>
   </body>
 </html>

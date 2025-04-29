@@ -1,423 +1,355 @@
-INT. LIVING ROOM – MORNING
+**She:** So what happened next? How far did you even go with her?
 
-Fade in from black. A soft hum of wind weaves through the open window. The room is bathed in the golden hue of late morning sunlight—beams slicing through dusty air, falling over the quiet chaos of a lived-in space.
+**He:** Nowhere, really. I never tend to get intimate with anyone.
 
-It's Sunday.
-The sun is already high in the sky, casting its warmth on the sleepy world below. Inside the dim room, Vir, Ariv, and DK are sprawled across couches and mattresses like fallen warriors after battle. Blankets tangled, limbs stretched out in dramatic disarray. They sleep like corpses — peaceful, heavy, and unaware.
+She leans back into the chair, arms folding across her chest. One brow arches, slow and skeptical—like she’s scanning a glitch in a program.
 
-A gust of wind slams the loose window shut.
-CLACK.
+**She:** So… she’s just like me. Just existing there.
 
-The sharp sound echoes through the silent room.
+**He:** Damn, that kinda stings when you put it like that.
 
-Vir stirs.
-He groans softly, eyes fluttering open. His vision blurs into focus as he turns toward the wall clock — 11:30. He sighs and sits up slowly, his hair messy, eyes puffy, the kind of face that tells stories of last night’s chaos.
+He scratches his neck, eyes flicking away for a second, then back.
 
-His gaze falls on his sleeping brothers-in-arms.
-Something sparks behind his eyes. A tiny smirk blooms.
+**She:** Well, it’s true. You never did anything with any of them. The childhood one ghosted you. The second was long distance—so, hands-off. And this one? You’re saying you didn’t even kiss?
 
-He carefully lifts DK's hand and drapes it over his own shoulder.
-Then, shifts DK’s leg and lays it provocatively over Ariv’s back.
+**He:** Nope.
 
-With the gentlest effort, he lifts a half-sleeping Ariv and drops him onto DK’s lap.
+**She (mock gasps):** What a waste. And here I thought you could become a legendary playboy, charming girls into bed with just a smile. But no—turns out, you haven’t even kissed anyone. Are you sure you’re not… I dunno, impotent? Or maybe gay?
 
-A tableau of pure scandal.
+She leans in slightly with the last line, grin teasing but eyes sharp, watching his reaction closely.
 
-He steps back — like a sculptor admiring his masterpiece.
-Click.
-He snaps a photo.
-The grin doesn’t leave his face.
+**He (deadpan):** Okay, now you’re just being dramatic. I’m not gay. I… verified.
 
-Cut to:
-INT. BATHROOM – CONTINUOUS
+**She (leans forward, curious):** Verified? How?!
 
-Vir stands at the sink, hands on the edges, staring into the mirror.
-There’s a dark circle beneath the eye — not dramatic, but enough to show.
+Her tone drops in pitch, less mocking now—genuinely intrigued. One leg swings slowly beneath the chair.
 
-He studies his reflection like it’s someone else. The wind whispers through the window again. His fingers twitch, then he turns on the tap and splashes water over his face — like washing away a mask, or wiping the slate clean.
+**He:** It's not what you're imagining. I just… wondered why I wasn’t feeling “that way” towards anyone. So one day, I watched some gay porn. Just to test. Turns out, nope—didn't like it. Actually messed me up for a few days. I couldn’t even watch regular stuff after that.
 
-Back to the living room.
-The place is unusually clean today.
-No empty bottles. No chaos. Just… stillness.
+His voice is calm but a little self-conscious, like recounting a private science experiment gone wrong.
 
-Vir steps toward the small table, sits quietly, picks a cigarette from a crumpled pack.
-He lights it with a practiced flick.
-Drag.
-Exhales slowly, eyes drifting toward the window.
+**She:** Hmm… interesting. Still, I think I need to verify this personally. I mean, imagine—we get married and find out you’re broken. No kids. Our families looking at us like we’re cursed.
 
-Wide shot: A mountain view.
-Peaceful. Trees dancing. A bird’s nest rests just outside the window.
-Tiny hatchlings chirp, their beaks wide open. The mother bird returns, dropping food into each mouth.
+Her words are light, but she doesn’t break eye contact. Joking, sure—but not *just* joking.
 
-Vir watches, flicking the ash gently into the tray.
-There’s a quiet sadness in his gaze.
+**He (half-laughing):** You might have a point. Maybe we should verify.
 
-The laptop screen glows.
-He leans over, types something. Checks something else. Then stares again.
+She smirks—he’s walked right into it. She sits up straighter, eyes glinting.
 
-Ariv stirs behind him — already awake for a while.
-He’s watching Vir, silently.
-There’s a calm to him, a kind of amused curiosity, like he’s watching someone else’s movie.
+**She:** Great. Strip.
 
-Ariv (softly):
-“You look quite sophisticated right now.”
+**He (blinks):** What?
 
-Vir flinches slightly, twisting around. He hadn’t noticed anyone awake.
-He stares at Ariv, caught off guard.
+**She (unfazed):** Let’s get this over with. Gotta check if the machinery’s functional.
 
-Ariv:
-“No need to feel shy, we’re both men here.”
+She waves her hand like it’s an official request form, her tone dry but relentless.
 
-He glances over at DK — limbs still flopped in offensive positions.
+**He:** Alright—wait, hold on. What the hell are you trying to do?
 
-Ariv (grinning):
-“Ah… I don’t know about him though.”
+He leans back instinctively, posture stiffening.
 
-He yawns, stretches, reaches for his phone.
+**She:** Quality inspection. Standard procedure.
 
-Sudden panic.
-30+ messages. 10+ missed calls. All from Swasti.
+**He:** It works, okay? I checked it last night. Fully operational.
 
-Ariv (under breath):
-“Shit.”
+He lifts both hands like he’s surrendering to a police search.
 
-He starts reading.
-His face morphs through emotions like a TikTok filter: panic, regret, confusion, dread.
+She curses under her breath, mostly to herself, her plan slipping through her fingers.
 
-Vir watches, amused.
-A chuckle slips from him.
+**She:** Yeah, but I haven’t verified it.
 
-Vir (teasing):
-“Ah... young love.”
+She starts moving toward him, slow and deliberate.
 
-Ariv gets up and bolts toward the bathroom.
-Vir, finishing his smoke, walks over to the bed.
+**He:** Why do you need to verify it?
 
-His shadow looms over DK.
-A mischievous grin curls at the corners of his mouth.
+**She:** Because I’m your girlfriend. I have the right to know everything about you.
 
-Vir (mocking whisper):
-“You were acting high and mighty last night, huh? Let’s see... what should I do with you?”
+**He:** You won’t be my girlfriend for long. We’re literally talking about breaking up.
 
-Ariv exits the bathroom, mid-step, and freezes.
-The scene looks straight out of a horror movie.
+**She:** Yet. We're talking. Until then, I still have girlfriend privileges.
 
-Ariv (whispers):
-“Well... DK is fucked. He really teased him a lot yesterday.”
+While she’s talking, she casually leans in, eyes fixed on his belt like a predator eyeing weak armor. Her fingers move subtly.
 
-Vir glances at him.
+**He (startled):** Hey! No! I’m not mentally prepared for this!
 
-Ariv (hands raised):
-“I don’t know anything. I didn’t see anything. You can carry on.”
+He jerks backward with a speed that betrays panic, nearly toppling the chair. His foot bangs into the nearby table.
 
-Vir’s smile turns creepy.
-Not a friendly one. A “you messed with the wrong guy” kind of smile.
+**She:** You’re acting like a maiden right now.
 
-Ariv backs away, grabs a cig, and perches on the chair like an innocent bystander.
+**He:** And you’re acting like a pervert out for my body!
 
-Vir plunges his hand under the mattress — with surprising strength, he yanks it, flipping DK’s limp body like a pancake.
+**She (grinning):** Hmmm, yeah. Hahahaha!
 
-DK (half-screaming):
-“Who the fuck did that?!”
-
-He sees Vir. Then Ariv.
-
-Ariv shrugs, gesturing like “I warned you.”
-
-DK:
-“Hey, we can talk! No need for viol—”
-Pillow.
-Whap. Right in the face.
-
-DK (muffled):
-“Ah! Hey! Stop! We can talk! Not the face, man!”
-
-Ariv is laughing now. This is peak entertainment.
-
-DK:
-“Why are you laughing?! Help me, damn it!”
-
-Vir turns to Ariv.
-
-Ariv (deadpan):
-“I’m not moving from here. You’re on your own.”
-
-Vir stops hitting.
-DK breathes in relief — maybe the nightmare is over.
-
-DK:
-“Thank God... what’s wrong with you? Senile already? Hitting me first thing in the morning—”
-
-Vir (calm but commanding):
-“Get up and start doing the dishes.”
-
-DK (blinking):
-“…Huh?”
-
-Vir (a little louder):
-“Did you hear me or not? Or should I really get serious?”
-
-DK gets up like a school kid being sent to detention.
-Grumbling. Groaning. But moving.
-
-He drags his feet toward the kitchen.
-
-Vir exhales.
-Long. Deep. Satisfying.
-
-He walks back to the window, staring outside — the birds still chirping, the wind still whispering, the world carrying on as if nothing happened.
-
-Fade out.
+**He (half out the door, mock yelling):** Someone save me from this predator!
 
 ---
 
-### **INT. LIVING ROOM – LATER THAT AFTERNOON**
+She steps forward with casual menace, one brow raised like a villain in slow motion. Before he can react, she plants a palm on his chest and nudges him backward—playful, but firm.
 
-The sun has shifted its position, casting mellow golden light that filters through the worn-out curtains, painting soft patterns on the floor. Dust floats lazily in the air like snow suspended in time. The room is calm now, like the calm after a storm—only the distant chirps of birds and the low hum of the ceiling fan fill the silence.
+The balcony door swings shut behind him. *Click.*
 
-Ariv is hunched over the laptop at the dining table, a soft frown creasing his forehead as the light from the screen reflects off his glasses. He scrolls slowly, fingers occasionally pausing, as if measuring the weight of each line he reads. Vir sits cross-legged on the floor across from him, clutching a pillow like armor, his posture slouched, eyes half-lidded from lack of sleep. The dark circles under his eyes look even more prominent in the soft sunlight. DK is tiptoeing around like a restless cat, sipping something warm from a chipped mug, occasionally peeking over Ariv’s shoulder to annoy him.
+He turns around. The narrow balcony. The quiet street below. The last blush of daylight fading into navy.
 
-**Ariv** *(without looking up)*:\
-So… have you reviewed it yet?
+He exhales. A tiny cloud in the evening air.
 
-**Vir** *(rubbing his eye, voice still rough from sleep)*:\
-No. There’s still a large chunk missing. But I’m gonna sort what we do have—piece by piece.
+**He (muttering):** She wouldn’t actually try undressing me out here… would she?
 
-**DK** *(flops onto the couch dramatically, one arm over his forehead)*:\
-Well, what did you expect? Rome wasn’t burned in one night.
+His eyes flick back to the glass.
 
-**Vir** *(raising an eyebrow)*:\
-You mean "built"?
+**He:** …Wait. She might.
 
-**DK** *(points a lazy finger at him, dead serious)*:\
-Nah. I meant what I said.
+He edges toward the door, eyes narrowing. She’s leaning just on the other side, framed in the soft yellow light of the room.
 
-Ariv snorts, a quiet laugh escaping before he catches himself. He leans back slightly and stretches, a few soft cracks from his spine. His eyes wander to the window—the sky outside is soft blue, clouds moving slowly like they're in no rush to be anywhere.
+**He:** What do you want?
 
-**Ariv** *(calmly)*:\
-No need to rush. I still have some time left.
+Her voice is quieter now, the playfulness dialed down, face unreadable behind the pane.
 
-His voice trails off like a drifting thought. Vir and DK both pause for a moment, exchange a subtle glance, and then simply nod in quiet agreement.
+**She:** I want you.
 
-**Vir** *(dryly)*:\
-Mhm. Time... the one luxury we never had, but somehow always abuse.
+His jaw clenches, just slightly.
 
-**DK** *(leaning forward, squinting)*:\
-Hey, one thing’s been bugging me—how the hell did you get access to the college server? I’ve tried cracking that before and failed.
+**He:** Yeah… that’s not something I can give. Pick something else.
 
-Ariv looks up at him with an amused smile, a hint of mockery dancing in his eyes.
+She doesn’t flinch. Doesn’t blink. Just lifts a finger and points down at his waist.
 
-**DK** *(frowning)*:\
-Don’t smile. Your teeth look yellow.
+**She:** Then I want that.
 
-**Ariv** *(smirking)*:\
-Just say you're jealous.
+**He:** That’s off-limits.
 
-**DK** *(defensive)*:\
-I’m not.
+**She:** Then I’ll take it by force.
 
-**Ariv** *(tilts head, with mock sincerity)*:\
-It’s a long story. I’ll tell you some other day.
+She gives a half-smile, but there’s an ache underneath it now, hard to name.
 
-**DK** *(groaning dramatically, throwing his head back)*:\
-You see that? Now he’s hiding things from us.
+He stares back for a moment, then drops his act with a tired breath. He steps forward—no longer playing along, no longer dodging.
 
-**Vir** *(nodding along, equally dramatic)*:\
-Tragic. We’ve lost him to the dark side.
+**She (raising a brow):** So… you’ve surrendered?
 
-**Ariv** *(grinning)*:\
-I’m not hiding anything. I’m just... not in the mood.
+But he doesn’t answer.
 
-**Vir** *(leaning slightly forward, studying Ariv)*:\
-So... how was he?
+His footsteps are soft, slow, like walking through fog. There’s no threat in his body. Just something stripped bare.
 
-**Ariv** *(pausing, then softly)*:\
-More than what he shows.
+Her smirk fades. She moves aside, unlocking the door without a word. There’s no more chase left in her.
 
-**Vir** *(brows furrowed)*:\
-Hmm. It’ll be difficult then.
+He crosses the threshold and wraps his arms around her. Firm. Quiet. Final.
 
-**Ariv** *(quietly, resolute)*:\
-Yeah. Difficult, but not impossible.
+She froze for half a second, not understanding… then melted into it without asking questions. Her cheek brushed his shoulder, breath catching for just a moment before settling. Her arms slid around him gently, like it was the most natural thing in the world.
 
-Vir watches him for a beat longer, like trying to read something unspoken in his face.
+Her cheek finds his shoulder. Her breath evens out against his neck.
 
-**Vir**:\
-You used to say that before, too... So, are you sure about her?
+**She (softly):** Don’t worry. Nothing’s gonna happen. And even if it does, we’ll face it together. I’m not letting go.
 
-DK, who was aimlessly stirring his drink with his finger, perks up slightly, curious.
+**He (murmuring):** I believe you. Just… don’t leave me like the others.
 
-**Ariv** *(leaning back in the chair, looking up at the ceiling)*:\
-Back then, I was just a spectator. I watched as they were snatched away, right in front of me. And I did nothing.
+**She:** That’s not happening. You’re stuck with me now. Like a leech.
 
-**DK** *(without sarcasm for once)*:\
-What could you have even done? Fight their parents? Beg them not to marry her off?
+He chuckles, low and warm, fingers tightening slightly on her spine.
 
-Ariv turns to him, eyes twinkling like he’s halfway between joking and dead serious.
+---
 
-**Ariv**:\
-Yeah. I thought about that yesterday... Maybe cry while begging. More effective that way.
+Later, they returned to the room, the night quieter now—like even time had slowed down to watch them.
 
-DK bursts into laughter. Vir chuckles and reaches out, gently patting Ariv’s head.
+She sat over him, sideways on the chair, legs curled gently, body relaxed. He pulled her in close, arms around her like instinct—like they’d always belonged there. It was their first time being this physically close: skin brushing, breaths syncing, her hair occasionally tickling his face in the soft breeze drifting in from the open window.
 
-**Vir** *(mock warning)*:\
-You should keep your distance from him. His influence is clearly spreading.
+No words. Just that stillness. That hush. That fragile kind of closeness neither of them dared to break.
 
-**DK** *(feigning offense)*:\
-Hey, what do you mean by that?
 
-The room fills with laughter. The tension breaks like ice melting. Vir picks up the cigarette pack from the table, only two left. He lights one and silently offers the other to Ariv, who accepts it.
+Her perfume—soft and floral—mixed with something uniquely her. It grounded him, and sent his thoughts into a haze he didn’t fully understand yet.
 
-The flame from the lighter flickers against Ariv's face. He takes a drag, eyes narrowing as he inhales. A few quiet moments pass. They sit in silence—three friends, worn out, stretched thin, but still here.
+She smiled faintly, watching him absentmindedly play with the strands of her hair as he spoke. That smile… it sent a flutter through him.
 
-Ariv exhales the smoke slowly, gesturing with the cigarette toward the window.
+**He (softly):** “So yeah, just like that… we began dating. She proposed, we met often at college. Nothing felt drastically different for me, but for her… everything shifted. She looked at me more often, smiled more. We started sharing lunch under a tree—simple meals, split in halves. My sister would show up sometimes, and we’d act like nothing was going on. But I think she had a hunch. She knew her friend was acting different.”
 
-**Ariv** *(calm, unwavering)*:\
-I’ve made up my mind. This time... I’ll write my own fate. Let’s see who has the power to snatch her away from me.
+She nodded, listening quietly, arms draped lazily over his shoulders. Her thumb brushed lightly against his collarbone, as if on autopilot.
 
-Vir and DK both look at him. For a moment, there’s no smirking, no teasing. Just quiet pride—and maybe even a bit of awe.
+**He (continuing):** “After class, we’d go to the park nearby—me, her, and my sister. It became our routine. Everything was just… calm. Sometimes, we’d see couples kissing—playing with their mouths.”
 
-They smile.
+**She (grinning):** “Wait. *Playing with mouths*? What even is that?”
 
-**FADE OUT.**
+**He (mock shocked):** “You’re surprisingly innocent, especially after what you tried earlier.”
 
-The room is basked in a warm amber glow, the sun slowly descending behind the mountains. Dust particles float lazily in the golden beams. A soft breeze wafts in through the half-open window, ruffling the curtain ever so slightly.
+She turned her head, puzzled. Their faces were just inches apart now.
 
-Ariv sits cross-legged on the rug, back against the sofa, lazily scrolling through his phone. The screen's reflection glints in his eyes—but then, something shifts. His body tenses. Just slightly. Like a shiver brushing past the spine.
+He reached up and touched her lips, a light press of his fingers, as if sketching the word he was about to say.
 
-He freezes. His thumb hovering mid-air. His expression morphs from casual to deeply alert—like prey sensing a predator before the growl.
+**He:** “It’s a French kiss. No hands involved. Just two people digging for treasure in each other’s mouths.”
 
-DK (sipping from his cup, watching him with mild curiosity):
-What happened? It's like a snake just crawled over you.
+**She (gagging playfully):** “Yuck! What the hell is that description? I feel like throwing up now.”
 
-Vir (sits back on his elbows, puffing smoke toward the ceiling, eyes narrowed):
-...what now?
+**He (nodding):** “Exactly the feeling I get when people talk about kissing.”
 
-Ariv (barely above a whisper):
-She called me.
-He swipes. Swipes again.
-More than ten times. And… she’s sent a whole essay worth of messages.
-He slumps slightly, rubbing his forehead.
-Ah, I am so fucked.
+**She:** “You make it sound like a health hazard.”
 
-DK (snorts):
-Yeah. You’re seriously fucked right now.
+**He (grinning like a mad scientist):** “It *is*! A germ-sharing ritual.”
 
-Vir (without breaking eye contact with the drifting clouds):
-Every day’s a funeral, huh.
+She smirked—a slow, dangerous one.
 
-Ariv dials the number. The ringing starts. His legs bounce in place out of nervous habit. DK leans in, nosy.
+He noticed. But too late.
 
-Ariv:
-She's not picking up.
+“Before he could piece it together, she was already moving—slipping into his lap like it was the most natural thing in the world.”
 
-DK (mock-concerned):
-Maybe she’s been kidnapped.
+He froze.
 
-Ariv (shoots a glare so sharp it could cut glass)
+Tried to think, to say something clever—but his brain short-circuited. And just like that, all defenses dropped.
 
-The call connects.
+They kissed.
 
-Ariv (suddenly alert):
-Hello?
-Hello, you there?
+Slowly at first, then deeper—tongues meeting not in battle, but in exploration. He let instinct take over for the first time, and she met it halfway. Warm. Hungry. Gentle. Wild.
 
-He strains to hear. The background hum of traffic filters through.
+When they finally pulled apart, she was grinning.
 
-Ariv:
-I can hear car sounds… If you're not in the mood to talk, that’s okay. I’ll cut the call—
+**She:** “Hmm… I can now confirm, your machine isn’t faulty.”
 
-Swasti (voice cuts in like thunder):
-So you still have the guts to call?
+He blinked, still dazed.
 
-Ariv (eyes widening):
-I was sleeping…
+**She (with a wicked smile):** “I also feel something rising… and it’s definitely not the Shield Hero.”
 
-Swasti (flatly):
-Who sleeps this late?
+He groaned, throwing his head back.
 
-Ariv glances around the room. DK does a mocking halo pose. Vir stifles a laugh.
+**He:** “Another soldier lost… without even drawing a sword.”
 
-Ariv (casually):
-We all three.
+She leaned in, resting her forehead against his.
 
-Swasti:
-Oh. I thought you were dead.
+**She (softly):** “Don’t worry. I’ll heal you after battle.”
 
-Ariv (grinning):
-We recently came into a relationship and you already want me dead?
+She pulled back just enough to see his face, her tone shifting from playful to curious.
 
-A pause. A thick one.
+**She:**  
+"So… how was it? Your first kiss?"
 
-Swasti (with a sigh):
-There’s no point arguing with you.
-Where are you right now?
+He looked at her for a moment—quiet, blinking slowly, as if trying to hold onto the feeling a little longer.
 
-Ariv:
-The usual.
+**He:**  
+"I don't even have the words. But I will say this—fuck those scientists and doctors who said kissing is unhygienic and unhealthy. It's the most beautiful thing I've ever felt. Honestly, I think they just never got to experience it themselves, so they decided to slander it. And like an idiot, I believed them."
 
-Swasti:
-I’m coming. We need to talk.
+**She (laughing):**  
+"You really let it all out, huh? Well then, from now on, kiss me more often. I'm not taking the lead every single time."
 
-Ariv (eyebrows lifting):
-Oh, okay.
-By the way… where are you right now?
+**He (a bit shy):**  
+"Yes, my lady… as you wish."
 
-Swasti (calmly):
-Near the turn.
+**She (smiling warmly):**  
+"I'm glad you never gave it to anyone else. Thank them, actually, for not stealing it from me. I’m the one who got to have your first time… that’s something special."
 
-Ariv (instantly):
-Good. Get me a pack of cigs.
+(She leans in a little closer, her voice lower now, eyes searching his face. The smile fades slightly.)
 
-Swasti (irritated):
-Don’t smoke that much. You’ll die of cancer.
+Her eyes lingered on his lips for a beat longer than necessary. When she finally spoke, her voice was softer, more careful—like she was walking on something fragile.
 
-Ariv (pretending to be moved):
-You really are hellbent on killing me now.
-And people who smoke don’t die of cancer.
+**She:**  
+"So…  Why did you two break up?"
 
-Swasti (already done with him):
-Then how do they die?
+**He** (quietly, eyes dropping to his lap):  
+"It was because of her. I kept telling her to focus on her studies, not lose sight of what matters… but after she proposed, it was like nothing else existed for her anymore. She stopped paying attention in class, kept daydreaming, glancing at me instead of at the board, always planning our next park visit or movie night instead of prepping for exams."
 
-Ariv (cheerfully morbid):
-They die from heart attacks.
+(He exhales a soft, frustrated sigh, fingers unconsciously tightening around hers.)
 
-Swasti (snaps):
-If you already know that, why are you still asking?!
+**He** (continuing, the weight of the memory in his voice):  
+"Then board exams hit. I passed with good grades… she failed. I tried to push her, to motivate her, helped her prepare for the compartment exam—but she failed again. Eventually… her father had enough. He got her married off."
 
-Ariv (mock tragic):
-Well, what’s the point of living when my life’s already fucked?
-My girlfriend is like a demon—I mean, angry all the time.
-Might as well aim for peace in the afterlife.
+(He looks down, hands clasped tightly, a bitter smile tugging at his lips, trying to keep the walls up but failing. She watches him closely, her fingers gently tracing the edge of his palm.)
 
-A silence. A dangerous one. Even the breeze seems to pause.
+**He** (half-laughing bitterly):  
+"I think I’m cursed. Everyone who falls in love with me ends up married… just not to me."
 
-Swasti (low, cold):
-Who are you calling demon?
-Don’t think I didn’t hear that.
-And how the fuck do you expect to go to heaven?
+(She stays quiet for a moment, her fingers now weaving through his. Her smile is teasing, but there’s a hint of sadness in her eyes.)
 
-Ariv (smirking, defiant):
-I don’t want to go where you’ll be present.
-I want peace, at least after my death.
+**She** (with a soft, teasing smile):  
+"Let’s see… your school crush ghosted you. The long-distance one got married. Now your college sweetheart too… Maybe it's my turn now?"
 
-The anger radiates from the phone like static. DK instinctively takes a step back. Vir slowly puts his cigarette down.
+**He** (staring at her in mock horror, but the humor doesn’t quite reach his eyes):  
+"And that’s exactly why I told you we should break up. I don’t want to watch it happen again. I can't go through that again."
 
-Swasti (gritted teeth):
-Just you wait… I’m coming.
+(She leans back slightly on his lap, her back resting against his legs. She gently plays with his fingers, her thumb grazing his knuckles. Her voice lowers, the mood shifting from playful to something softer, more contemplative.)
 
-Ariv (cheerfully unfazed):
-Don’t forget the cigs.
+**She** (quietly, her tone grounded, almost like a quiet confession):  
+"You know… sometimes I wonder if people like us are meant to last. Not because there’s something wrong between us… but because the world just doesn’t seem to allow it."
 
-Click. The call ends. The silence returns like a tide.
+**He** (eyes flickering to the floor, the weight of her words settling on him, his chest tight):  
+"Yeah. It’s like… every time I feel something real, it slips through my fingers. I hold on tight, but the world just finds a way to take it away."
 
-Vir stands up with a slow exhale, brushing ash off his pants.
+(She shifts slightly, lifting her chin to meet his gaze. Her eyes are steady, not full of pity, but with a quiet strength he can’t ignore.)
 
-Vir (to DK, calm but firm):
-It's better we leave.
+**She** (softly, with a knowing look):  
+"And still, you keep trying. Even when you told me to break up, I knew you didn’t want that… not really."
 
-DK (already grabbing his slippers):
-Yeah… he poked the hornet's nest.
-I don’t want to get stung.
+**He** (his voice softens, a sigh escaping as he tries to push down the flood of emotions rising in him):  
+"It’s not about wanting. It’s about preparing. If history repeats, then what’s the point of getting attached to something I might lose again?"
+
+(She sits up straighter now, moving her hand to his cheek, her thumb tracing the line of his jaw. Her gaze sharpens, yet there’s an unspoken tenderness in the way she holds him, as though she’s holding him not just physically, but emotionally.)
+
+**She** (softly, with conviction, her voice calm but fierce):  
+"But what if this time, history needs rewriting?"
+
+**He** (sighing, his voice barely a whisper, as though he’s speaking to himself more than her):  
+"That’s easy to say now. But time… time wears everything down. One day it’s distance. The next, it’s circumstances. Family. Careers. Expectations. You never know what hits you next."
+
+(She leans in, her forehead resting against his, her breath warm against his skin. For a moment, they’re just two people, together in silence, holding onto each other in a way neither of them had expected.)
+
+**She** (her voice barely audible, but filled with an unexpected certainty):  
+"And what if we get hit… and we don’t break?"
+
+(He pulls back just enough to look at her, surprised by her words. She’s not smiling now, her expression serious, grounded in a way he hasn’t seen before. She’s no longer just playing at this. She’s in it.)
+
+**He** (his voice thick with emotion, his gaze searching hers, as if trying to understand what she means):  
+"You really believe that?"
+
+(She doesn’t hesitate. Her eyes never leave his, her hands still on him, strong and warm. She leans in a fraction closer, her breath mingling with his.)
+
+**She** (softly, her words like a promise):  
+"I don’t believe it. I choose it. There’s a difference."
+
+(They both fall into silence, the weight of what she’s said hanging in the air between them. The breeze picks up again, brushing her hair over her face. He closes his eyes briefly, as if to steady himself, and she gently brushes the strands away with a tender touch.)
+
+**She** (with a small, playful laugh, the moment lightening for a heartbeat):  
+"You think I’m scared of a little bad luck? C’mon… I’ve already kissed you. That’s like signing a contract with fate."
+
+**He** (half-smiling, a quiet chuckle escaping, his gaze soft but still serious):  
+"Then we’re both doomed."
+
+**She** (grinning, her eyes sparkling with mischief):  
+"Then we’ll be doomed together."
+
+(There’s a pause—a beat of shared laughter, then the room quiets again. The heaviness of the conversation doesn’t feel like a burden anymore. It feels like a shared understanding, a connection that’s anchored them both.)
+
+**He** (softly, his voice almost reverent as he looks at her):  
+"You really mean it, don’t you?"
+
+**She** (nodding, her forehead still resting gently against his, her eyes closing for a moment):  
+"Every word. I’m not running. Not now. Not ever."
+
+(He lifts his hand, brushing the side of her face with the back of his fingers, his touch light but intentional. His thumb traces the curve of her lips, as if memorizing the feel of her.)
+
+**He** (barely audible, his voice thick with emotion):  
+"I never thought someone would stay."
+
+(She smiles at that, a warmth in her expression that makes his heart flutter.)
+
+**She** (smiling, a little teasing, a little tender):  
+"Then I’ll just have to keep proving you wrong."
+
+(She leans in, and this time the kiss is different. It’s slower, softer, deeper. No rush, no hesitation—just a silent promise. His hands hold her like she’s fragile, but also like she’s the most important thing in his world. Her fingers tangle in his hair, pulling him closer, her heart pounding against his chest as their lips meet in a kiss that feels like everything and nothing at once.)
+
+(When they finally part, their breaths are still tangled together, and she lingers just a heartbeat more, her hand on his chest before slowly pulling away. She rises from his lap, her movements slow, like she’s leaving something precious behind.)
+
+**She** (with a teasing grin, fixing her hair as she heads to the door):  
+"I should go. My roommate's already suspicious… and if she finds out I’m not in the dorm, she’ll think I’m out committing war crimes."
+
+**He** (half-laughing, his voice still thick with emotion):  
+"Tell her you were. Emotionally."
+
+**She** (grinning as she opens the door, her gaze softening as she looks back):  
+"Only on you."
+
+(She pauses in the doorway, looking back one last time, her eyes softer than ever before. For a moment, she’s not just teasing—she’s vulnerable, and it makes his chest ache.)
+
+**She** (her voice low, like she’s sharing something intimate):  
+"Don’t overthink tonight, okay? Just… hold onto how it felt."
+
+**He** (nodding, his eyes locked on her):  
+"I will. Promise."
+
+**She** (with a wink, her voice carrying a lightheartedness that contrasts with the depth of the moment):  
+"And maybe next time, you take the lead."
+
+And with that, she slips out of the room, her presence lingering in the air like the soft scent of her perfume. He watches the door for a long moment, still reeling, before leaning back in his chair. He closes his eyes, his heart racing, his mind swirling with a thousand thoughts. But there’s something in him, something hopeful, that wasn’t there before.
 
 ---
