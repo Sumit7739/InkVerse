@@ -65,13 +65,13 @@ header h1 {
 }
 
 .cover-text {
-  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 500px;
+  background-color: rgba(0, 0, 0, 0.281);
   backdrop-filter: blur(5px);
   color: #fff;
   padding: 20px 30px;
   border-radius: 10px;
   text-align: center;
-  margin: 20px;
 }
 
 .read-more-button {
@@ -280,18 +280,36 @@ header h1 {
   border: 1px solid #7a7a7a;
 }
 
-
 @media (max-width: 720px) {
   header {
-    padding: 0.5rem 1rem;
+    padding: 0.1rem 0.5rem;
     text-align: center;
   }
   header h1 {
     font-size: 1.5rem;
   }
   .cover-image {
-    height: 50vh;
+    height: 100vh;
     background-size: cover;
+  }
+
+  .cover-text {
+    margin-top: 500px;
+    width: 85%;
+    padding: 20px;
+  }
+
+  .cover-text h1 {
+    font-size: 1.5em;
+  }
+
+  .cover-text p {
+    width: 280px;
+    font-size: 1em;
+  }
+
+  .description p {
+    font-size: 1rem;
   }
   .story-info {
     flex-direction: column;
