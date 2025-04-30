@@ -19,10 +19,9 @@ body {
   padding-top: 2rem;
 }
 
-
 header {
-  padding-left: 2rem;
   background-color: transparent;
+  padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,7 +34,6 @@ header {
 
 header h1 {
   font-family: "Playfair Display", serif;
-  font-size: 2rem;
   color: var(--text-color);
   padding: 1rem;
 }
@@ -52,10 +50,10 @@ header h1 {
 }
 
 .cover-image {
-  height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 90vh;
   position: relative;
   background-image: url("cover.png");
   background-position: center;
@@ -95,9 +93,9 @@ header h1 {
 }
 
 .story-info {
+  display: flex;
   padding: 1rem 2rem;
   font-size: 1.2rem;
-  line-height: 1.6;
   margin-bottom: 1.5rem;
   display: flex;
   justify-content: space-between;
@@ -111,6 +109,13 @@ header h1 {
   border: 1px solid #b1b1b1;
   padding: 8px 20px;
   border-radius: 30px;
+  transition: all 0.7s ease;
+  cursor: pointer;
+}
+
+.story-info p:hover {
+  background-color: var(--accent-color);
+  color: #fff;
 }
 
 [data-theme="dark"] .story-info p {
@@ -122,6 +127,7 @@ header h1 {
   margin-bottom: 3rem;
   padding: 1rem 2rem;
   font-size: 1.2rem;
+  text-align: center;
   line-height: 1.7;
 }
 
@@ -132,7 +138,7 @@ header h1 {
 }
 
 .chapters-container {
-  width: 96%;
+  width: 94%;
   display: flex;
   flex-wrap: wrap;
   margin-top: 2rem;
@@ -218,17 +224,16 @@ header h1 {
 .sort-button {
   position: relative;
   margin: 0 auto;
-  max-width: 120px;
   background-color: var(--bg-color);
   color: var(--text-color);
   height: 50px;
   border-radius: 10px;
   border: 1px solid #ddd;
   cursor: pointer;
-  margin-top: 20px;
-  margin-left: 30px;
+  margin-top: 1rem;
   margin-bottom: 20px;
-  width: 90%;
+  width: 160px;
+  margin-left: 30px;
   transition: all 0.3s ease;
 }
 
@@ -237,19 +242,96 @@ header h1 {
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
 }
 
-.button-container{
+[data-theme="dark"] .sort-button {
+  color: #e4e1e1;
+  border: 1px solid #7a7a7a;
+}
+
+.button-container {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
 
-.sync-button{
-  background-color: #555;
-  color: white;
+.sync-button {
+  width: 120px;
   padding: 10px 20px;
-  border-radius: 5px;
-  border: none;
+  border: 1px solid #ddd;
   margin-right: 10px;
-  
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  height: 45px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  transition: all 0.3s ease;
+}
+
+.sync-button:hover {
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+[data-theme="dark"] .sync-button {
+  color: #e4e1e1;
+  border: 1px solid #7a7a7a;
+}
+
+
+@media (max-width: 720px) {
+  header {
+    padding: 0.5rem 1rem;
+    text-align: center;
+  }
+  header h1 {
+    font-size: 1.5rem;
+  }
+  .cover-image {
+    height: 50vh;
+    background-size: cover;
+  }
+  .story-info {
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+  }
+  .story-info p {
+    font-size: 1rem;
+    padding: 5px 10px;
+  }
+  .sort-button {
+    max-width: 100px;
+    margin-left: 30px;
+    font-size: 0.9rem;
+  }
+  .sync-button {
+    font-size: 0.8rem;
+  }
+
+  .chapters-container {
+    flex-direction: column;
+    padding: 0.5rem;
+    padding-left: 0;
+    padding-bottom: 1rem;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    width: 100%;
+    height: 700px;
+    overflow: auto;
+  }
+
+  .chapter-card {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .cover-image {
+    height: 60vh;
+    background-size: cover;
+  }
 }

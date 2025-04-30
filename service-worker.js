@@ -14,6 +14,7 @@ const STATIC_FILES = [
 
 self.addEventListener('install', (event) => {
   console.log('[Service Worker] Installing Service Worker ...', event);
+  console.log('Service Worker has been installed', event);
   event.waitUntil(
     caches.open(STATIC_CACHE_NAME)
       .then((cache) => {

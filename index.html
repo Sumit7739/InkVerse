@@ -12,8 +12,8 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
-     <link rel="stylesheet" href="styles.css">
-     
+    <link rel="stylesheet" href="styles.css" />
+
   </head>
 
   <body>
@@ -52,11 +52,14 @@
       </p>
     </div>
 
-    <button class="sort-button" onclick="sortChapters()"><p>Sort</p></button>
-
-    <div class="chapters-container" id="chapters">
-   
+    <div>
+      <!-- <button class="sync-button" id="sync-button">Sync</button> -->
+      <button class="sort-button" onclick="sortChapters()">
+        <p>Sort <i class="fas fa-sort-alpha-down"></i></p>
+      </button>
     </div>
+
+    <div class="chapters-container" id="chapters"></div>
 
     <div class="about-us">
       <h2>About Us</h2>
@@ -69,30 +72,29 @@
 
     <script src="script.js"></script>
     <script>
-    fetch('chap.json')
-    .then(response => response.json())
-    .then(data => {
-        const chaptersContainer = document.getElementById('chapters');
-        data.chapters.forEach(chapter => {
-            const chapterLink = document.createElement('a');
-            chapterLink.href = `chapter.html?file=${chapter.file}`;
+      if ("serviceWorker" in navigator) {
+        function syncDataHandler() {
+          localStorage.clear();
+          location.reload();
+        }
 
-            const chapterCard = document.createElement('div');
-            chapterCard.classList.add('chapter-card');
+        const syncButton = document.getElementById("sync-button");
+        syncButton.addEventListener("click", syncDataHandler);
+      }
 
-            const chapterTitle = document.createElement('h2');
-            chapterTitle.textContent = chapter.title;
-
-            const chapterDate = document.createElement('p');
-            chapterDate.classList.add('read-more');
-            chapterDate.textContent = chapter.date;
-
-            chapterCard.appendChild(chapterTitle);
-            chapterCard.appendChild(chapterDate);
-            chapterLink.appendChild(chapterCard);
-            chaptersContainer.appendChild(chapterLink);
-        });
-    });
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("/service-worker.js")
+          .then((registration) => {
+            console.log(
+              "Service worker registered with scope:",
+              registration.scope
+            );
+          })
+          .catch((error) => {
+            console.error("Service worker registration failed:", error);
+          });
+      }
     </script>
   </body>
 </html>
