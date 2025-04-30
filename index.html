@@ -69,7 +69,30 @@
 
     <script src="script.js"></script>
     <script>
-    
+    fetch('chap.json')
+    .then(response => response.json())
+    .then(data => {
+        const chaptersContainer = document.getElementById('chapters');
+        data.chapters.forEach(chapter => {
+            const chapterLink = document.createElement('a');
+            chapterLink.href = `chapter.html?file=${chapter.file}`;
+
+            const chapterCard = document.createElement('div');
+            chapterCard.classList.add('chapter-card');
+
+            const chapterTitle = document.createElement('h2');
+            chapterTitle.textContent = chapter.title;
+
+            const chapterDate = document.createElement('p');
+            chapterDate.classList.add('read-more');
+            chapterDate.textContent = chapter.date;
+
+            chapterCard.appendChild(chapterTitle);
+            chapterCard.appendChild(chapterDate);
+            chapterLink.appendChild(chapterCard);
+            chaptersContainer.appendChild(chapterLink);
+        });
+    });
     </script>
   </body>
 </html>

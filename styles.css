@@ -19,8 +19,9 @@ body {
   padding-top: 2rem;
 }
 
+
 header {
-  /* padding-top: 100px; */
+  padding-left: 2rem;
   background-color: transparent;
   display: flex;
   justify-content: space-between;
@@ -103,28 +104,18 @@ header h1 {
 }
 
 .story-info p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #000000;
   font-weight: 500;
   line-height: 1.5;
   border: 1px solid #b1b1b1;
   padding: 8px 20px;
   border-radius: 30px;
-  transition: all 0.3s ease;
-  cursor: pointer;
-}
-
-.story-info p:hover {
-  box-shadow: 0px 2px 10px rgb(255, 138, 138);
 }
 
 [data-theme="dark"] .story-info p {
   color: #e4e1e1;
   border: 1px solid #7a7a7a;
-}
-
-[data-theme="dark"] .story-info p:hover {
-  box-shadow: 0px 2px 30px rgba(184, 255, 249, 0.637);
 }
 
 .description {
@@ -145,6 +136,7 @@ header h1 {
   display: flex;
   flex-wrap: wrap;
   margin-top: 2rem;
+  margin-left: 20px;
   margin-bottom: 4rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -235,6 +227,7 @@ header h1 {
   cursor: pointer;
   margin-top: 20px;
   margin-left: 30px;
+  margin-bottom: 20px;
   width: 90%;
   transition: all 0.3s ease;
 }
@@ -242,4 +235,21 @@ header h1 {
 .sort-button:hover {
   background-color: var(--accent-color);
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.sync-button{
+  background-color: #555;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+  
 }
