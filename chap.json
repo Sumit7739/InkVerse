@@ -1,0 +1,14 @@
+{
+    "chapters": [
+        { "title": "Chapter 1", "file": "ch1.md", "date": "26 April" },
+        { "title": "Chapter 2", "file": "ch2.md", "date": "27 April" },
+        { "title": "Chapter 3", "file": "ch3.md", "date": "28 April" },
+        { "title": "Chapter 4", "file": "ch4.md", "date": "29 April" },
+        { "title": "Chapter 5", "file": "ch5.md", "date": "30 April" },
+        { "title": "Chapter 6", "file": "ch6.md", "date": "1 May" },
+        { "title": "Chapter 7", "file": "ch7.md", "date": "2 May" },
+        { "title": "Chapter 8", "file": "ch8.md", "date": "3 May" },
+        { "title": "Chapter 9", "file": "ch9.md", "date": "4 May" },
+        { "title": "Chapter 10", "file": "ch10.md", "date": "5 May" }
+    ]
+}
