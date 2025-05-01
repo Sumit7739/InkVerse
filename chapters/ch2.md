@@ -3,15 +3,15 @@
 **He** *(softly)*:  
 "So, it was when I was in 9th. One day I just didn’t feel like going to school... so I went to the railway station instead."
 
-**She** *raises an eyebrow, her lips curling up in amusement. There’s a spark in her eyes now, not just at the absurdity, but at the idea of him—usually so composed—being a rebellious 14-year-old.*  
-
-**She** *(teasing)*:  
-"Wait, wait. You... bunked school, packed a bag, and took a solo train adventure to see how electricity is made? At 14? Wasn’t that... risky?"
-
-**He** *grins, a chuckle escaping him. But his eyes don’t quite meet hers—they’re fixed somewhere else, still seeing the version of him from back then.*
+**She** *raises an eyebrow, her lips curling up in amusement. There’s a spark in her eyes now, not just at the absurdity, but at the idea of him—usually so composed—being a rebellious kid.*  
 
 **He**:  
 "I always wanted to visit NTPC — you know, the power plant? I don’t know why, it just fascinated me. So, I bought a ticket, changed into a different outfit I packed, and hopped on the train. I had two hours, and around seven hours before school ended. It felt perfect."
+
+**She** *(teasing)*:  
+"Wait, wait. You... bunked school, packed a bag, and took a solo train adventure to see how electricity is made? At what? Wasn’t that... risky?"
+
+**He** *grins, a chuckle escaping him. But his eyes don’t quite meet hers—they’re fixed somewhere else, still seeing the version of him from back then.*
 
 **She** *laughs slightly, shaking her head. She’s clearly amused, but there’s a sliver of concern in her tone too—like she can’t decide whether to admire him or scold him.*
 
