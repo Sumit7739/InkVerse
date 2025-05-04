@@ -12,7 +12,7 @@ async function syncData() {
   chaptersContainer.innerHTML = ""; // Clear old content
 
   try {
-    const response = await fetch("chap.json");
+    const response = await fetch("jsons/loversgambitchap.json");
     if (!response.ok) throw new Error("Network response was not ok");
 
     const data = await response.json();

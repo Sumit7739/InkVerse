@@ -20,7 +20,7 @@ let chapterFiles = []; // We will load this from index.json
 
 //   <a href="index.html"><i class="fas fa-home"></i>Home</a> show this at the start
 const homeLink = document.createElement('a');
-homeLink.href = 'index.html';
+homeLink.href = '../index.html';
 homeLink.innerHTML = '<i class="fas fa-home"></i>Home';
 document.getElementById('sidebar').insertBefore(homeLink, document.getElementById('chapter-list'));
 
@@ -40,7 +40,7 @@ function toggleSidebar() {
 }
 
 function loadChaptersIntoSidebar() {
-  fetch('chap.json')
+  fetch('jsons/loversgambitchap.json')
     .then(response => response.json())
     .then(data => {
       const sidebarList = document.getElementById('chapter-list');
@@ -76,7 +76,7 @@ document.getElementById('overlay').addEventListener('click', toggleSidebar);
 
 
 function updateChapter() {
-  fetch(`chapters/${currentChapter}`)
+  fetch(`lovergambitschapters/${currentChapter}`)
     .then((res) => res.text())
     .then((md) => {
       document.getElementById("chapter-body").innerHTML =
@@ -111,13 +111,15 @@ function loadChapter(direction) {
 
   if (direction === "next") {
     if (currentIndex === chapterFiles.length - 1) {
-      window.location.href = "index.html";
+      // go one page back instead of home page
+      window.history.back();
       return;
     }
     currentIndex = (currentIndex + 1) % chapterFiles.length;
   } else if (direction === "prev") {
-    currentIndex =
-      (currentIndex - 1 + chapterFiles.length) % chapterFiles.length;
+    if (currentIndex === 0) {
+    }
+    currentIndex = (currentIndex - 1 + chapterFiles.length) % chapterFiles.length;
   }
 
   currentChapter = chapterFiles[currentIndex];
@@ -131,7 +133,7 @@ async function init() {
   }
 
   try {
-    const res = await fetch("chapters/index.json");
+    const res = await fetch("lovergambitschapters/index.json");
     chapterFiles = await res.json();
 
     if (!chapterFiles.includes(currentChapter)) {
