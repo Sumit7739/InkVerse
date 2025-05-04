@@ -1,3 +1,6 @@
+
+
+
 **[INT. HIS ROOM — DAY]**
 
 The room was dim, a lazy mess of half-finished thoughts and things left undone. Light filtered in through old curtains, dust catching in the sunbeams like static. Somewhere between boredom and habit, his phone began to ring.

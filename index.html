@@ -1,100 +1,255 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Lover’s Gambit</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
+<html lang="en" data-theme="light">
 
-  <body>
-    <header>
-      <h1>The Lover’s Gambit</h1>
-      <div class="toggle-dark" onclick="toggleDarkMode()">
-        <i class="fas fa-moon"></i>
-      </div>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InkVerse</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    :root {
+      --bg-light: #f8f8f8;
+      --bg-dark: #1e1e1e;
+      --text-light: #333;
+      --text-dark: #ffffff;
+      --accent: #69b3a2;
+    }
 
-    <div class="story-info">
-      <p><strong>Chapters:</strong> 10</p>
-      <p><strong>Status:</strong> In Progress</p>
-    </div>
+    [data-theme="light"] {
+      --bg: var(--bg-light);
+      --text: var(--text-light);
+    }
 
-    <div class="cover-image">
-      <div class="cover-text">
-        <h1>The Lover's Gambit</h1>
-        <p>
-          "In the grandest game of hearts and power, the world sees a fool — but
-          only the Queen knows the truth."
-        </p>
-        <a href="#chapters" class="read-more-button">Start Reading</a>
-      </div>
-    </div>
+    [data-theme="dark"] {
+      --bg: var(--bg-dark);
+      --text: var(--text-dark);
+    }
 
-    <div class="description">
-      <p>
-        Beneath a smile and careless charm, a mind sharper than any blade moves
-        in silence.
-        <em>The Lover’s Gambit</em> follows Ariv — a boy the world dismisses,
-        yet a grandmaster hidden in plain sight — as he navigates a ruthless
-        game of love, loyalty, betrayal, and power. Every move is calculated.
-        Every kindness, a strategy. Every love, a battlefield. In the end, there
-        will be only one victor and he has already chosen his Queen.
-      </p>
-    </div>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      transition: background 0.3s, color 0.3s;
+    }
 
-    <div>
-      <!-- <button class="sync-button" id="sync-button">Sync</button> -->
-      <button class="sort-button" onclick="sortChapters()">
-        <p>Sort <i class="fas fa-sort-alpha-down"></i></p>
-      </button>
-    </div>
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+      border-bottom: 1px solid #ccc;
+    }
 
-    <div class="chapters-container" id="chapters"></div>
+    .circle-btn {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: var(--accent);
+      cursor: pointer;
+    }
 
-    <div class="about-us">
-      <h2>About Us</h2>
-      <p>
-        Dive into the enigmatic world of The Lover's Gambit. This is the story
-        of strategy, love, and hidden intentions, all woven together in a
-        narrative that will keep you guessing.
-      </p>
-      <p style="font-style: italic">Author - Purrs</p>
-    </div>
+    .platform-name {
+      font-size: 1.2rem;
+      margin: 0;
+    }
 
-    <script src="script.js"></script>
-    <script>
-      if ("serviceWorker" in navigator) {
-        function syncDataHandler() {
-          localStorage.clear();
-          location.reload();
-        }
+    .hamburger {
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
 
-        const syncButton = document.getElementById("sync-button");
-        syncButton.addEventListener("click", syncDataHandler);
+    /* Mobile Menu */
+    .mobile-menu {
+      background: var(--accent);
+      padding: 1rem;
+    }
+
+    .mobile-menu ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .mobile-menu li {
+      margin-bottom: 1rem;
+    }
+
+    .mobile-menu a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    /* Story Card */
+    .stories {
+      padding: 1rem;
+    }
+
+    .story-card {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .story-image {
+      width: 180px;
+      height: 300px;
+      background: #ccc;
+      border-radius: 4px;
+      flex-shrink: 0;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+
+    .story-info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .story-info h2 {
+      margin: 0;
+      font-size: 1rem;
+    }
+
+    .story-info p {
+      margin: 0.3rem 0;
+      font-size: 0.9rem;
+    }
+
+    .description-lines {
+      list-style: none;
+      padding: 0;
+      margin: 0.5rem 0;
+    }
+
+    .description-lines li {
+      margin: 4px 0;
+      font-size: 0.85rem;
+      line-height: 1.2;
+    }
+
+
+    .meta {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .chapters {
+      background: #ccc;
+      padding: 0.3rem 0.5rem;
+      font-size: 0.8rem;
+      border-radius: 10px;
+      /* width: 100%; */
+    }
+
+    .read-btn {
+      background: #ffffff;
+      border: 1px solid #ddd;
+      padding: 0.4rem 0.8rem;
+      font-size: 0.9rem;
+      cursor: pointer;
+      border-radius: 2px;
+      text-decoration: none;
+      color: #333;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="circle-btn" onclick="toggleDarkMode()"></div>
+    <h1 class="platform-name">InkVerse</h1>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+  </header>
+
+  <nav class="mobile-menu hidden">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Stories</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+  </nav>
+
+  <main class="stories"></main>
+
+
+  <!-- <script src="script.js"></script> -->
+  <script>
+    function toggleDarkMode() {
+      const current = document.documentElement.getAttribute("data-theme");
+      const next = current === "dark" ? "light" : "dark";
+      document.documentElement.setAttribute("data-theme", next);
+      localStorage.setItem("theme", next);
+    }
+
+    function toggleMenu() {
+      document.querySelector(".mobile-menu").classList.toggle("hidden");
+    }
+
+    window.addEventListener("DOMContentLoaded", () => {
+      const saved = localStorage.getItem("theme");
+      if (saved) {
+        document.documentElement.setAttribute("data-theme", saved);
       }
+    });
 
-      if ("serviceWorker" in navigator) {
-        navigator.serviceWorker
-          .register("/service-worker.js")
-          .then((registration) => {
-            console.log(
-              "Service worker registered with scope:",
-              registration.scope
-            );
-          })
-          .catch((error) => {
-            console.error("Service worker registration failed:", error);
-          });
-      }
-    </script>
-  </body>
+    const stories = [
+      {
+        title: "The Lover’s Gambit",
+        tagline: "A fool to the world. A grandmaster to her.",
+        descriptionLines: [
+          "Charm is a weapon.",
+          "Kindness, a tactic.",
+          "Every love, a battlefield.",
+          "Every step, a calculation.",
+          "Only one Queen knows the truth."
+        ],
+        chapters: "10",
+        image: "img/cover.png", // make sure this image exists in your `img/` folder
+        link: "theloversgambit.html"
+      },
+      // You can add more stories here later
+    ];
+
+    function loadStories() {
+      const container = document.querySelector(".stories");
+      container.innerHTML = ""; // Clear if rerendering
+
+      stories.forEach((story) => {
+        const card = document.createElement("section");
+        card.className = "story-card";
+
+        card.innerHTML = `
+      <div class="story-image" style="background-image: url('${story.image}')"></div>
+      <div class="story-info">
+        <h2>${story.title}</h2>
+        <p>${story.tagline}</p>
+        <ul class="description-lines">
+         ${story.descriptionLines.map(line => `<li>${line}</li>`).join("")}
+        </ul>
+        <div class="meta">
+          <span class="chapters">${story.chapters} Chapters</span>
+          <a href="${story.link}" class="read-btn">Read</a>
+        </div>
+      </div>
+    `;
+        container.appendChild(card);
+      });
+    }
+
+    document.addEventListener("DOMContentLoaded", loadStories);
+
+  </script>
+</body>
+
 </html>
