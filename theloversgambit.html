@@ -1,108 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>The Lover’s Gambit</title>
-        <link rel="icon" href="img/ico.jpg" type="image/x-icon" />
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap"
-            rel="stylesheet" />
-        <link rel="stylesheet" href="styles.css" />
-        <style>
-    
-  </style>
-    </head>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Lover’s Gambit</title>
+    <link rel="icon" href="img/ico.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        .logo {
+            font-size: 1.5rem;
+            color: var(--accent-color);
+            text-decoration: none;
+            margin-left: 10px;
+            margin-right: 20px;
+        }
 
-    <body>
-        <header>
-            <h1>The Lover’s Gambit</h1>
-            <div class="toggle-dark" onclick="toggleDarkMode()">
-                <i class="fas fa-moon"></i>
-            </div>
-        </header>
+        [data-theme="dark"] .logo {
+            color: var(--accent-color);
+        }
+    </style>
+</head>
 
-        <div class="cover-image">
-            <div class="cover-text">
-                <h1>The Lover's Gambit</h1>
-                <p>
-                    "In the grandest game of hearts and power, the world sees a
-                    fool — but
-                    only the Queen knows the truth."
-                </p>
-                <a href="#chapters" class="read-more-button">Start Reading</a>
-            </div>
+<body>
+    <header>
+        <a href="index.html" class="logo">
+            <i class="fas fa-arrow-left"></i>
+        </a>
+        <h1>The Lover’s Gambit</h1>
+        <div class="toggle-dark" onclick="toggleDarkMode()">
+            <i class="fas fa-moon"></i>
         </div>
+    </header>
 
-        <div class="description">
+    <div class="cover-image">
+        <div class="cover-text">
+            <h1>The Lover's Gambit</h1>
             <p>
-                Beneath a smile and careless charm, a mind sharper than any
-                blade moves
-                in silence.
-                <em>The Lover’s Gambit</em> follows Ariv — a boy the world
-                dismisses,
-                yet a grandmaster hidden in plain sight — as he navigates a
-                ruthless
-                game of love, loyalty, betrayal, and power. Every move is
-                calculated.
-                Every kindness, a strategy. Every love, a battlefield. In the
-                end, there
-                will be only one victor and he has already chosen his Queen.
+                "In the grandest game of hearts and power, the world sees a
+                fool — but
+                only the Queen knows the truth."
             </p>
+            <a href="#chapters" class="read-more-button">Start Reading</a>
         </div>
-        <div class="story-info">
-            <p><strong>Chapters:</strong> 10</p>
-            <p><strong>Status:</strong> In Progress</p>
-            <p><strong>Author:</strong> Purrs</p>
-            <p><strong>Rating</strong> 4.5/5</p>
-            <p><strong>Published:</strong> 2025</p>
-        </div>
-        <div class="rate">
-            <!-- <p>Rate this story</p> -->
-            <div class="rate-container">
-                <span class="star" onclick="rateStory(1)">&#9733;</span>
-                <span class="star" onclick="rateStory(2)">&#9733;</span>
-                <span class="star" onclick="rateStory(3)">&#9733;</span>
-                <span class="star" onclick="rateStory(4)">&#9733;</span>
-                <span class="star" onclick="rateStory(5)">&#9733;</span>
-            </div>
-            <p id="rating-message"></p>
-        </div>
-        <div>
-            <!-- <button class="sync-button" id="sync-button">Sync</button> -->
-            <button class="sort-button" onclick="sortChapters()">
-                <p>Sort <i class="fas fa-sort-alpha-down"></i></p>
-            </button>
-        </div>
+    </div>
 
-        <div class="chapters-container" id="chapters"></div>
-
-        <h2 class="cmt">Comments</h2>
-        <div class="comment">
-            <textarea id="comment-input"
-                placeholder="Add a comment..."></textarea>
-            <button onclick="postComment()">Post Comment</button>
-            <div id="comments-section">
-                <!-- Comments will be loaded here -->
-            </div>
+    <div class="description">
+        <p>
+            Beneath a smile and careless charm, a mind sharper than any
+            blade moves
+            in silence.
+            <em>The Lover’s Gambit</em> follows Ariv — a boy the world
+            dismisses,
+            yet a grandmaster hidden in plain sight — as he navigates a
+            ruthless
+            game of love, loyalty, betrayal, and power. Every move is
+            calculated.
+            Every kindness, a strategy. Every love, a battlefield. In the
+            end, there
+            will be only one victor and he has already chosen his Queen.
+        </p>
+    </div>
+    <div class="story-info">
+        <p><strong>Chapters:</strong> 10</p>
+        <p><strong>Status:</strong> In Progress</p>
+        <p><strong>Author:</strong> Purrs</p>
+        <p><strong>Rating</strong> 4.5/5</p>
+        <p><strong>Published:</strong> 2025</p>
+    </div>
+    <div class="rate">
+        <!-- <p>Rate this story</p> -->
+        <div class="rate-container">
+            <span class="star" onclick="rateStory(1)">&#9733;</span>
+            <span class="star" onclick="rateStory(2)">&#9733;</span>
+            <span class="star" onclick="rateStory(3)">&#9733;</span>
+            <span class="star" onclick="rateStory(4)">&#9733;</span>
+            <span class="star" onclick="rateStory(5)">&#9733;</span>
         </div>
-        <hr class="hr">
-        <div class="about-us">
-            <h2>About Us</h2>
-            <p>
-                Dive into the enigmatic world of The Lover's Gambit. This is the
-                story
-                of strategy, love, and hidden intentions, all woven together in
-                a
-                narrative that will keep you guessing.
-            </p>
-            <p style="font-style: italic">Author - Purrs</p>
-        </div>
+        <p id="rating-message"></p>
+    </div>
+    <div>
+        <!-- <button class="sync-button" id="sync-button">Sync</button> -->
+        <button class="sort-button" onclick="sortChapters()">
+            <p>Sort <i class="fas fa-sort-alpha-down"></i></p>
+        </button>
+    </div>
 
-        <script src="script.js"></script>
-    </body>
+    <div class="chapters-container" id="chapters"></div>
+
+    <h2 class="cmt">Comments</h2>
+    <div class="comment">
+        <textarea id="comment-input" placeholder="Add a comment..."></textarea>
+        <button onclick="postComment()">Post Comment</button>
+        <div id="comments-section">
+            <!-- Comments will be loaded here -->
+        </div>
+    </div>
+    <hr class="hr">
+    <div class="about-us">
+        <h2>About</h2>
+        <p>
+            Dive into the enigmatic world of The Lover's Gambit. This is the
+            story
+            of strategy, love, and hidden intentions, all woven together in
+            a
+            narrative that will keep you guessing.
+        </p>
+        <p style="font-style: italic">Author - Purrs</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 
 </html>
