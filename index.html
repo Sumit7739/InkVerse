@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>InkVerse</title>
-  <link rel="icon" href="img/ico.jpg" type="image/x-icon" />
+  <link rel="icon" href="img/icoo.png" type="image/x-icon" />
   <link rel="stylesheet" href="stories/lovergambitstyles.css" />
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
@@ -19,6 +19,14 @@
     </div>
   </header>
 
+  <section class="about-platform">
+    <h2>Welcome to InkVerse</h2>
+    <p>
+      InkVerse is your destination for discovering and reading captivating
+      stories. Dive into a world of imagination and explore a variety of novels
+      from talented authors.
+    </p>
+  </section>
   <main class="stories"></main>
 
   <footer>
@@ -53,15 +61,18 @@
     const stories = [
       {
         title: "The Lover’s Gambit",
-        tagline: "A fool to the world. A grandmaster to her.",
+        tagline: "In love and war, every move counts.",
         descriptionLines: [
-          "Dive into the enigmatic world of The Lover's Gambit. This is the story of strategy, love, and hidden intentions, all woven together in a narrative that will keep you guessing. "
+          "A slow-burn tale of strategy, romance, and veiled intentions.",
+          "Set in a campus where every smile hides a scheme, and silence says more than words.",
+          "For those who crave tension, wit, and the art of unspoken battles."
         ],
         chapters: "10",
+        genres: ["Romance, Drama,", "Psychological,", "Slice of Life"],
         image: "img/cover.png",
         link: "stories/theloversgambit.html"
       }
-      // You can add more stories here later
+      // Add more stories here
     ];
 
     function loadStories() {
@@ -76,23 +87,27 @@
       <div class="story-image" style="background-image: url('${story.image}')"></div>
       <div class="story-info">
         <div class="story-details">
-            <h2>${story.title}</h2>
-            <p class="tagline">${story.tagline}</p>
+          <h2>${story.title}</h2>
+          <p class="tagline">${story.tagline}</p>
         </div>
         <ul class="description-lines">
-         ${story.descriptionLines.map(line => `<li>${line}</li>`).join("")}
+          ${story.descriptionLines.map(line => `<li>${line}</li>`).join("")}
         </ul>
+        <div class="genre-list">
+          ${story.genres.map(g => `<span class="genre">${g}</span>`).join("")}
+        </div>
         <div class="meta">
           <p class="chapters">${story.chapters} Chapters</p>
           <a href="${story.link}" class="read-btn">
-             Read <i class="fas fa-book-open"></i>
-        </a>
+            Read <i class="fas fa-book-open"></i>
+          </a>
         </div>
       </div>
-        `;
+    `;
         container.appendChild(card);
       });
     }
+
 
     document.addEventListener("DOMContentLoaded", loadStories);
 

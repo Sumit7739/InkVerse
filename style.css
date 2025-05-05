@@ -36,6 +36,7 @@ header {
   top: 0;
   backdrop-filter: blur(5px);
   z-index: 10;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 header h1 {
@@ -47,15 +48,42 @@ header h1 {
 
 .toggle-dark {
   cursor: pointer;
-  margin-right: 1rem;
+  margin-right: 0rem;
   font-size: 1.5rem;
   color: var(--accent-color);
   transition: color 0.3s;
 }
-
-.toggle-dark:hover,
-.hamburger:hover {
+.toggle-dark:hover {
   color: var(--brand-color);
+}
+.about-platform {
+  background-color: var(--card-bg);
+  padding: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  opacity: 0;
+  animation: animateTitle 0.5s ease 0.2s forwards;
+}
+h2 {
+  opacity: 0;
+  animation: animateTitle 0.5s ease 0.2s forwards;
+}
+
+.about-platform > * {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 0.7s ease 0.4s forwards;
+}
+
+/* Keyframes for fadeUp animation */
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .stories {
@@ -68,21 +96,32 @@ header h1 {
 
 .story-card {
   border-radius: 10px;
-  box-shadow: 0 4px 4px var(--shadow-color);
-  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px var(--shadow-color);
+  transition: transform 0.6s ease, box-shadow 0.2s ease;
   display: flex;
   flex-direction: row;
   overflow: hidden;
   width: 95%;
-  /* height: 500px; */
-  max-width: 900px;
+  max-width: 1050px;
   background-color: var(--card-bg);
   margin-bottom: 50px;
+  animation: cardAppear 0.5s ease 0.3s forwards;
+  transform: scale(0.9);
+  opacity: 0;
 }
 
 .story-card:hover {
   background-color: var(--card-bg);
   box-shadow: 0 8px 16px var(--shadow-color);
+  transform: scale(1.03);
+}
+
+/* Keyframes for cardAppear animation */
+@keyframes cardAppear {
+  to {
+    scale: 1;
+    opacity: 1;
+  }
 }
 
 .story-image {
@@ -101,6 +140,8 @@ header h1 {
   flex-direction: column;
   justify-content: center;
   width: 60%;
+  color: var(--text-color);
+  background-color: var(--card-bg);
 }
 
 .story-info h2 {
@@ -113,6 +154,61 @@ header h1 {
   font-size: 0.9rem;
   line-height: 1.4;
   border: none;
+  margin-left: -20px;
+}
+
+[data-theme="dark"] .story-info .tagline {
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  border: none;
+}
+
+[data-theme="dark"] .story-info .tagline:hover {
+  background-color: var(--card-bg);
+  color: var(--text-color);
+}
+
+.story-info .genre-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0;
+}
+
+.story-info .genre-list span {
+  display: inline;
+  margin-right: 5px;
+  font-size: 0.9rem;
+  color: var(--brand-color);
+}
+
+.story-info .genre-list li:not(:last-child)::after {
+  content: ",";
+}
+
+.story-info .tagline {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  /* border: 1px solid #ddd; */
+  padding: 10px 20px;
+  border-radius: 25px;
+  /* background-color: var(--card-bg); */
+  color: var(--text-color);
+  /* box-shadow: 0 2px 4px var(--shadow-color); */
+}
+
+.story-info .tagline:hover {
+  background-color: var(--card-bg);
+  color: var(--text-color);
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0.5rem 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 .description-lines {
@@ -123,8 +219,16 @@ header h1 {
 
 .description-lines li {
   margin: 4px 0;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   line-height: 1.2;
+}
+p {
+  animation: textAppear 0.5s ease 0.4s forwards;
+}
+
+/* Text animation */
+.story-info p {
+  animation: textAnimation 0.6s ease 0.4s forwards;
 }
 
 .meta .chapters {
@@ -136,23 +240,38 @@ header h1 {
   width: 130px;
 }
 
+[data-theme="dark"] .meta .chapters:hover {
+  background-color: var(--accent-color);
+  color: var(--text-color);
+  /* border: none; */
+}
+
 .story-link {
   margin-top: 1rem;
 }
 
+/* Keyframes for textAppear animation */
+@keyframes textAppear {
+  to {
+    opacity: 1;
+  }
+}
+
 .read-btn {
   width: fit-content;
-  background-color: var(--card-bg);
+  background-color: var(--accent-color);
   color: var(--text-color);
   padding: 10px 30px;
   border: 1px solid #ddd;
   border-radius: 25px;
+  background-color: var(--card-bg);
+  color: var(--text-color);
   cursor: pointer;
   font-weight: 500;
   font-size: 12px;
   text-decoration: none;
-  box-shadow: 0 4px 4px var(--shadow-color);
-  transition: background-color 0.3s ease;
+  /* box-shadow: 0 4px 4px var(--shadow-color); */
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 .read-btn:hover {
   background-color: var(--accent-color);
@@ -235,16 +354,38 @@ footer p {
     color: #333;
   }
   .description-lines li {
+    margin: 0 auto;
     font-size: 0.8rem;
     margin-bottom: 20px;
+    text-align: justify;
+    width: 80%;
   }
 
   .meta .chapters {
-    width: 100%;
+    width: 45%;
   }
 
   .story-info .tagline {
     margin-left: 0px;
   }
+
+  .read-btn {
+    width: 45%;
+    border: 1px solid #b4b4b4;
+  }
 }
 /*End Responsive Design*/
+@keyframes animateTitle {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes textAnimation {
+}
+@keyframes animateTitle {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
