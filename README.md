@@ -20,4 +20,4 @@ Because, frankly, someone has to do it.
 *"Words shape worlds. And my world exists here. So, welcome, traveler—stay a while, or forever."*  
 
 
-[Read Here](https://sumit7739.github.io/story)
+[Read Here](https://sumit7739.github.io/InkVerse)
