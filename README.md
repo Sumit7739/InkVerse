@@ -1,15 +1,23 @@
-# The Lover's Gambit
+# InkVerse ✒️🌌  
 
-**The Lover's Gambit** is a story presented as a web project, still currently in progress. It features multiple chapters, each accessible through a dynamically generated list on the home page.
+A place where I throw words into the void and hope someone reads them.  
 
-## Project Structure
+## What is this?  
+InkVerse is where my novels live, probably regretting their existence.  
+If you like stories, congrats—you have good taste. If you don’t, well... you’re missing out.  
 
--   **index.html:** The home page of the project. It includes a cover page with a description of the story and a dynamically populated list of chapters.   
--   **chapters/:** This folder contains the content of each chapter in markdown format.
--   **chapters/index.json:** A JSON file that holds metadata for each chapter, including the chapter name, date, and the corresponding file path.
--   **styles.css:** Contains the CSS rules for styling the website.
--   **script.js:** Contains any additional JavaScript logic required for the project.
+## Why?  
+Because writing is cheaper than therapy.  
+Because imaginary worlds need a place to breathe.  
+Because, frankly, someone has to do it.  
 
-**Note:** This project is still in progress.
+## How to Use?  
+1. Open the platform.  
+2. Read.  
+3. Pretend you were emotionally moved.  
+
+---  
+*"Words shape worlds. And my world exists here. So, welcome, traveler—stay a while, or forever."*  
+
 
 [Read Here](https://sumit7739.github.io/story)
