@@ -1,0 +1,325 @@
+/* Welcome Section Styles */
+.welcome-section {
+  padding: 1.5rem 1rem;
+  margin-top: 0rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.welcome-content {
+  padding: 1rem;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.welcome-subtitle {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+  opacity: 0;
+  animation: slideUp 0.6s ease-out 0.2s forwards;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.welcome-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.welcome-title::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  background: var(--text-accent);
+  bottom: -8px;
+  left: 0;
+  transition: width 0.3s ease;
+}
+
+.welcome-title:hover::after {
+  width: 70px;
+}
+
+.welcome-text {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+  max-width: 90%;
+  animation: textFade 1s ease-out 0.4s forwards;
+  opacity: 0;
+}
+
+.welcome-text strong {
+  color: var(--text-primary);
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.welcome-text strong:hover {
+  color: var(--text-accent);
+}
+
+.features-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.feature-box {
+  background: var(--bg-primary);
+  padding: 1.2rem;
+  border-radius: 8px;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: var(--text-primary);
+  border-left: 4px solid var(--text-accent);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: slideInRight 0.7s ease-out 0.6s forwards;
+  opacity: 0;
+}
+
+.feature-box:hover {
+  transform: translateX(8px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.call-to-action {
+  font-size: 1.1rem;
+  color: var(--text-accent);
+  font-weight: 600;
+  margin-top: 1rem;
+  text-align: right;
+  animation: bounceIn 1s ease-out 0.8s forwards;
+  opacity: 0;
+}
+
+.call-to-action::before {
+  content: "→ ";
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes textFade {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.entry {
+  display: flex;
+  /* justify-content: center; */
+  align-items: left;
+  padding: 1.5rem 1rem;
+  margin-top: 2rem;
+  border-radius: 12px;
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); */
+  overflow: hidden;
+  position: relative;
+}
+
+.entry-header {
+  text-align: left;
+}
+
+/* a simple animation on the right arrow when hovered */
+.entry-header .fas.fa-arrow-right {
+  transition: transform 0.3s ease;
+}
+
+.entry-header:hover .fas.fa-arrow-right {
+  transform: translateX(5px);
+}
+
+.entry-header h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.entry-header .enter-button {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.3s ease;
+}
+
+.entry-header .enter-button:hover {
+  background-color: #e7e7e7;
+}
+
+footer {
+  color: var(--text-secondary);
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  font-size: 1em;
+  font-weight: 600;
+  border-top: 1px solid var(--border-default);
+}
+
+footer p {
+  margin: 0;
+}
+
+/* --- Responsive Styles --- */
+@media (min-width: 768px) {
+  .welcome-section {
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem 2rem;
+  }
+
+  .welcome-subtitle {
+    font-size: 1.4rem;
+  }
+
+  .welcome-title {
+    font-size: 2.2rem;
+  }
+
+  .entry {
+    padding: 2rem 2rem;
+  }
+
+  .entry-header .enter-button {
+    padding: 15px 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
+  .welcome-section {
+    /* padding: 0.5rem; */
+    margin-top: -30px;
+  }
+
+  .welcome-content {
+    padding: 0.5rem;
+  }
+
+  .welcome-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .welcome-title {
+    font-size: 1.8rem;
+  }
+
+  .welcome-text {
+    font-size: 1rem;
+  }
+
+  .features-container {
+    padding: 0.5rem;
+  }
+
+  .feature-box {
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .entry {
+    margin-top: 0px;
+    margin-bottom: -20px;
+    padding: 0;
+    transition: all 0.3s ease;
+    /* background-color: #e7e7e7; */
+  }
+
+  .entry {
+    animation: fadeIn 0.8s ease-in-out;
+  }
+  
+  .entry-header {
+    margin-right: 10px;
+    text-align: left;
+  }
+
+  .entry-header h2 {
+    font-size: 1.3rem;
+    text-align: left;
+  }
+
+  .entry-header .enter-button {
+    padding: 10px 30px;
+  }
+
+  footer {
+    margin-bottom: 70px;
+  }
+}
