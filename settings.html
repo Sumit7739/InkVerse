@@ -4,28 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>InkVerse</title>
+    <title>InkVerse | Settings</title>
     <link rel="icon" href="img/icoo.png" type="image/x-icon" />
     <!-- Google Fonts - Inter -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="homestyle.css">
-    <style>
-
-    </style>
 </head>
 
 <body class="flex">
-
-    <div class="floating-dock">
-        <a href="index.html" class="dock-icon active"><i class="fas fa-home"></i></a>
-        <a href="discover.html" class="dock-icon"><i class="fas fa-compass"></i></a>
-        <a href="bookmarks.html" class="dock-icon"><i class="fas fa-bookmark"></i></a>
-        <a href="settings.html" class="dock-icon"><i class="fas fa-cog"></i></a>
-    </div>
-
     <!-- Sidebar -->
     <aside class="sidebar" id="sidebar">
         <!-- Menu Icon -->
@@ -34,10 +22,12 @@
             <span class="sidebar-text">Menu</span>
         </div>
         <!-- Home Icon -->
-        <div class="sidebar-icon" data-tooltip="Home">
-            <i class="fas fa-home active"></i>
-            <span class="sidebar-text">Home</span>
-        </div>
+        <a href="index.html" style="text-decoration: none">
+            <div class="sidebar-icon" data-tooltip="Home">
+                <i class="fas fa-home"></i>
+                <span class="sidebar-text">Home</span>
+            </div>
+        </a>
 
         <!-- Discover Icon -->
         <a href="discover.html" style="text-decoration: none">
@@ -50,14 +40,14 @@
         <!-- Bookmark Icon -->
         <a href="bookmarks.html" style="text-decoration: none;">
             <div class="sidebar-icon" data-tooltip="Bookmarks">
-                <i class="fas fa-bookmark"></i>
+                <i class="fas fa-bookmark "></i>
                 <span class="sidebar-text">Bookmarks</span>
             </div>
         </a>
         <!-- Settings Icon -->
         <a href="settings.html" style="text-decoration: none;">
             <div class="sidebar-icon" data-tooltip="Settings">
-                <i class="fas fa-cog"></i>
+                <i class="fas fa-cog active"></i>
                 <span class="sidebar-text">Settings</span>
             </div>
         </a>
@@ -72,7 +62,7 @@
 
             <!-- Profile and Notifications -->
             <div class="profile-notifications">
-
+                
                 <!-- Theme Toggle Icon -->
                 <div class="theme-toggle-icon" id="themeToggleBtn" data-tooltip="Toggle Theme">
                     <i class="fas fa-moon"></i>
@@ -104,56 +94,9 @@
                 </div>
             </div>
         </header>
+    </div>
 
-        <section class="welcome-section">
-            <div class="welcome-content">
-                <p class="welcome-subtitle">Where novels breathe with untamed spirit.</p>
-                <h2 class="welcome-title">Welcome to InkVerse</h2>
-                <p class="welcome-text">InkVerse is a sanctuary for novel enthusiasts, a digital haven where stories
-                    unfold in their purest form. Born from the creative soul of <strong>Purrs</strong>, this platform
-                    began as a canvas for my own unconventional tales. It is blossoming into a future home for a vibrant
-                    community, inviting writers to share their unique voices. Here, narratives defy rigid structures,
-                    weaving emotions and imagination into every page, free from the constraints of tradition.</p>
-
-                <div class="entry">
-                    <div class="entry-header">
-                        <h2>Enter The InkVerse, a world of boundless stories <i class="fas fa-arrow-right"></i></h2>
-                        <a href="discover.html" style="text-decoration: none;"> <button
-                                class="enter-button">Discover Stories</button></a>
-                    </div>
-                </div>
-
-
-            </div>
-            <div class="features-container">
-                <div class="box">
-                    <h2 class="welcome-title">Join the Journey</h2>
-                    <p class="welcome-text">Whether you’re a reader seeking fresh perspectives or a writer eager to
-                        break
-                        the mold, InkVerse welcomes you. Dive into a world where every story is a bold exploration of
-                        the
-                        human experience.</p>
-                    <p class="call-to-action">Explore. Create. Inspire.</p>
-                </div>
-                <h2 class="welcome-title">What Awaits You</h2>
-                <div class="feature-box">Uncharted storytelling styles</div>
-                <div class="feature-box">A community of bold creators</div>
-                <div class="feature-box">Endless narrative possibilities</div>
-                <div class="feature-box">A celebration of originality</div>
-            </div>
-        </section>
-
-
-        <footer>
-            <div class="footer-content">
-                <p>
-                    © 2025 InkVerse. All rights reserved.
-                    <br />
-                    Created by Purrs.
-                </p>
-            </div>
-        </footer>
-        <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

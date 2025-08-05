@@ -1,77 +1,442 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chapter Viewer | The Lover's Gambit</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="chapter_style.css" />
-    <link rel="stylesheet" href="lovergambitstyles.css" />
 
-    <style></style>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InkVerse | The Lover's Gambit</title>
+  <link rel="icon" href="img/icoo.png" type="image/x-icon" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    /* ===================== BASE ===================== */
+    body {
+      margin: 0;
+      font-family: 'Playfair Display', serif;
+      background-color: #fefefe;
+      color: #222;
+      transition: background 0.3s ease, color 0.3s ease;
+    }
 
-  <body>
-    <div id="overlay" class="overlay"></div>
+    body.dark-mode {
+      background-color: #121212;
+      color: #eaeaea;
+    }
 
-    <aside id="sidebar" class="sidebar">
-      <ul id="chapter-list">
-        <!-- Chapters will be loaded here -->
-      </ul>
-    </aside>
+    /* ===================== HEADER ===================== */
+    .reading-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 1.2rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #ffffffcc;
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid #e0e0e0;
+      z-index: 1000;
+    }
 
-    <header>
-      <div class="hamburger" id="hamburger">
-        <i class="fas fa-bars"></i>
-      </div>
-      <div class="header-content">
-        <h2>The Lover's Gambit</h2>
-      </div>
+    body.dark-mode .reading-header {
+      background: #1e1e1ecc;
+      border-color: #333;
+    }
 
-      <div class="toggle-dark" onclick="toggleDarkMode()">
-        <i class="fas fa-moon"></i>
-      </div>
-    </header>
+    .header-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-grow: 1;
+      text-align: center;
+    }
 
-    <div class="chapter-container">
-      <div class="progress-bar-container">
-        <div id="progress-bar" class="progress-bar"></div>
-      </div>
-      <div class="chapter-title" id="chapter-title">Loading chapter...</div>
+    .story-title {
+      font-size: 1.8rem;
+      font-weight: bold;
+      margin: 0;
+    }
 
-      <!-- <div class="nav-buttons">
-        <a href="#" id="prev-chapter" onclick="loadChapter('prev')">
-          <i class="fas fa-chevron-left"></i> Previous
-        </a>
-        <a href="#" id="next-chapter" onclick="loadChapter('next')">
-          Next <i class="fas fa-chevron-right"></i>
-        </a>
-      </div> -->
+    .chapter-info {
+      font-size: 1rem;
+      margin-left: 1rem;
+      color: #666;
+    }
 
-      <!-- <br>
-      <br> -->
+    body.dark-mode .chapter-info {
+      color: #aaa;
+    }
 
-      <div id="chapter-body">Loading chapter...</div>
+    .theme-toggle {
+      font-size: 1.4rem;
+      cursor: pointer;
+      color: #444;
+    }
 
-      <div class="nav-buttons">
-        <a href="#" id="prev-chapter" onclick="loadChapter('prev')">
-          <i class="fas fa-chevron-left"></i> Previous
-        </a>
-        <a href="#" id="next-chapter" onclick="loadChapter('next')">
-          Next <i class="fas fa-chevron-right"></i>
-        </a>
-      </div>
+    body.dark-mode .theme-toggle {
+      color: #ccc;
+    }
+
+    .sidebar-toggle {
+      font-size: 1.5rem;
+      cursor: pointer;
+      margin-right: 1rem;
+      color: #444;
+      z-index: 1001;
+    }
+
+    body.dark-mode .sidebar-toggle {
+      color: #ccc;
+    }
+
+    /* ===================== MAIN ===================== */
+    .reading-main {
+      max-width: 800px;
+      margin: 6rem auto 4rem;
+      padding: 1rem 2rem;
+      transition: margin-left 0.3s ease;
+    }
+
+    .chapter-page {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+      font-size: 1.125rem;
+      line-height: 1.7;
+      color: #333;
+      transition: all 0.4s ease;
+    }
+
+    body.dark-mode .chapter-page {
+      background: #1e1e1e;
+      color: #ddd;
+      box-shadow: 0 4px 14px rgba(255, 255, 255, 0.05);
+    }
+
+    .chapter-page p {
+      margin: 1.5rem 0;
+    }
+
+    .page-turn-in {
+      animation: fadeIn 0.6s ease;
+    }
+
+    .page-turn-out {
+      opacity: 0.2;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .progress-bar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 4px;
+      width: 0;
+      background: linear-gradient(to right, #ff3c38, #ff8e53);
+      z-index: 1001;
+      transition: width 0.3s ease;
+    }
+
+    body.dark-mode .progress-bar {
+      background: linear-gradient(to right, #ff6f61, #ffa07a);
+    }
+
+    .navigation-controls {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 3rem;
+    }
+
+    .nav-btn {
+      padding: 0.6rem 1.8rem;
+      font-size: 1rem;
+      font-weight: 500;
+      border: none;
+      border-radius: 8px;
+      background: #222;
+      color: #fff;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    .nav-btn:hover {
+      background: #444;
+      transform: translateY(-2px);
+    }
+
+    body.dark-mode .nav-btn {
+      background: #ccc;
+      color: #121212;
+    }
+
+    body.dark-mode .nav-btn:hover {
+      background: #eee;
+    }
+
+    .chapter-page.error {
+      color: #d32f2f;
+      font-weight: 500;
+      text-align: center;
+    }
+
+    /* ===================== SIDEBAR ===================== */
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: -100%;
+      width: 35%;
+      max-width: 300px;
+      height: 100%;
+      background: #f5f5f5;
+      padding: 1rem;
+      box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+      overflow-y: auto;
+      transition: left 0.3s ease;
+      z-index: 9999999;
+    }
+
+    body.dark-mode .sidebar {
+      background: #1a1a1a;
+    }
+
+    .sidebar.active {
+      left: 0;
+    }
+
+    .sidebar-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+
+    .sidebar-header h2 {
+      font-size: 1.3rem;
+      margin: 0;
+    }
+
+    .close-sidebar {
+      background: none;
+      border: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+      color: inherit;
+    }
+
+    .sidebar-nav a {
+      display: block;
+      padding: 0.6rem;
+      text-decoration: none;
+      color: inherit;
+      border-radius: 5px;
+      margin-bottom: 0.5rem;
+    }
+
+    .sidebar-nav a:hover {
+      background: #e0e0e0;
+    }
+
+    body.dark-mode .sidebar-nav a:hover {
+      background: #333;
+    }
+
+    /* ===================== RESPONSIVE ===================== */
+    @media (max-width: 768px) {
+      .reading-main {
+        padding: 1rem;
+      }
+
+      .chapter-page {
+        font-size: 1rem;
+        padding: 1.5rem;
+      }
+
+      .story-title {
+        font-size: 1.5rem;
+      }
+
+      .nav-btn {
+        width: 45%;
+      }
+
+      .sidebar {
+        width: 75%;
+      }
+    }
+
+    @media (max-width: 480px) {
+
+      .nav-btn {
+        width: 100%;
+      }
+
+      .sidebar {
+        width: 50%;
+      }
+    }
+  </style>
+</head>
+
+<body class="reading-body">
+
+  <div class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <h2>InkVerse</h2>
+      <button class="close-sidebar" id="closeSidebarBtn">&times;</button>
     </div>
+    <hr> <br><br>
+    <nav class="sidebar-nav">
+      <a href="/index.html"><i class="fas fa-home"></i>&nbsp; Home</a>
+      <div id="chapterList"></div>
+    </nav>
+  </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="chapter_script.js"></script>
-    <script src="../script.js"></script>
-  </body>
+  <header class="reading-header">
+    <div class="sidebar-toggle" id="sidebarToggleBtn" title="Menu">
+      <i class="fas fa-bars"></i>
+    </div>
+    <div class="header-content">
+      <h1 class="story-title">The Lover's Gambit</h1>
+      <div class="chapter-info" id="chapter-title">Loading...</div>
+    </div>
+    <div class="theme-toggle" id="themeToggleBtn" title="Toggle Theme">
+      <i class="fas fa-moon"></i>
+    </div>
+  </header>
+
+  <main class="reading-main" id="mainContent">
+    <div id="chapter-body" class="chapter-page">Loading chapter...</div>
+    <div class="progress-bar" id="progress-bar"></div>
+    <div class="navigation-controls">
+      <button id="prev-chapter" class="nav-btn">Previous</button>
+      <button id="next-chapter" class="nav-btn">Next</button>
+    </div>
+  </main>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const themeToggleBtn = document.getElementById('themeToggleBtn');
+      const body = document.body;
+      const chapterBody = document.getElementById('chapter-body');
+      const sidebar = document.getElementById('sidebar');
+      const mainContent = document.getElementById('mainContent');
+      const sidebarToggleBtn = document.getElementById('sidebarToggleBtn');
+      const closeSidebarBtn = document.getElementById('closeSidebarBtn');
+      const chapterListContainer = document.getElementById('chapterList');
+
+      let currentChapter = localStorage.getItem('currentChapter') || 'ch1.md';
+      let chapterFiles = [];
+
+      // Theme toggle
+      function updateThemeIcon() {
+        const icon = themeToggleBtn.querySelector('i');
+        const isDark = body.classList.contains('dark-mode');
+        icon.classList.toggle('fa-moon', !isDark);
+        icon.classList.toggle('fa-sun', isDark);
+      }
+
+      if (localStorage.getItem('theme') === 'dark') {
+        body.classList.add('dark-mode');
+      }
+      updateThemeIcon();
+
+      themeToggleBtn.addEventListener('click', () => {
+        body.classList.toggle('dark-mode');
+        localStorage.setItem('theme', body.classList.contains('dark-mode') ? 'dark' : 'light');
+        updateThemeIcon();
+      });
+
+      sidebarToggleBtn.addEventListener('click', () => {
+        sidebar.classList.add('active');
+        mainContent.classList.add('shifted');
+      });
+
+      closeSidebarBtn.addEventListener('click', () => {
+        sidebar.classList.remove('active');
+        mainContent.classList.remove('shifted');
+      });
+
+      // Progress bar
+      function updateProgressBar() {
+        const bar = document.getElementById('progress-bar');
+        const scroll = window.scrollY;
+        const height = document.documentElement.scrollHeight - window.innerHeight;
+        const percent = (scroll / height) * 100;
+        bar.style.width = `${percent}%`;
+      }
+
+      // Load chapter
+      function updateChapter() {
+        fetch(`lovergambitschapters/${currentChapter}`)
+          .then(res => res.text())
+          .then(md => {
+            document.getElementById('chapter-title').textContent = currentChapter.replace('.md', '').replace('ch', 'Chapter ');
+            chapterBody.innerHTML = marked.parse(md);
+            localStorage.setItem('currentChapter', currentChapter);
+          })
+          .catch(() => {
+            chapterBody.innerHTML = '<p class="error">Failed to load chapter.</p>';
+          });
+        updateProgressBar();
+      }
+
+      function loadChapter(dir) {
+        if (!chapterFiles.length) return;
+        let idx = chapterFiles.indexOf(currentChapter);
+        idx = dir === 'next' ? (idx + 1) % chapterFiles.length : (idx - 1 + chapterFiles.length) % chapterFiles.length;
+        currentChapter = chapterFiles[idx];
+        updateChapter();
+      }
+
+      async function init() {
+        try {
+          const res = await fetch('lovergambitschapters/index.json');
+          chapterFiles = await res.json();
+          if (!chapterFiles.includes(currentChapter)) currentChapter = chapterFiles[0];
+          updateChapter();
+
+          chapterFiles.forEach(file => {
+            const num = file.replace('.md', '').replace('ch', '');
+            const link = document.createElement('a');
+            link.href = '#';
+            link.textContent = `Chapter ${num}`;
+            link.addEventListener('click', () => {
+              currentChapter = file;
+              updateChapter();
+              sidebar.classList.remove('active');
+              mainContent.classList.remove('shifted');
+            });
+            chapterListContainer.appendChild(link);
+          });
+        } catch (e) {
+          chapterBody.innerHTML = '<p class="error">Failed to load chapters list.</p>';
+        }
+      }
+
+      document.getElementById('prev-chapter').addEventListener('click', () => loadChapter('prev'));
+      document.getElementById('next-chapter').addEventListener('click', () => loadChapter('next'));
+      window.addEventListener('scroll', updateProgressBar);
+
+      init();
+    });
+  </script>
+</body>
+
 </html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InkVerse | Sign Up</title>
+    <link rel="icon" href="img/icoo.png" type="image/x-icon" />
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+    <style>
+        * {
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-content-area main-content-scroll">
+        <header class="header">
+            <a href="index.html" style="text-decoration: none;">
+                <div class="logo">InkVerse</div>
+            </a>
+
+            <div class="profile-notifications">
+                <div class="theme-toggle-icon" id="themeToggleBtn" data-tooltip="Toggle Theme">
+                    <i class="fas fa-moon"></i>
+                </div>
+            </div>
+        </header>
+
+        <!-- Signup Container -->
+        <div class="login-container">
+            <div class="login-box">
+                <h2 class="login-title">Join InkVerse!</h2>
+                <p class="login-subtitle">Create your account to start your journey.</p>
+
+                <form id="signup-form">
+                    <div class="input-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" name="username" placeholder="johndoe123" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="••••••••" required>
+                    </div>
+                    <button type="submit" class="login-button">Sign Up</button>
+                </form>
+
+                <div class="signup-link">
+                    <p>Already have an account? <a href="login.html">Log In</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <script src="script.js"></script> -->
+    <script src="login.js"></script>
+
+</body>
+
+</html>

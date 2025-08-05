@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InkVerse | Discover</title>
+    <link rel="icon" href="img/icoo.png" type="image/x-icon" />
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="discoverstyle.css">
+</head>
+
+<body class="flex">
+    <!-- Sidebar (hidden on mobile, shown on larger screens) -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-icon-container" id="menuToggleBtn" data-tooltip="Menu">
+            <i class="fas fa-bars"></i>
+            <span class="sidebar-text">Menu</span>
+        </div>
+        <a href="index.html" style="text-decoration: none">
+            <div class="sidebar-icon" data-tooltip="Home">
+                <i class="fas fa-home"></i>
+                <span class="sidebar-text">Home</span>
+            </div>
+        </a>
+
+        <a href="discover.html" style="text-decoration: none">
+            <div class="sidebar-icon" data-tooltip="Discover">
+                <i class="fas fa-compass active"></i>
+                <span class="sidebar-text">Discover</span>
+            </div>
+        </a>
+        <a href="bookmarks.html" style="text-decoration: none">
+            <div class="sidebar-icon active" data-tooltip="Bookmarks">
+                <i class="fas fa-bookmark"></i>
+                <span class="sidebar-text">Bookmarks</span>
+            </div>
+        </a>
+        <a href="settings.html" style="text-decoration: none">
+            <div class="sidebar-icon" data-tooltip="Settings">
+                <i class="fas fa-cog"></i>
+                <span class="sidebar-text">Settings</span>
+            </div>
+        </a>
+    </aside>
+
+    <!-- Floating Dock (shown on mobile) -->
+    <div class="floating-dock">
+        <a href="index.html" class="dock-icon "><i class="fas fa-home"></i></a>
+        <a href="discover.html" class="dock-icon active"><i class="fas fa-compass"></i></a>
+        <a href="bookmarks.html" class="dock-icon"><i class="fas fa-bookmark"></i></a>
+        <a href="settings.html" class="dock-icon"><i class="fas fa-cog"></i></a>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="main-content-area main-content-scroll">
+        <!-- Header -->
+        <header class="header">
+            <!-- Logo -->
+            <div class="logo">InkVerse</div>
+
+            <!-- Profile and Notifications -->
+            <div class="profile-notifications">
+
+                <!-- Theme Toggle Icon -->
+                <div class="theme-toggle-icon" id="themeToggleBtn" data-tooltip="Toggle Theme">
+                    <i class="fas fa-moon"></i>
+                </div>
+                
+                <a href="login.html" style="text-decoration: none;">
+                    <div class="profile-info">
+                        <img src="https://placehold.co/40x40/f0f0f0/888888?text=L" alt="Profile Photo"
+                        class="profile-photo">
+                        <span class="logged-in-user-name">Log In</span>
+                    </div>
+                </a>
+                
+                <div class="notification-icon" id="notificationBtn">
+                    <i class="fas fa-bell"></i>
+                </div>
+                <!-- Notification Popup -->
+                <div id="notificationPopup" class="notification-popup hidden">
+                    <div class="popup-header">
+                        <h3>Notifications</h3>
+                        <button id="closePopupBtn" class="close-btn">&times;</button>
+                    </div>
+                    <div class="popup-content">
+                        <ul>
+                            <li>New chapter released for 'The Lover's Gambit'.</li>
+                            <li>Your comment received 10 likes.</li>
+                            <li>'Jane Doe' started following you.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Story Section -->
+        <section class="main-story-section">
+            <div class="search">
+                <div class="search-bar-container">
+                    <input type="text" placeholder="search books" class="search-input">
+                    <i class="fas fa-search search-icon"></i>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="main-story-section">
+            <div class="info">
+                <h1 class="main-title">Keep the story going...</h1>
+                <p class="main-description">
+                    Don't let the story end just yet. Continue reading and immerse yourself in the world
+                    of
+                    literature.
+                </p>
+            </div>
+        </section>
+
+        <!-- Discover Section -->
+        <div class="navigation-controls">
+            <h3 class="section-title">Discover Books</h3>
+        </div>
+        <section class="bookmarks-section">
+            <!-- Book display area (center) -->
+            <div class="book-display-area">
+                <!-- Book Card -->
+                <a href="stories/theloversgambit.html" style="text-decoration: none;">
+                    <div class="book">
+                        <div class="book-card">
+                            <div class="book-card-content">
+                                <img src="img/cover.png">
+                            </div>
+                        </div>
+                        <!-- Book Details -->
+                        <div class="book-details">
+                            <h3 class="book-title">The Lover's Gambit</h3>
+                            <p class="book-info">10 Chapters | Romance</p>
+                        </div>
+                    </div>
+                </a>
+                <div class="book">
+                    <div class="book-card">
+                        <div class="book-card-content">
+                            Book Cover
+                        </div>
+                    </div>
+                    <!-- Book Details -->
+                    <div class="book-details">
+                        <h3 class="book-title">The Lover's Gambit</h3>
+                        <p class="book-info">10 Chapters | Romance</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
