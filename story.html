@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InkVerse | Discover</title>
+    <link rel="icon" href="img/icoo.png" type="image/x-icon" />
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="story.css">
+    <style>
+      
+    </style>
+</head>
+
+<body class="flex">
+    <!-- Sidebar (hidden on mobile, shown on larger screens) -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-icon-container" id="menuToggleBtn" data-tooltip="Menu">
+            <i class="fas fa-bars"></i>
+            <span class="sidebar-text">Menu</span>
+        </div>
+        <a href="index.html" style="text-decoration: none">
+            <div class="sidebar-icon" data-tooltip="Home">
+                <i class="fas fa-home"></i>
+                <span class="sidebar-text">Home</span>
+            </div>
+        </a>
+
+        <a href="discover.html" style="text-decoration: none">
+            <div class="sidebar-icon" data-tooltip="Discover">
+                <i class="fas fa-compass active"></i>
+                <span class="sidebar-text">Discover</span>
+            </div>
+        </a>
+        <a href="bookmarks.html" style="text-decoration: none">
+            <div class="sidebar-icon active" data-tooltip="Bookmarks">
+                <i class="fas fa-bookmark"></i>
+                <span class="sidebar-text">Bookmarks</span>
+            </div>
+        </a>
+        <a href="settings.html" style="text-decoration: none">
+            <div class="sidebar-icon" data-tooltip="Settings">
+                <i class="fas fa-cog"></i>
+                <span class="sidebar-text">Settings</span>
+            </div>
+        </a>
+    </aside>
+
+    <!-- Floating Dock (shown on mobile) -->
+    <div class="floating-dock">
+        <a href="index.html" class="dock-icon "><i class="fas fa-home"></i></a>
+        <a href="discover.html" class="dock-icon active"><i class="fas fa-compass"></i></a>
+        <a href="bookmarks.html" class="dock-icon"><i class="fas fa-bookmark"></i></a>
+        <a href="settings.html" class="dock-icon"><i class="fas fa-cog"></i></a>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="main-content-area main-content-scroll">
+        <!-- Header -->
+        <header class="header">
+            <!-- Logo -->
+            <div class="logo">InkVerse</div>
+
+            <!-- Profile and Notifications -->
+            <div class="profile-notifications">
+
+                <!-- Theme Toggle Icon -->
+
+                <a href="login.html" style="text-decoration: none;">
+                    <div class="profile-info">
+                        <img src="https://placehold.co/40x40/f0f0f0/888888?text=L" alt="Profile Photo"
+                            class="profile-photo">
+                        <span class="logged-in-user-name">Log In</span>
+                    </div>
+                </a>
+
+                <div class="theme-toggle-icon" id="themeToggleBtn" data-tooltip="Toggle Theme">
+                    <i class="fas fa-moon"></i>
+                </div>
+            </div>
+        </header>
+
+
+        <!-- Discover Section -->
+        <section class="bookmarks-section">
+            <!-- Book display area (center) -->
+            <div class="book-display-area">
+                <!-- Book Card -->
+                <div class="book">
+                    <div class="book-card">
+                        <div class="book-card-content">
+                            <img src="img/cover.png">
+                        </div>
+                    </div>
+                    <!-- Book Details -->
+                    <div class="book-details">
+                        <h3 class="book-title">The Lover's Gambit</h3>
+                        <p><strong>Chapters:</strong> 10</p>
+                        <p><strong>Status:</strong> In Progress</p>
+                        <p><strong>Author:</strong> Purrs</p>
+                        <p><strong>Published:</strong> 2025</p>
+                        <p>Rating : 4.5/5</p>
+                        <p class="book-info">Genre : Romance, Drama, Psychological</p>
+                        <p class="description">
+                            Beneath a smile and careless charm, a mind sharper than any
+                            blade moves
+                            in silence.
+                            <em>The Lover’s Gambit</em> follows Ariv a boy the world
+                            dismisses,
+                            yet a grandmaster hidden in plain sight as he navigates a
+                            ruthless
+                            game of love, loyalty, betrayal, and power. Every move is
+                            calculated.
+                            Every kindness, a strategy. Every love, a battlefield. In the
+                            end, there
+                            will be only one victor and he has already chosen his Queen.
+                        </p>
+
+                        <div class="bookmark-btn">
+                            <button class="bookmark">Bookmark <i class="fas fa-bookmark"></i></button>
+                            <p>Rate : <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="chapters">
+            <h2>Chapters</h2>
+            <ul class="chapter-list">
+                <li><a href="stories/chapter.html?story=theloversgambit&chapter=1">Chapter 1</a></li>
+                <li><a href="stories/chapter.html?story=theloversgambit&chapter=2">Chapter 2</a></li>
+                <li><a href="stories/chapter.html?story=theloversgambit&chapter=3">Chapter 3</a></li>
+                <li><a href="stories/chapter.html?story=theloversgambit&chapter=4">Chapter 4</a></li>
+                <li><a href="stories/chapter.html?story=theloversgambit&chapter=5">Chapter 5</a></li>
+                <li><a href="stories/chapter.html?story=theloversgambit&chapter=6">Chapter 6</a></li>
+                <li><a href="stories/chapter.html?story=theloversgambit&chapter=7">Chapter 7</a></li>
+                <li><a href="stories/chapter.html?story=theloversgambit&chapter=8">Chapter 8</a></li>
+                <li><a href="stories/chapter.html?story=theloversgambit&chapter=9">Chapter 9</a></li>
+                <li><a href="stories/chapter.html?story=theloversgambit&chapter=10">Chapter 10</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const themeToggleBtn = document.getElementById('themeToggleBtn');
+            const body = document.body;
+
+            function updateThemeIcon() {
+                const icon = themeToggleBtn.querySelector('i');
+                const isDarkMode = body.classList.contains('dark-mode');
+                icon.classList.toggle('fa-moon', !isDarkMode);
+                icon.classList.toggle('fa-sun', isDarkMode);
+            }
+
+            // Check localStorage for saved theme preference
+            if (localStorage.getItem('theme') === 'dark') {
+                body.classList.add('dark-mode');
+            }
+            updateThemeIcon();
+
+            // Toggle theme on button click
+            themeToggleBtn.addEventListener('click', () => {
+                body.classList.toggle('dark-mode');
+                if (body.classList.contains('dark-mode')) {
+                    localStorage.setItem('theme', 'dark');
+                } else {
+                    localStorage.setItem('theme', 'light');
+                }
+                updateThemeIcon();
+            });
+        });
+    </script>
+</body>
+
+</html>
