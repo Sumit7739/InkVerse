@@ -722,10 +722,6 @@ body {
 }
 
 @media (max-width: 480px) {
-  * {
-    /* overflow-x: hidden; */
-    /* overflow-y: auto; */
-  }
   .header {
     display: flex;
   }
