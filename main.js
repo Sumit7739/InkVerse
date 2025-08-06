@@ -12,7 +12,7 @@
             info: "10 Chapters | Romance",
             authorName: "Purrs",
             authorImage: "https://avatars.githubusercontent.com/u/67714622?s=400&u=64900f585210a3d113466588820dc77ea133af9c&v=4",
-            summary: "In a world of chess and secrets, two rivals find themselves in a game of love and betrayal. Every move is critical, and the heart is the ultimate prize. Will they checkmate their opponents or each other?",
+            summary: "Hi, I’m Purrs – the creator of InkVerse. I built this platform to share my own stories with you. It’s still a work in progress, so some features might not work perfectly just yet but that’s all part of the journey. I hope you enjoy your time here. You can explore my stories on the Discover page!",
             coverContent: "The Lover's Gambit"
         };
 
