@@ -390,6 +390,7 @@
             document.getElementById('chapter-title').textContent = currentChapter.replace('.md', '').replace('ch', 'Chapter ');
             chapterBody.innerHTML = marked.parse(md);
             localStorage.setItem('currentChapter', currentChapter);
+            window.scrollTo({ top: 0, behavior: 'auto' });
           })
           .catch(() => {
             chapterBody.innerHTML = '<p class="error">Failed to load chapter.</p>';

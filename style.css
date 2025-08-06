@@ -817,8 +817,8 @@ body {
     justify-content: center;
   }
   .book-card {
-    width: 160px;
-    height: 230px;
+    width: 200px;
+    height: 300px;
     /* gap: 1rem; */
   }
 
