@@ -1,6 +1,8 @@
 DROP TABLE IF EXISTS Comments;
 DROP TABLE IF EXISTS Likes;
 DROP TABLE IF EXISTS Bookmarks;
+DROP TABLE IF EXISTS StoryAssets;
+DROP TABLE IF EXISTS Sessions;
 DROP TABLE IF EXISTS Stories;
 DROP TABLE IF EXISTS Users;
 
@@ -20,6 +22,24 @@ CREATE TABLE Stories (
     cover_image TEXT,
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (author_id) REFERENCES Users(id) ON DELETE CASCADE
+);
+
+CREATE TABLE Sessions (
+    token TEXT PRIMARY KEY,
+    user_id INTEGER NOT NULL,
+    expires_at DATETIME NOT NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES Users(id) ON DELETE CASCADE
+);
+
+CREATE TABLE StoryAssets (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    story_id INTEGER NOT NULL,
+    kind TEXT NOT NULL CHECK (kind IN ('image', 'text')),
+    storage_key TEXT NOT NULL,
+    mime_type TEXT,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (story_id) REFERENCES Stories(id) ON DELETE CASCADE
 );
 
 CREATE TABLE Bookmarks (

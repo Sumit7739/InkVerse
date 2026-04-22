@@ -4,5 +4,9 @@ pages_build_output_dir = "dist"
 
 [[d1_databases]]
 binding = "DB"
-database_name = "inkverse-db"
-database_id = "local-dev" # This will be replaced with real ID upon remote setup
+database_name = "inkverse"
+database_id = "9802050f-a441-4eee-836a-1f0ccb7556a3"
+
+[[r2_buckets]]
+binding = "ASSETS"
+bucket_name = "inkverse-assets"

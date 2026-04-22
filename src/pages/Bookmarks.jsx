@@ -1,61 +1,63 @@
-import React, { useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { Bookmark, Lock, BookOpen, Trash2 } from 'lucide-react';
-import { motion } from 'framer-motion';
 import { Link, useNavigate } from 'react-router-dom';
+import { clearAuthSession, fetchCurrentUser, getAuthSession } from '../lib/auth';
 import './Bookmarks.css';
 
 export default function Bookmarks() {
   const navigate = useNavigate();
-  // Temporary toggle state for development
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const session = useMemo(() => getAuthSession(), []);
+  const [isLoggedIn, setIsLoggedIn] = useState(Boolean(session));
+  const [checkingSession, setCheckingSession] = useState(Boolean(session));
 
-  const fadeUp = {
-    hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.4 } }
-  };
+  useEffect(() => {
+    if (!session) {
+      return;
+    }
 
-  const staggerContainer = {
-    hidden: { opacity: 0 },
-    visible: { opacity: 1, transition: { staggerChildren: 0.1 } }
-  };
+    fetchCurrentUser(session.token)
+      .then(() => {
+        setIsLoggedIn(true);
+      })
+      .catch(() => {
+        clearAuthSession();
+        setIsLoggedIn(false);
+      })
+      .finally(() => {
+        setCheckingSession(false);
+      });
+  }, [session]);
 
-  // Dummy bookmarked stories
-  const dummyBookmarks = Array.from({ length: 5 }).map((_, i) => ({
-    id: i,
-    title: i === 0 ? "The Lover's Gambit" : `Saved Novel ${i + 1}`,
-    author: i === 0 ? "Purrs" : `Author Name`,
-    genre: i === 0 ? "Romance" : ['Fantasy', 'Sci-Fi', 'Romance', 'Mystery'][Math.floor(Math.random() * 4)],
-    reads: `${(Math.random() * 50).toFixed(1)}k`,
-    cover: i === 0 ? "/img/cover.png" : null,
-  }));
+  const dummyBookmarks = useMemo(
+    () => {
+      const genres = ['Romance', 'Fantasy', 'Sci-Fi', 'Mystery', 'Thriller'];
+      const reads = ['10.5k', '8.2k', '6.9k', '5.1k', '3.7k'];
+      return Array.from({ length: 5 }).map((_, i) => ({
+        id: i,
+        title: i === 0 ? "The Lover's Gambit" : `Saved Novel ${i + 1}`,
+        author: i === 0 ? 'Purrs' : 'Author Name',
+        genre: genres[i],
+        reads: reads[i],
+        cover: i === 0 ? '/img/cover.png' : null,
+      }));
+    },
+    []
+  );
 
   return (
     <div className="bookmarks-page">
       <div className="bookmarks-header">
-        <motion.h1 
-          className="bookmarks-title"
-          initial={{ opacity: 0, x: -20 }}
-          animate={{ opacity: 1, x: 0 }}
-        >
+        <h1 className="bookmarks-title">
           <Bookmark className="bookmarks-title-icon" size={36} /> My Library
-        </motion.h1>
-        
-        <button 
-          className="temp-toggle"
-          onClick={() => setIsLoggedIn(!isLoggedIn)}
-          title="Temporary toggle for development"
-        >
-          {isLoggedIn ? '🔓 Mock: Logged In' : '🔒 Mock: Logged Out'}
-        </button>
+        </h1>
       </div>
 
-      {!isLoggedIn ? (
-        <motion.div 
-          className="empty-state-container"
-          initial="hidden"
-          animate="visible"
-          variants={fadeUp}
-        >
+      {checkingSession ? (
+        <div className="empty-state-container">
+          <h2 className="empty-state-title">Checking your library...</h2>
+        </div>
+      ) : !isLoggedIn ? (
+        <div className="empty-state-container">
           <Lock size={72} className="empty-state-icon" strokeWidth={1} />
           <h2 className="empty-state-title">Unlock Your Library</h2>
           <p className="empty-state-desc">
@@ -65,20 +67,13 @@ export default function Bookmarks() {
             <Link to="/login" className="btn-primary">Log In</Link>
             <Link to="/signup" className="btn-secondary">Create Account</Link>
           </div>
-        </motion.div>
+        </div>
       ) : (
-        <motion.div 
-          className="bookmarks-grid"
-          variants={staggerContainer}
-          initial="hidden"
-          animate="visible"
-        >
+        <div className="bookmarks-grid">
           {dummyBookmarks.map(story => (
-            <motion.div 
+            <div
               key={story.id} 
-              variants={fadeUp} 
               className="bookmark-card" 
-              whileHover={{ y: -5 }}
               onClick={() => navigate(`/story/${story.id === 0 ? 'the-lovers-gambit' : story.id}`)}
               style={{ cursor: 'pointer' }}
             >
@@ -104,9 +99,9 @@ export default function Bookmarks() {
               >
                 <Trash2 size={16} />
               </button>
-            </motion.div>
+            </div>
           ))}
-        </motion.div>
+        </div>
       )}
     </div>
   );

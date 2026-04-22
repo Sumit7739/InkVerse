@@ -1,9 +1,33 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
+import { login, storeAuthSession } from '../lib/auth';
 import './Auth.css';
 
 export default function Login() {
+  const navigate = useNavigate();
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    setError('');
+    setLoading(true);
+
+    try {
+      const result = await login({ email, password });
+      storeAuthSession(result);
+      navigate('/bookmarks');
+    } catch (err) {
+      setError(err.message || 'Unable to log in right now.');
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
     <div className="auth-page">
       <div className="auth-sidebar">
@@ -22,16 +46,35 @@ export default function Login() {
             <p className="auth-subtitle">Log in to continue your reading journey.</p>
           </div>
           
-          <form className="auth-form" onSubmit={(e) => e.preventDefault()}>
+          <form className="auth-form" onSubmit={handleSubmit}>
             <div className="input-group">
               <label htmlFor="email">Email Address</label>
-              <input type="email" id="email" placeholder="you@example.com" required />
+              <input
+                type="email"
+                id="email"
+                placeholder="you@example.com"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+                autoComplete="email"
+              />
             </div>
             <div className="input-group">
               <label htmlFor="password">Password</label>
-              <input type="password" id="password" placeholder="••••••••" required />
+              <input
+                type="password"
+                id="password"
+                placeholder="••••••••"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                required
+                autoComplete="current-password"
+              />
             </div>
-            <button type="submit" className="btn-submit">Log In</button>
+            {error && <p className="auth-feedback auth-error">{error}</p>}
+            <button type="submit" className="btn-submit" disabled={loading}>
+              {loading ? 'Logging in...' : 'Log In'}
+            </button>
           </form>
 
           <div className="divider">OR</div>

@@ -1,9 +1,34 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
+import { signup, storeAuthSession } from '../lib/auth';
 import './Auth.css';
 
 export default function Signup() {
+  const navigate = useNavigate();
+  const [username, setUsername] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    setError('');
+    setLoading(true);
+
+    try {
+      const result = await signup({ username, email, password });
+      storeAuthSession(result);
+      navigate('/bookmarks');
+    } catch (err) {
+      setError(err.message || 'Unable to sign up right now.');
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
     <div className="auth-page">
       <div className="auth-sidebar" style={{ backgroundColor: '#2D3033' }}>
@@ -22,20 +47,48 @@ export default function Signup() {
             <p className="auth-subtitle">Create an account to start your story.</p>
           </div>
           
-          <form className="auth-form" onSubmit={(e) => e.preventDefault()}>
+          <form className="auth-form" onSubmit={handleSubmit}>
             <div className="input-group">
               <label htmlFor="username">Username</label>
-              <input type="text" id="username" placeholder="novelreader99" required />
+              <input
+                type="text"
+                id="username"
+                placeholder="novelreader99"
+                value={username}
+                onChange={(e) => setUsername(e.target.value)}
+                required
+                autoComplete="username"
+              />
             </div>
             <div className="input-group">
               <label htmlFor="email">Email Address</label>
-              <input type="email" id="email" placeholder="you@example.com" required />
+              <input
+                type="email"
+                id="email"
+                placeholder="you@example.com"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+                autoComplete="email"
+              />
             </div>
             <div className="input-group">
               <label htmlFor="password">Password</label>
-              <input type="password" id="password" placeholder="••••••••" required />
+              <input
+                type="password"
+                id="password"
+                placeholder="••••••••"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                required
+                minLength={8}
+                autoComplete="new-password"
+              />
             </div>
-            <button type="submit" className="btn-submit">Create Account</button>
+            {error && <p className="auth-feedback auth-error">{error}</p>}
+            <button type="submit" className="btn-submit" disabled={loading}>
+              {loading ? 'Creating account...' : 'Create Account'}
+            </button>
           </form>
 
           <div className="divider">OR</div>

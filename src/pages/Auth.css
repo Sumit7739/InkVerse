@@ -136,6 +136,22 @@
   box-shadow: 0 6px 20px rgba(162, 75, 49, 0.3);
 }
 
+.btn-submit:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: 0 4px 15px rgba(162, 75, 49, 0.2);
+}
+
+.auth-feedback {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.auth-error {
+  color: #c53030;
+}
+
 .divider {
   display: flex;
   align-items: center;
