@@ -1,23 +1,16 @@
-# InkVerse ✒️🌌  
+# React + Vite
 
-A place where I throw words into the void and hope someone reads them.  
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## What is this?  
-InkVerse is where my novels live, probably regretting their existence.  
-If you like stories, congrats—you have good taste. If you don’t, well... you’re missing out.  
+Currently, two official plugins are available:
 
-## Why?  
-Because writing is cheaper than therapy.  
-Because imaginary worlds need a place to breathe.  
-Because, frankly, someone has to do it.  
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## How to Use?  
-1. Open the platform.  
-2. Read.  
-3. Pretend you were emotionally moved.  
+## React Compiler
 
----  
-*"Words shape worlds. And my world exists here. So, welcome, traveler—stay a while, or forever."*  
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
+## Expanding the ESLint configuration
 
-[Read Here](https://sumit7739.github.io/InkVerse)
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

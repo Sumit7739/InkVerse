@@ -1,0 +1,67 @@
+:root {
+  /* Light Theme - Parchment/Novel Base */
+  --bg-primary: #F9F6F0; /* Soft parchment beige */
+  --bg-secondary: #EFEBE1;
+  --text-primary: #2C2825; /* Deep rich dark brown/black for reading */
+  --text-secondary: #5C544D;
+  --accent-primary: #A24B31; /* Terracotta/Burgundy accent, feels like a classic book cover */
+  --accent-hover: #8A3E26;
+  --border-color: #E2DCD1;
+  --card-bg: #FFFFFF;
+  --shadow-sm: 0 2px 8px rgba(44, 40, 37, 0.05);
+  --shadow-md: 0 8px 20px rgba(44, 40, 37, 0.08);
+
+  /* Fonts */
+  --font-serif: 'Playfair Display', serif;
+  --font-body: 'Lora', serif;
+  --font-sans: system-ui, -apple-system, sans-serif; /* For small UI elements */
+}
+
+[data-theme='dark'] {
+  /* Dark Theme */
+  --bg-primary: #181615; /* Very dark warm gray */
+  --bg-secondary: #221F1E;
+  --text-primary: #EAE6DF;
+  --text-secondary: #9B948D;
+  --accent-primary: #C96646;
+  --accent-hover: #E37B59;
+  --border-color: #332F2D;
+  --card-bg: #221F1E;
+  --shadow-sm: 0 4px 15px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  line-height: 1.2;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: var(--font-sans);
+}
+
+ul {
+  list-style: none;
+}

@@ -1,0 +1,8 @@
+name = "inkverse"
+compatibility_date = "2024-04-22"
+pages_build_output_dir = "dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "inkverse-db"
+database_id = "local-dev" # This will be replaced with real ID upon remote setup
