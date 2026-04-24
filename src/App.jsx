@@ -6,6 +6,7 @@ import Bookmarks from './pages/Bookmarks';
 import Notifications from './pages/Notifications';
 import Settings from './pages/Settings';
 import StoryDetail from './pages/StoryDetail';
+import ChapterReader from './pages/ChapterReader';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/notifications" element={<Layout><Notifications /></Layout>} />
         <Route path="/settings" element={<Layout><Settings /></Layout>} />
         <Route path="/story/:id" element={<Layout><StoryDetail /></Layout>} />
+        <Route path="/story/:id/chapter/:chapterId" element={<ChapterReader />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
       </Routes>

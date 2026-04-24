@@ -27,15 +27,3 @@ dist-ssr
 .wrangler/
 legacy/
 
-# Deploy-only test run setup:
-# Ignore everything by default, then allow only deploy artifacts/backend.
-*
-
-!.gitignore
-!dist/
-!dist/**
-!functions/
-!functions/**
-!wrangler.toml
-!schema.sql
-!README.md

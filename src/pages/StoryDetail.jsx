@@ -1,18 +1,17 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import { Bookmark, BookOpen, ThumbsUp, ThumbsDown, MessageSquare, Star } from 'lucide-react';
-import { motion } from 'framer-motion';
 import './StoryDetail.css';
 
 export default function StoryDetail() {
   const { id } = useParams();
+  const navigate = useNavigate();
   const [story, setStory] = useState(null);
   const [loading, setLoading] = useState(true);
   const [isBookmarked, setIsBookmarked] = useState(false);
 
   // Simulate dynamic DB fetch based on route param
   useEffect(() => {
-    setLoading(true);
     setTimeout(() => {
       if (id === 'the-lovers-gambit' || id === '1') {
         setStory({
@@ -37,7 +36,6 @@ export default function StoryDetail() {
         // Fallback for randomly clicked dummy stories
         setStory({
           id,
-          title: `Novel Title ${id}`,
           author: "Author Name",
           cover: null,
           status: "Completed",
@@ -102,7 +100,7 @@ export default function StoryDetail() {
           <p className="story-description">{story.description}</p>
           
           <div className="story-actions">
-            <button className="btn-read-now">
+            <button className="btn-read-now" onClick={() => navigate(`/story/${story.id}/chapter/1`)}>
               <BookOpen size={20} /> Read Chapter 1
             </button>
             <button 

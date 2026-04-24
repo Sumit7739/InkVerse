@@ -6,12 +6,15 @@ import { Moon, Sun, User, Bell, BookOpen, Heart, MessageSquare } from 'lucide-re
 import './Layout.css';
 
 export default function Layout({ children }) {
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState(() => {
+    return localStorage.getItem('theme') || 'dark';
+  });
   const [showNotifs, setShowNotifs] = useState(false);
   const popupRef = useRef(null);
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
   }, [theme]);
 
   // Click outside to close notification popup
