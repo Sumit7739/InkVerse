@@ -7,6 +7,4 @@ binding = "DB"
 database_name = "inkverse"
 database_id = "9802050f-a441-4eee-836a-1f0ccb7556a3"
 
-[[r2_buckets]]
-binding = "R2_ASSETS"
-bucket_name = "inkverse-assets"
+
