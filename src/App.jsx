@@ -10,21 +10,25 @@ import ChapterReader from './pages/ChapterReader';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 
+import { AuthProvider } from './context/AuthContext';
+
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Layout><Home /></Layout>} />
-        <Route path="/discover" element={<Layout><Discover /></Layout>} />
-        <Route path="/bookmarks" element={<Layout><Bookmarks /></Layout>} />
-        <Route path="/notifications" element={<Layout><Notifications /></Layout>} />
-        <Route path="/settings" element={<Layout><Settings /></Layout>} />
-        <Route path="/story/:id" element={<Layout><StoryDetail /></Layout>} />
-        <Route path="/story/:id/chapter/:chapterId" element={<ChapterReader />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<Signup />} />
-      </Routes>
-    </Router>
+    <AuthProvider>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Layout><Home /></Layout>} />
+          <Route path="/discover" element={<Layout><Discover /></Layout>} />
+          <Route path="/bookmarks" element={<Layout><Bookmarks /></Layout>} />
+          <Route path="/notifications" element={<Layout><Notifications /></Layout>} />
+          <Route path="/settings" element={<Layout><Settings /></Layout>} />
+          <Route path="/story/:id" element={<Layout><StoryDetail /></Layout>} />
+          <Route path="/story/:id/chapter/:chapterId" element={<ChapterReader />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
+        </Routes>
+      </Router>
+    </AuthProvider>
   );
 }
 

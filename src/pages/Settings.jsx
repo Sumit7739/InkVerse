@@ -3,7 +3,10 @@ import { Settings as SettingsIcon, User, BookOpen, Bell, Monitor, Shield } from 
 import { motion, AnimatePresence } from 'framer-motion';
 import './Settings.css';
 
+import { useAuth } from '../context/AuthContext';
+
 export default function Settings() {
+  const { user } = useAuth();
   const [activeTab, setActiveTab] = useState('reading');
 
   // Dummy state for settings
@@ -39,42 +42,48 @@ export default function Settings() {
             <h2 className="settings-section-title">Account Profile</h2>
             <p className="settings-section-desc">Manage your public persona and account details.</p>
             
-            {!isEditingProfile ? (
-              <div className="profile-view">
-                <div className="profile-info-row">
-                  <span className="profile-label">Username</span>
-                  <span className="profile-value">InkReader99</span>
+            {user ? (
+              !isEditingProfile ? (
+                <div className="profile-view">
+                  <div className="profile-info-row">
+                    <span className="profile-label">Username</span>
+                    <span className="profile-value">{user.username}</span>
+                  </div>
+                  <div className="profile-info-row">
+                    <span className="profile-label">Email Address</span>
+                    <span className="profile-value">{user.email}</span>
+                  </div>
+                  <div className="profile-info-row">
+                    <span className="profile-label">Bio</span>
+                    <span className="profile-value">Avid reader of fantasy and sci-fi.</span>
+                  </div>
+                  <div className="form-actions" style={{ marginTop: '2rem' }}>
+                    <button className="btn-secondary" onClick={() => setIsEditingProfile(true)}>Edit Profile</button>
+                  </div>
                 </div>
-                <div className="profile-info-row">
-                  <span className="profile-label">Email Address</span>
-                  <span className="profile-value">reader@example.com</span>
+              ) : (
+                <div className="setting-group">
+                  <div className="input-group">
+                    <label>Username</label>
+                    <input type="text" defaultValue={user.username} />
+                  </div>
+                  <div className="input-group">
+                    <label>Email Address</label>
+                    <input type="email" defaultValue={user.email} />
+                  </div>
+                  <div className="input-group">
+                    <label>Bio</label>
+                    <textarea rows="4" defaultValue="Avid reader of fantasy and sci-fi."></textarea>
+                  </div>
+                  <div className="form-actions">
+                    <button className="btn-save" onClick={() => setIsEditingProfile(false)}>Save Changes</button>
+                    <button className="btn-cancel" onClick={() => setIsEditingProfile(false)}>Cancel</button>
+                  </div>
                 </div>
-                <div className="profile-info-row">
-                  <span className="profile-label">Bio</span>
-                  <span className="profile-value">Avid reader of fantasy and sci-fi.</span>
-                </div>
-                <div className="form-actions" style={{ marginTop: '2rem' }}>
-                  <button className="btn-secondary" onClick={() => setIsEditingProfile(true)}>Edit Profile</button>
-                </div>
-              </div>
+              )
             ) : (
-              <div className="setting-group">
-                <div className="input-group">
-                  <label>Username</label>
-                  <input type="text" defaultValue="InkReader99" />
-                </div>
-                <div className="input-group">
-                  <label>Email Address</label>
-                  <input type="email" defaultValue="reader@example.com" />
-                </div>
-                <div className="input-group">
-                  <label>Bio</label>
-                  <textarea rows="4" defaultValue="Avid reader of fantasy and sci-fi."></textarea>
-                </div>
-                <div className="form-actions">
-                  <button className="btn-save" onClick={() => setIsEditingProfile(false)}>Save Changes</button>
-                  <button className="btn-cancel" onClick={() => setIsEditingProfile(false)}>Cancel</button>
-                </div>
+              <div className="profile-view">
+                <p>Please log in to view and edit your profile.</p>
               </div>
             )}
           </motion.div>

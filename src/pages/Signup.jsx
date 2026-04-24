@@ -2,11 +2,13 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
-import { signup, storeAuthSession } from '../lib/auth';
+import { signup as apiSignup } from '../lib/auth';
+import { useAuth } from '../context/AuthContext';
 import './Auth.css';
 
 export default function Signup() {
   const navigate = useNavigate();
+  const { login } = useAuth();
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -19,8 +21,8 @@ export default function Signup() {
     setLoading(true);
 
     try {
-      const result = await signup({ username, email, password });
-      storeAuthSession(result);
+      const result = await apiSignup({ username, email, password });
+      login(result);
       navigate('/bookmarks');
     } catch (err) {
       setError(err.message || 'Unable to sign up right now.');

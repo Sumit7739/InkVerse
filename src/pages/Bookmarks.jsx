@@ -1,32 +1,30 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { Bookmark, Lock, BookOpen, Trash2 } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
-import { clearAuthSession, fetchCurrentUser, getAuthSession } from '../lib/auth';
+import { fetchCurrentUser } from '../lib/auth';
+import { useAuth } from '../context/AuthContext';
 import './Bookmarks.css';
 
 export default function Bookmarks() {
   const navigate = useNavigate();
-  const session = useMemo(() => getAuthSession(), []);
-  const [isLoggedIn, setIsLoggedIn] = useState(Boolean(session));
+  const { session, user, logout } = useAuth();
+  const isLoggedIn = Boolean(user);
   const [checkingSession, setCheckingSession] = useState(Boolean(session));
 
   useEffect(() => {
     if (!session) {
+      setCheckingSession(false);
       return;
     }
 
     fetchCurrentUser(session.token)
-      .then(() => {
-        setIsLoggedIn(true);
-      })
       .catch(() => {
-        clearAuthSession();
-        setIsLoggedIn(false);
+        logout();
       })
       .finally(() => {
         setCheckingSession(false);
       });
-  }, [session]);
+  }, [session, logout]);
 
   const dummyBookmarks = useMemo(
     () => {

@@ -5,7 +5,10 @@ import Footer from './Footer';
 import { Moon, Sun, User, Bell, BookOpen, Heart, MessageSquare } from 'lucide-react';
 import './Layout.css';
 
+import { useAuth } from '../context/AuthContext';
+
 export default function Layout({ children }) {
+  const { user, logout } = useAuth();
   const [theme, setTheme] = useState(() => {
     return localStorage.getItem('theme') || 'dark';
   });
@@ -89,10 +92,17 @@ export default function Layout({ children }) {
             <button className="theme-toggle-btn" onClick={toggleTheme} aria-label="Toggle Theme">
               {theme === 'light' ? <Moon size={20} /> : <Sun size={20} />}
             </button>
-            <NavLink to="/login" className="login-btn">
-              <User size={18} />
-              <span>Log In</span>
-            </NavLink>
+            {user ? (
+              <button className="login-btn" onClick={logout}>
+                <User size={18} />
+                <span>Log Out</span>
+              </button>
+            ) : (
+              <NavLink to="/login" className="login-btn">
+                <User size={18} />
+                <span>Log In</span>
+              </NavLink>
+            )}
           </div>
         </header>
         <main className="layout-main-content">

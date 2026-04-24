@@ -3,7 +3,10 @@ import { NavLink } from 'react-router-dom';
 import { Home, Compass, Bookmark, Settings, Bell, Feather, PenTool, ChevronLeft, ChevronRight, User } from 'lucide-react';
 import './Sidebar.css';
 
+import { useAuth } from '../context/AuthContext';
+
 export default function Sidebar() {
+  const { user } = useAuth();
   const [isCollapsed, setIsCollapsed] = useState(false);
 
   const topLinks = [
@@ -54,8 +57,8 @@ export default function Sidebar() {
           </div>
           {!isCollapsed && (
             <div className="profile-info">
-              <span className="profile-name">Purrs</span>
-              <span className="profile-role">Author</span>
+              <span className="profile-name">{user ? user.username : 'Guest'}</span>
+              <span className="profile-role">{user ? 'Reader' : 'Not logged in'}</span>
             </div>
           )}
         </div>

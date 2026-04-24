@@ -2,11 +2,13 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
-import { login, storeAuthSession } from '../lib/auth';
+import { login as apiLogin } from '../lib/auth';
+import { useAuth } from '../context/AuthContext';
 import './Auth.css';
 
 export default function Login() {
   const navigate = useNavigate();
+  const { login } = useAuth();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
@@ -18,8 +20,8 @@ export default function Login() {
     setLoading(true);
 
     try {
-      const result = await login({ email, password });
-      storeAuthSession(result);
+      const result = await apiLogin({ email, password });
+      login(result);
       navigate('/bookmarks');
     } catch (err) {
       setError(err.message || 'Unable to log in right now.');
