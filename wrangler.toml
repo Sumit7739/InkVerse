@@ -6,5 +6,3 @@ pages_build_output_dir = "dist"
 binding = "DB"
 database_name = "inkverse"
 database_id = "9802050f-a441-4eee-836a-1f0ccb7556a3"
-
-
